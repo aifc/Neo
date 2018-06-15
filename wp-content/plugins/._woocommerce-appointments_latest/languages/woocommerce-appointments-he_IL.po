@@ -1,0 +1,3793 @@
+# Copyright (C) 2016 BizzThemes
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Appointments\n"
+"Report-Msgid-Bugs-To: https://bizzthemes.com/contact/\n"
+"POT-Creation-Date: 2017-11-07 16:08:09+00:00\n"
+"PO-Revision-Date: 2017-11-07 17:30+0100\n"
+"Last-Translator: \n"
+"Language-Team: EMAIL@ADDRESS\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: dependencies/EDD_SL_Plugin_Updater.php:199
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"יש גרסה חדשה של %1$s. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s"
+"\">הצגת גירסה %3$s פרטים</a>."
+
+#: dependencies/EDD_SL_Plugin_Updater.php:207
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"יש גרסה חדשה של %1$s. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s"
+"\">הצגת גירסה %3$s פרטים</a> או <a href=\"%4$s\">עדכן כעת</a>."
+
+#: dependencies/EDD_SL_Plugin_Updater.php:394
+msgid "You do not have permission to install plugin updates"
+msgstr "אין לך הרשאה להתקין עדכוני תוספים"
+
+#: dependencies/EDD_SL_Plugin_Updater.php:394
+msgid "Error"
+msgstr "אירעה שגיאה:"
+
+#: includes/admin/class-wc-appointments-admin-add.php:25
+msgid "Error - please try again"
+msgstr "שגיאה - יש לנסות שוב"
+
+#: includes/admin/class-wc-appointments-admin-add.php:34
+msgid "Please choose an appointable product"
+msgstr "נא לבחור מוצר שניתן להזמנה לפי זמן"
+
+#: includes/admin/class-wc-appointments-admin-add.php:42
+#: includes/admin/class-wc-appointments-admin-add.php:94
+msgid "Invalid order ID provided"
+msgstr "מזהה הזמנה אינו חוקי"
+
+#: includes/admin/class-wc-appointments-admin-add.php:88
+msgid "Error: Could not create order"
+msgstr "שגיאה: לא היתה אפשרות ליצור הזמנה"
+
+#: includes/admin/class-wc-appointments-admin-add.php:116
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:126
+msgid "Error: Could not create item"
+msgstr "שגיאה: לא היתה אפשרות ליצור פריט"
+
+#: includes/admin/class-wc-appointments-admin-addons.php:22
+#: includes/admin/class-wc-appointments-admin-settings.php:18
+#: includes/class-wc-appointment-order-manager.php:215
+#: includes/customizer/class-wc-appointments-customizer.php:100
+#: includes/integrations/class-wc-appointments-integration-wcml.php:897
+#: woocommerce-appointments.php:511
+msgid "Appointments"
+msgstr "פגישות"
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:48
+msgid "The staff has already been linked to this product"
+msgstr "הצוות כבר קושר את המוצר הזה"
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:63
+msgid "Unable to add staff"
+msgstr "לא ניתן להוסיף צוות"
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:88
+msgid "You do not have sufficient permissions to access this page."
+msgstr "אין לך הרשאות מספיקות לגשת לעמוד זה"
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:91
+msgid "You have taken too long. Please go back and retry."
+msgstr "לקחת יותר מדי זמן. יש לחזור אחורה ולנסות שוב."
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:124
+msgid "This appointment is unavailable."
+msgstr "פגישה זו אינה זמינה."
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:198
+msgid "Please enter a valid date."
+msgstr "אנא הזן תאריך תקין."
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:228
+msgid "No slots available."
+msgstr "אין תאים פנויים."
+
+#: includes/admin/class-wc-appointments-admin-calendar.php:298
+#: includes/admin/class-wc-appointments-admin-calendar.php:341
+#: includes/admin/class-wc-appointments-admin-cpt.php:253
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:173
+#: includes/admin/views/html-add-appointment-page.php:21
+#: includes/admin/views/html-add-appointment-page.php:23
+#: includes/admin/views/html-calendar-dialog.php:7
+#: includes/integrations/class-wc-appointments-integration-gcal.php:525
+msgid "Guest"
+msgstr "אורח"
+
+#: includes/admin/class-wc-appointments-admin-calendar.php:326
+#: includes/admin/class-wc-appointments-admin-cpt.php:260
+#: includes/admin/class-wc-appointments-admin-cpt.php:423
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:248
+#, fuzzy
+msgid "[ Google Calendar ]"
+msgstr "יומן גוגל"
+
+#: includes/admin/class-wc-appointments-admin-calendar.php:403
+msgid "View / Edit"
+msgstr "הצג / ערוך"
+
+#: includes/admin/class-wc-appointments-admin-calendar.php:497
+msgid "Edit User and Availability"
+msgstr "ערוך משתמש וזמינות"
+
+#: includes/admin/class-wc-appointments-admin-calendar.php:500
+msgid "Unassigned"
+msgstr "לא הוקצה"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:89
+msgid "Confirm appointments"
+msgstr "פגישות מאושרות"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:90
+msgid "Unconfirm appointments"
+msgstr "פגישות לא מאושרות"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:91
+msgid "Cancel appointments"
+msgstr "בטל פגישות"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:92
+msgid "Mark appointments as paid"
+msgstr "סמן פגישות כשולמו."
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:93
+msgid "Mark appointments as unpaid"
+msgstr "לסמן פגישות כלא שולמו"
+
+#. translators: 1: number of appointment statuses change
+#: includes/admin/class-wc-appointments-admin-cpt.php:170
+msgid "Appointment status changed."
+msgid_plural "%s appointment statuses changed."
+msgstr[0] "מינוי המצב השתנה."
+msgstr[1] "s% סטאטוס מינוי השתנה."
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:184
+msgid "Appointment Title"
+msgstr "כותרת פגישה"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:201
+#: templates/myaccount/appointments.php:39
+msgid "Status"
+msgstr "סטטוס"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:202
+#: templates/myaccount/appointments.php:34
+msgid "ID"
+msgstr "מזהה"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:203
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:298
+#: templates/emails/customer-appointment-confirmed.php:87
+#: templates/myaccount/appointments.php:36
+msgid "Order"
+msgstr "הזמנה"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:204
+#: includes/admin/views/html-calendar-dialog-add.php:12
+#: includes/compatibility/class-wc-product-data-store-cpt.php:81
+#: includes/data-stores/class-wc-product-appointment-data-store-cpt.php:72
+#: includes/integrations/class-wc-appointments-integration-gcal.php:530
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:14
+#: templates/emails/customer-appointment-confirmed.php:98
+msgid "Product"
+msgstr "מוצר"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:205
+#: includes/admin/class-wc-appointments-admin.php:279
+#: includes/admin/views/html-appointment-staff.php:34
+#: includes/admin/views/html-appointment-tab.php:1
+#: includes/integrations/class-wc-appointments-integration-wcml.php:909
+#: includes/integrations/class-wc-appointments-integration-wcml.php:910
+msgid "Staff"
+msgstr "צוות"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:206
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:297
+msgid "Scheduled By"
+msgstr "שתוזמנו על-ידי"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:207
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:301
+msgid "Qty"
+msgstr "כמות"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:208
+#: includes/integrations/class-wc-appointments-integration-gcal.php:536
+#: templates/myaccount/appointments.php:37
+msgid "When"
+msgstr "מתי"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:209
+#: includes/admin/views/html-appointment-general.php:103
+#: includes/data-objects/class-wc-appointment.php:832
+#: includes/integrations/class-wc-appointments-integration-gcal.php:537
+#: includes/wc-appointments-functions.php:64
+#: templates/myaccount/appointments.php:38
+msgid "Duration"
+msgstr "משך"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:210
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin.php:18
+msgid "Actions"
+msgstr "פעולות"
+
+#. translators: 1: appointment ID
+#: includes/admin/class-wc-appointments-admin-cpt.php:236
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:310
+msgid "Appointment #%d"
+msgstr "פגישה # %d"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:287
+msgid "View"
+msgstr "תצוגה"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:295
+msgid "Confirm"
+msgstr "אשר"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:411
+msgid "All Appointable Products"
+msgstr "כל המוצרים לפגישות"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:438
+msgid "All Staff"
+msgstr "כל הצוות"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:635
+#, fuzzy
+#| msgid "All Day"
+msgid "All"
+msgstr "כל המוצרים לפגישות"
+
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:49
+msgid "Customer details"
+msgstr "פרטי לקוח"
+
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:74
+msgid "Name:"
+msgstr "שם:"
+
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:78
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:99
+msgid "Email:"
+msgstr "אימייל:"
+
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:95
+msgid "Address:"
+msgstr "כתובת:"
+
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:96
+msgid "No billing address set."
+msgstr "כתובת החיוב לא מוגדרת."
+
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:103
+msgid "Phone:"
+msgstr "טלפון:"
+
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:122
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:159
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:161
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:244
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:278
+#: includes/admin/views/html-appointment-availability-fields.php:159
+#: includes/admin/views/html-appointment-staff-member.php:38
+#: includes/emails/class-wc-email-appointment-cancelled.php:92
+#: includes/emails/class-wc-email-appointment-confirmed.php:113
+#: includes/emails/class-wc-email-appointment-notification.php:93
+#: includes/emails/class-wc-email-appointment-notification.php:96
+#: includes/emails/class-wc-email-appointment-notification.php:99
+#: includes/emails/class-wc-email-appointment-notification.php:102
+#: includes/emails/class-wc-email-appointment-reminder.php:80
+#: includes/emails/class-wc-email-new-appointment.php:140
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:321
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:332
+msgid "N/A"
+msgstr "לא זמין"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:56
+msgid "Appointment Details"
+msgstr "פרטי פגישה"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:69
+msgid ""
+"This appointment is scheduled over 2 years into the future. Please ensure "
+"this is correct."
+msgstr "פעילות זו מתוזמנת מעל 2 שנים אל תוך העתיד. נא ודא. זה נכון."
+
+#. translators: 1: maximum appointable date
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:77
+msgid ""
+"This appointment is scheduled over the products allowed max appointment date "
+"(%s). Please ensure this is correct."
+msgstr "פעילות זו מתוזמנת של מוצרי פגישה מקסימום (%s). נא ודא שזה נכון."
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:82
+msgid "This appointment has an end date set before the start date."
+msgstr "פעילות זו יש תאריך סוף  לפני תאריך ההתחלה."
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:86
+#, fuzzy
+msgid ""
+"It appears the appointment product associated with this appointment has been "
+"removed."
+msgstr "נראה המוצר פעילות הקשורים עם פעילות זו הוסרה."
+
+#. translators: 1: product type
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:92
+msgid ""
+"This appointment is missing a required add-on (product type: %s). Some "
+"information is shown below but might be incomplete. Please install the "
+"missing add-on through the plugins screen."
+msgstr ""
+"פעילות זו חסרה הרחבה נדרשת של (סוג המוצר: %s). מידע שמוצג להלן, אך ייתכן שלא "
+"הושלמו. יש להתקין את ההרחבה מתוך המסך תוספים."
+
+#. translators: 1: appointment id
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:135
+#: includes/integrations/class-wc-appointments-integration-gcal.php:518
+#: templates/order/admin/appointment-display.php:32
+#: templates/order/appointment-display.php:34
+msgid "Appointment #%s"
+msgstr "פגישה # %s"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:136
+msgid "View on calendar"
+msgstr "צפה בלוח השנה"
+
+#. translators: 1: href to order id
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:142
+#, fuzzy
+#| msgid "Order %s"
+msgid "Linked to Order %s"
+msgstr "הזמנה: %s"
+
+#. translators: 1: appointments addon title
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:147
+msgid "Appointment type: %s"
+msgstr "סוג הפעילות: %s"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:154
+msgid "General Details"
+msgstr "פרטים כללים"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:157
+msgid "Order ID:"
+msgstr "מזהה הזמנה:"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:170
+msgid "Customer:"
+msgstr "לקוח :"
+
+#. translators: 1: user full name 2: user ID 3: user email
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:182
+msgid "%1$s (#%2$s &ndash; %3$s)"
+msgstr "%1$s&ndash;%2$s"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:211
+msgid "Customer Status:"
+msgstr "פרטי לקוח:"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:226
+msgid "Appointment Status:"
+msgstr "מצב פגישה:"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:240
+msgid "Specification"
+msgstr "שלח הודעה"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:254
+#: includes/admin/views/html-calendar-dialog.php:14
+msgid "Product:"
+msgstr "מוצר"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:277
+#: includes/admin/views/html-calendar-dialog-add.php:23
+#: includes/class-wc-appointments-ics-exporter.php:177
+msgid "Staff:"
+msgstr "צוות:"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:292
+msgid "Parent Appointment ID"
+msgstr "מזהה פגישת אב:"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:311
+msgid "Date/Time"
+msgstr "שעת התחלה"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:316
+msgid "All Day:"
+msgstr "כל היום"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:317
+msgid "Check this box if the appointment lasts all day."
+msgstr "סמן תיבה זו אם הפגישה היא עבור כל היום."
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:324
+msgid "Start Date:"
+msgstr "תאריך התחלה"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:333
+msgid "Start Time:"
+msgstr "שעת התחלה"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:342
+msgid "End Date:"
+msgstr "תאריך סיום"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:351
+msgid "End Time:"
+msgstr "שעת סיום"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:364
+#: includes/integrations/class-wc-appointments-integration-gcal.php:551
+#: includes/integrations/woocommerce-product-addons/admin/class-product-addon-admin.php:188
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin-add.php:54
+msgid "Add-ons"
+msgstr "הרחבות"
+
+#: includes/admin/class-wc-appointments-admin-menus.php:91
+#: includes/admin/views/html-add-appointment-page-2.php:6
+#: includes/admin/views/html-add-appointment-page-2.php:44
+#: includes/admin/views/html-add-appointment-page.php:6
+#: includes/admin/views/html-calendar-day.php:2
+#: includes/admin/views/html-calendar-dialog-add.php:6
+#: includes/admin/views/html-calendar-dialog-add.php:51
+#: includes/admin/views/html-calendar-month.php:2
+#: includes/admin/views/html-calendar-week.php:2
+#: woocommerce-appointments.php:513
+msgid "Add Appointment"
+msgstr "תור חדש"
+
+#: includes/admin/class-wc-appointments-admin-menus.php:92
+#: includes/admin/views/html-calendar-day.php:2
+#: includes/admin/views/html-calendar-month.php:2
+#: includes/admin/views/html-calendar-week.php:2
+msgid "Calendar"
+msgstr "לוח שנה"
+
+#: includes/admin/class-wc-appointments-admin-save-meta-box.php:46
+msgid "Save"
+msgstr "להציל"
+
+#: includes/admin/class-wc-appointments-admin-save-meta-box.php:62
+msgid "Created on:"
+msgstr "צור פרוייקט;"
+
+#: includes/admin/class-wc-appointments-admin-save-meta-box.php:63
+msgid "h"
+msgstr "שעה"
+
+#: includes/admin/class-wc-appointments-admin-save-meta-box.php:63
+msgid "m"
+msgstr "דקה"
+
+#: includes/admin/class-wc-appointments-admin-save-meta-box.php:69
+msgid "Move to Trash"
+msgstr "העבר לאשפה"
+
+#: includes/admin/class-wc-appointments-admin-save-meta-box.php:72
+msgid "Save Appointment"
+msgstr "שמור הפגישה"
+
+#: includes/admin/class-wc-appointments-admin-save-meta-box.php:72
+msgid "Save/update the appointment"
+msgstr "שמור/עדכן הפגישה"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:34
+msgid "Global Availablity"
+msgstr "זמינות גלובלית"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:36
+#: includes/integrations/class-wc-appointments-integration-gcal.php:457
+#: includes/integrations/class-wc-appointments-integration-gcal.php:459
+#: includes/integrations/class-wc-appointments-integration-gcal.php:465
+#: includes/integrations/class-wc-appointments-integration-gcal.php:467
+msgid "Google Calendar"
+msgstr "יומן גוגל"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:150
+msgid "Please choose a product"
+msgstr "נא בחר את מוצר"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:154
+msgid "Please enter a message"
+msgstr "אנא הזן הודעה."
+
+#: includes/admin/class-wc-appointments-admin-settings.php:158
+msgid "Please enter a subject"
+msgstr "אנא הזן נושא."
+
+#: includes/admin/class-wc-appointments-admin-settings.php:185
+msgid "Notification sent successfully"
+msgstr "הודעה נשלחה בהצלחה"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:33
+msgid "Staff details"
+msgstr "פרטי צוות"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:37
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:60
+#: includes/admin/views/html-appointment-availability.php:72
+#: includes/admin/views/html-appointment-general.php:81
+#: includes/admin/views/html-appointment-staff-member.php:33
+#: includes/admin/views/html-settings-global-availability.php:21
+msgid "Inventory"
+msgstr "מלאי"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:43
+msgid ""
+"The maximum number of appointments per slot at any given time for any "
+"product assigned. Overrides product capacity."
+msgstr ""
+"המספר המרבי של פגישות לכל חריץ בכל זמן נתון עבור כל מוצר שהוקצו. עוקפת "
+"קיבולת המוצר."
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:48
+#: includes/admin/views/html-appointment-availability.php:61
+msgid "Custom Availability"
+msgstr "זמינות מותאמות אישית"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:57
+#: includes/admin/views/html-appointment-availability.php:69
+#: includes/admin/views/html-appointment-general.php:37
+#: includes/admin/views/html-settings-global-availability.php:18
+msgid "Range type"
+msgstr "סוג טווח "
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:58
+#: includes/admin/views/html-appointment-availability.php:70
+#: includes/admin/views/html-appointment-general.php:38
+#: includes/admin/views/html-settings-global-availability.php:19
+msgid "Range"
+msgstr "טווח"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:60
+msgid ""
+"The maximum number of appointments per slot. Overrides general product "
+"capacity."
+msgstr "המספר המרבי של פגישות לכל חריץ. עוקפת קיבולת מוצרים כלליים."
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:61
+#: includes/admin/views/html-appointment-availability.php:73
+#: includes/admin/views/html-settings-global-availability.php:22
+msgid "Appointable"
+msgstr "פגישה"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:61
+#: includes/admin/views/html-appointment-availability.php:73
+#: includes/admin/views/html-settings-global-availability.php:22
+msgid ""
+"If not appointable, users won't be able to choose slots in this range for "
+"their appointment."
+msgstr "אם לא פגישה, המשתמשים לא יוכלו לבחור חריצי זמן בטווח זה לפגישה שלהם."
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:83
+#: includes/admin/views/html-appointment-availability.php:95
+#: includes/admin/views/html-appointment-general.php:64
+#: includes/admin/views/html-settings-global-availability.php:44
+msgid "Add Rule"
+msgstr "הוספת טווח"
+
+#: includes/admin/class-wc-appointments-admin.php:287
+#: includes/admin/views/html-appointment-tab.php:2
+msgid "Availability"
+msgstr "זמינות"
+
+#: includes/admin/class-wc-appointments-admin.php:365
+#: includes/admin/class-wc-appointments-admin.php:368
+#: includes/admin/class-wc-appointments-admin.php:370
+msgid "Appointment updated."
+msgstr "הפגישה עודכנה"
+
+#: includes/admin/class-wc-appointments-admin.php:366
+msgid "Custom field updated."
+msgstr "שדה מותאם אישית עודכן."
+
+#: includes/admin/class-wc-appointments-admin.php:367
+msgid "Custom field deleted."
+msgstr "שדה מותאם אישית נמחק."
+
+#: includes/admin/class-wc-appointments-admin.php:371
+msgid "Appointment saved."
+msgstr "הפגישה עודכנה"
+
+#: includes/admin/class-wc-appointments-admin.php:372
+msgid "Appointment submitted."
+msgstr "הפגישה נשלחה"
+
+#: includes/admin/class-wc-appointments-admin.php:469
+msgid "Apply"
+msgstr "החל"
+
+#: includes/admin/class-wc-appointments-admin.php:475
+#: includes/admin/views/html-calendar-month.php:66
+#: includes/admin/views/html-calendar-week.php:45
+msgid "Day View"
+msgstr "תצוגת יום"
+
+#: includes/admin/class-wc-appointments-admin.php:481
+msgid "Show Staff in Columns"
+msgstr "צוות הצג עמודות"
+
+#: includes/admin/class-wc-appointments-admin.php:543
+msgid "Appointable product"
+msgstr "מוצר פגישה"
+
+#: includes/admin/class-wc-appointments-admin.php:612
+msgid "Are you sure you want to remove this staff?"
+msgstr "האם אתה בטוח שברצונך להסיר את הצוות הזה?"
+
+#: includes/admin/class-wc-appointments-admin.php:617
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:79
+msgid "minutes"
+msgstr "דקות"
+
+#: includes/admin/class-wc-appointments-admin.php:618
+msgid "hours"
+msgstr "שעה %h "
+
+#: includes/admin/class-wc-appointments-admin.php:619
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:79
+msgid "days"
+msgstr "ימים"
+
+#: includes/admin/class-wc-appointments-admin.php:705
+#, fuzzy
+msgid ""
+"<p><strong>Your theme (%1$s) contains outdated copies of some WooCommerce "
+"Appointments template files.</strong> These files may need updating to "
+"ensure they are compatible with the current version of WooCommerce "
+"Appointments. You can see which files are affected from the <a href=\"%2$s"
+"\">system status page</a>. If in doubt, check with the author of the theme."
+"<p><p class=\"submit\"><a class=\"button-primary\" href=\"%3$s\" target="
+"\"_blank\">Learn More About Templates</a></p>"
+msgstr ""
+"<p><strong>הנושא שלך (%1$s) מכיל מיושן עותקים של קבצי תבנית כמה פגישות "
+"WooCommerce.</strong> קבצים אלה עשויים זקוקים לעדכון. כדי להבטיח שהן תואמות "
+"הגירסה הנוכחית של פגישות WooCommerce. באפשרותך לראות אילו קבצים מושפעים מן "
+"<a href=\"%2$s\">דף מצב המערכת</a>. במקרה של ספק, בדוק עם המחבר של הנושא."
+"<p><p class=\"submit\"><a class=\"button-primary\" href=\"%3$s\" target="
+"\"_blank\">למד עוד אודות תבניות</a></p>"
+
+#: includes/admin/views/html-add-appointment-page-2.php:15
+msgid "Appointment Data"
+msgstr "נתוני הפגישה"
+
+#: includes/admin/views/html-add-appointment-page.php:8
+msgid ""
+"You can add a new appointment for a customer here. This form will create an "
+"appointment for the user, and optionally an associated order. Created orders "
+"will be marked as pending payment."
+msgstr ""
+"באפשרותך להוסיף פעילות חדשה עבור לקוח כאן. טופב  זו יצור פגישה עבור המשתמש "
+"וכאופציה פקודה משויכת. הזמנות שנוצרו יסומנו כממתינים התשלום."
+
+#: includes/admin/views/html-add-appointment-page.php:17
+#: includes/integrations/class-wc-appointments-integration-gcal.php:523
+#: includes/integrations/class-wc-appointments-integration-gcal.php:525
+msgid "Customer"
+msgstr "לקוח"
+
+#: includes/admin/views/html-add-appointment-page.php:30
+msgid "Appointable Product"
+msgstr "מוצר פגישה"
+
+#: includes/admin/views/html-add-appointment-page.php:54
+msgid "Select an appointable product..."
+msgstr "בחר מוצר פגישה..."
+
+#: includes/admin/views/html-add-appointment-page.php:56
+#, fuzzy
+msgid "Products assigned to you"
+msgstr "מוצרים שהוקצו לך"
+
+#: includes/admin/views/html-add-appointment-page.php:63
+msgid "Products assigned to others"
+msgstr "מוצרים שהוקצו לאחרים"
+
+#: includes/admin/views/html-add-appointment-page.php:74
+msgid "Create Order"
+msgstr "צור הזמנת"
+
+#: includes/admin/views/html-add-appointment-page.php:84
+#: includes/admin/views/html-add-appointment-page.php:93
+msgid ""
+"Create a new corresponding order for this new appointment. Please note - the "
+"appointment will not be active until the order is processed/completed."
+msgstr ""
+"ליצור סדר חדש המתאים עבור פעילות חדשה זו. שימו לב-הפגישה לא יהיה פעיל עד הצו "
+"הוא מעובד/שהושלמו."
+
+#: includes/admin/views/html-add-appointment-page.php:99
+msgid "Assign this appointment to an existing order with this ID:"
+msgstr "הקצאת פעילות זו הזמנה קיימת בעלת מזהה זה:"
+
+#: includes/admin/views/html-add-appointment-page.php:106
+msgid "Don't create an order for this appointment."
+msgstr "לא ליצור הזמנה עבור פעילות זו."
+
+#: includes/admin/views/html-add-appointment-page.php:116
+#: includes/appointment-form/class-wc-appointment-form.php:47
+#: templates/myaccount/appointments.php:87
+msgid "Next"
+msgstr "הבא"
+
+#: includes/admin/views/html-appointment-availability-fields.php:8
+#: includes/admin/views/html-appointment-pricing-fields.php:8
+msgid "January"
+msgstr "ינואר"
+
+#: includes/admin/views/html-appointment-availability-fields.php:9
+#: includes/admin/views/html-appointment-pricing-fields.php:9
+msgid "February"
+msgstr "פברואר"
+
+#: includes/admin/views/html-appointment-availability-fields.php:10
+#: includes/admin/views/html-appointment-pricing-fields.php:10
+msgid "March"
+msgstr "מרץ"
+
+#: includes/admin/views/html-appointment-availability-fields.php:11
+#: includes/admin/views/html-appointment-pricing-fields.php:11
+msgid "April"
+msgstr "אפריל"
+
+#: includes/admin/views/html-appointment-availability-fields.php:12
+#: includes/admin/views/html-appointment-pricing-fields.php:12
+msgid "May"
+msgstr "מאי"
+
+#: includes/admin/views/html-appointment-availability-fields.php:13
+#: includes/admin/views/html-appointment-pricing-fields.php:13
+msgid "June"
+msgstr "יוני"
+
+#: includes/admin/views/html-appointment-availability-fields.php:14
+#: includes/admin/views/html-appointment-pricing-fields.php:14
+msgid "July"
+msgstr "יולי"
+
+#: includes/admin/views/html-appointment-availability-fields.php:15
+#: includes/admin/views/html-appointment-pricing-fields.php:15
+msgid "August"
+msgstr "אוגוסט"
+
+#: includes/admin/views/html-appointment-availability-fields.php:16
+#: includes/admin/views/html-appointment-pricing-fields.php:16
+msgid "September"
+msgstr "ספטמבר"
+
+#: includes/admin/views/html-appointment-availability-fields.php:17
+#: includes/admin/views/html-appointment-pricing-fields.php:17
+msgid "October"
+msgstr "אוקטובר"
+
+#: includes/admin/views/html-appointment-availability-fields.php:18
+#: includes/admin/views/html-appointment-pricing-fields.php:18
+msgid "November"
+msgstr "נובמבר"
+
+#: includes/admin/views/html-appointment-availability-fields.php:19
+#: includes/admin/views/html-appointment-pricing-fields.php:19
+msgid "December"
+msgstr "דצמבר"
+
+#: includes/admin/views/html-appointment-availability-fields.php:23
+#: includes/admin/views/html-appointment-pricing-fields.php:23
+msgid "Monday"
+msgstr "שני"
+
+#: includes/admin/views/html-appointment-availability-fields.php:24
+#: includes/admin/views/html-appointment-pricing-fields.php:24
+msgid "Tuesday"
+msgstr "יום שלישי"
+
+#: includes/admin/views/html-appointment-availability-fields.php:25
+#: includes/admin/views/html-appointment-pricing-fields.php:25
+msgid "Wednesday"
+msgstr "יום רביעי"
+
+#: includes/admin/views/html-appointment-availability-fields.php:26
+#: includes/admin/views/html-appointment-pricing-fields.php:26
+msgid "Thursday"
+msgstr "יום חמישי"
+
+#: includes/admin/views/html-appointment-availability-fields.php:27
+#: includes/admin/views/html-appointment-pricing-fields.php:27
+msgid "Friday"
+msgstr "יום שישי"
+
+#: includes/admin/views/html-appointment-availability-fields.php:28
+#: includes/admin/views/html-appointment-pricing-fields.php:28
+msgid "Saturday"
+msgstr "שבת"
+
+#: includes/admin/views/html-appointment-availability-fields.php:29
+#: includes/admin/views/html-appointment-pricing-fields.php:29
+msgid "Sunday"
+msgstr "ראשון"
+
+#. translators: 1: week number
+#: includes/admin/views/html-appointment-availability-fields.php:34
+#: includes/admin/views/html-appointment-pricing-fields.php:34
+msgid "Week %s"
+msgstr "שבוע %s"
+
+#: includes/admin/views/html-appointment-availability-fields.php:52
+#: includes/admin/views/html-appointment-pricing-fields.php:56
+msgid "Date range"
+msgstr "טווח תאריכים"
+
+#: includes/admin/views/html-appointment-availability-fields.php:53
+#: includes/admin/views/html-appointment-pricing-fields.php:57
+msgid "Range of months"
+msgstr "טווח של חודשים"
+
+#: includes/admin/views/html-appointment-availability-fields.php:54
+#: includes/admin/views/html-appointment-pricing-fields.php:58
+msgid "Range of weeks"
+msgstr "טווח של שבועות"
+
+#: includes/admin/views/html-appointment-availability-fields.php:55
+#: includes/admin/views/html-appointment-pricing-fields.php:59
+msgid "Range of days"
+msgstr "טווח של ימים"
+
+#: includes/admin/views/html-appointment-availability-fields.php:56
+#: includes/admin/views/html-appointment-pricing-fields.php:61
+msgid "Time Ranges"
+msgstr "טווחי זמן"
+
+#: includes/admin/views/html-appointment-availability-fields.php:57
+#: includes/admin/views/html-appointment-pricing-fields.php:62
+msgid "Time Range (all week)"
+msgstr "טווח זמן (כל השבוע)"
+
+#: includes/admin/views/html-appointment-availability-fields.php:58
+#: includes/admin/views/html-appointment-pricing-fields.php:63
+msgid "Time Range (date range)"
+msgstr "טווח הזמן (טווח תאריכים)"
+
+#: includes/admin/views/html-appointment-availability-fields.php:165
+msgid "Yes"
+msgstr "כן"
+
+#: includes/admin/views/html-appointment-availability-fields.php:166
+msgid "No"
+msgstr "לא"
+
+#: includes/admin/views/html-appointment-availability.php:10
+msgid "Availability Check"
+msgstr "בדיקת זמינות"
+
+#: includes/admin/views/html-appointment-availability.php:11
+msgid ""
+"By default availability per each slot in range is checked. You can also "
+"check availability for starting slot only."
+msgstr ""
+"כברירת מחדל זמינות עבור כל חריץ בטווח נבדקת. באפשרותך גם לבדוק זמינות עבור "
+"מתחיל חריץ בלבד."
+
+#: includes/admin/views/html-appointment-availability.php:15
+msgid "All slots in availability range"
+msgstr "כל החריצים בטווח זמינות"
+
+#: includes/admin/views/html-appointment-availability.php:16
+msgid "The starting slot only"
+msgstr "החריץ התחלה בלבד"
+
+#: includes/admin/views/html-appointment-availability.php:22
+msgid "Auto-select?"
+msgstr "בחירה אוטומטית?"
+
+#: includes/admin/views/html-appointment-availability.php:24
+msgid ""
+"Check this box if you want to auto-select first available day and/or time."
+msgstr "סמן תיבה זו אם ברצונך לבצע בחירה אוטומטית קודם יום זמין ו/או זמן."
+
+#: includes/admin/views/html-appointment-availability.php:30
+msgid "Restrict start days?"
+msgstr "האם להגביל את תחילת הימים?"
+
+#: includes/admin/views/html-appointment-availability.php:31
+msgid ""
+"Restrict appointments so that they can only start on certain days of the "
+"week. Does not affect availability."
+msgstr ""
+"הגבל פגישות כדי שיוכלו להתחיל רק בימים מסוימים בשבוע. לא משפיע על זמינות."
+
+#: includes/admin/views/html-appointment-availability.php:63
+msgid ""
+"Add custom availability rules to override <a href=\"%s\">global "
+"availability</a> for this appointment only."
+msgstr ""
+"להוסיף כללים הזמינות מותאמות אישית כדי לעקוף <a href=\"%s\">זמינותזמינות "
+"גלובלית</a> עבור פגישה זו בלבד."
+
+#: includes/admin/views/html-appointment-availability.php:72
+#: includes/admin/views/html-settings-global-availability.php:21
+#, fuzzy
+#| msgid ""
+#| "The maximum number of appointments per slot. Overrides general product "
+#| "capacity."
+msgid ""
+"The maximum number of appointments per slot. Overrides product inventory."
+msgstr "המספר המרבי של פגישות לכל חריץ. עוקפת קיבולת מוצרים כלליים."
+
+#: includes/admin/views/html-appointment-general.php:9
+msgid "Label instead of price?"
+msgstr "תווית במקום מחיר?"
+
+#: includes/admin/views/html-appointment-general.php:11
+msgid ""
+"Check this box if the appointment should display text label instead of fixed "
+"price amount."
+msgstr "סמן תיבה זו אם הפגישה אמורה להציג תווית הטקסט במקום כמות מחיר קבוע."
+
+#: includes/admin/views/html-appointment-general.php:16
+msgid "Price Label"
+msgstr "תווית מחיר"
+
+#: includes/admin/views/html-appointment-general.php:17
+#: includes/data-objects/class-wc-product-appointment.php:104
+msgid "Price Varies"
+msgstr "המחיר משתנה"
+
+#: includes/admin/views/html-appointment-general.php:20
+#, fuzzy
+#| msgid ""
+#| "Show this label instead of fixed price amount. Payment will not be taken "
+#| "during checkout."
+msgid "Show this label instead of fixed price amount."
+msgstr "הצג תווית זו במקום כמות מחיר קבוע. התשלום לא תיעשה במהלך הבדיקה."
+
+#: includes/admin/views/html-appointment-general.php:25
+msgid "Custom pricing rules?"
+msgstr "מותאם אישית תמחור כללי?"
+
+#: includes/admin/views/html-appointment-general.php:27
+msgid "Check this box if the appointment has custom pricing rules."
+msgstr "סמן תיבה זו אם הפעילות כללי תמחור מותאמות אישית."
+
+#: includes/admin/views/html-appointment-general.php:40
+msgid "Base cost"
+msgstr "בסיס עלות"
+
+#: includes/admin/views/html-appointment-general.php:40
+msgid ""
+"Applied to the appointment as a whole. Must be inside range rules to be "
+"applied."
+msgstr "חלה על הפעילות כולה. חייב להיות בתוך טווח כללי להיות מיושם."
+
+#: includes/admin/views/html-appointment-general.php:41
+msgid "Slot cost"
+msgstr "עלות חריץ"
+
+#: includes/admin/views/html-appointment-general.php:41
+msgid ""
+"Applied to each appointment slot separately. When appointment lasts for 2 "
+"days or more, this cost applies to each day in range separately."
+msgstr ""
+"חלה על כל חריץ פעילות בנפרד. כאשר הפעילות נמשך יומיים או יותר, עלות זו חלה "
+"על כל יום בטווח בנפרד."
+
+#: includes/admin/views/html-appointment-general.php:65
+msgid "All matching rules will be applied to the appointment."
+msgstr "כל כללי התאמה יוחל על הפגישה."
+
+#: includes/admin/views/html-appointment-general.php:83
+msgid "The maximum number of appointments per slot."
+msgstr "המספר המרבי של פגישות לכל חריץ."
+
+#: includes/admin/views/html-appointment-general.php:87
+msgid "Min"
+msgstr "מינימום"
+
+#: includes/admin/views/html-appointment-general.php:88
+#, fuzzy
+#| msgid "The minimum number of customers required per slot."
+msgid "The minimum number of appointments required per slot."
+msgstr "מספר הפגישות הנדרש לכל חריץ מינימלי."
+
+#: includes/admin/views/html-appointment-general.php:92
+msgid "Max"
+msgstr "מקסימום"
+
+#: includes/admin/views/html-appointment-general.php:93
+#, fuzzy
+#| msgid "The maximum number of appointments per slot."
+msgid "The maximum number of appointments per order."
+msgstr "המספר המרבי של פגישות לכל הזמנה."
+
+#: includes/admin/views/html-appointment-general.php:106
+#: includes/admin/views/html-appointment-general.php:130
+#: includes/admin/views/html-appointment-general.php:146
+#: includes/admin/views/html-appointment-general.php:221
+msgid "Minute(s)"
+msgstr "דקה/דקות"
+
+#: includes/admin/views/html-appointment-general.php:107
+#: includes/admin/views/html-appointment-general.php:131
+#: includes/admin/views/html-appointment-general.php:147
+#: includes/admin/views/html-appointment-general.php:163
+#: includes/admin/views/html-appointment-general.php:184
+#: includes/admin/views/html-appointment-general.php:220
+msgid "Hour(s)"
+msgstr "שעה/ות"
+
+#: includes/admin/views/html-appointment-general.php:108
+#: includes/admin/views/html-appointment-general.php:148
+#: includes/admin/views/html-appointment-general.php:164
+#: includes/admin/views/html-appointment-general.php:185
+#: includes/admin/views/html-appointment-general.php:219
+msgid "Day(s)"
+msgstr "יום/ימים"
+
+#: includes/admin/views/html-appointment-general.php:110
+msgid "How long do you plan this appointment to last?"
+msgstr "? כמה זמן אתה מתכנן פגישה זו תמשך?"
+
+#: includes/admin/views/html-appointment-general.php:127
+msgid "Interval"
+msgstr "מרווח זמן"
+
+#: includes/admin/views/html-appointment-general.php:133
+#, fuzzy
+#| msgid ""
+#| "Select intervals when each appointment slot is available for scheduling?"
+msgid ""
+"Select intervals when each appointment slot is available for scheduling."
+msgstr "בחר מרווחי זמן כאשר כל חריץ תור זמין לתזמון?"
+
+#: includes/admin/views/html-appointment-general.php:143
+msgid "Padding Time"
+msgstr "מרווח זמן"
+
+#: includes/admin/views/html-appointment-general.php:150
+msgid "Specify the padding time you need between appointments."
+msgstr "ציין את זמן הריפוד שאתה צריך בין פגישות."
+
+#: includes/admin/views/html-appointment-general.php:160
+msgid "Lead Time"
+msgstr "זמן מקדים"
+
+#: includes/admin/views/html-appointment-general.php:165
+#: includes/admin/views/html-appointment-general.php:186
+msgid "Week(s)"
+msgstr "שבוע/ות"
+
+#: includes/admin/views/html-appointment-general.php:166
+#: includes/admin/views/html-appointment-general.php:187
+#: includes/admin/views/html-appointment-general.php:218
+msgid "Month(s)"
+msgstr "חודש/ים"
+
+#: includes/admin/views/html-appointment-general.php:167
+msgid ""
+"How much in advance do you need before a client schedules an appointment?"
+msgstr "כמה מראש אתה צריך לפני לקוח מתזמן  פגישה?"
+
+#: includes/admin/views/html-appointment-general.php:181
+msgid "Scheduling Window"
+msgstr "חלון תזמון"
+
+#: includes/admin/views/html-appointment-general.php:189
+msgid "How far in advance are customers allowed to schedule an appointment?"
+msgstr "כמה רחוק מראש הלקוחות רשאי לקבוע פגישה?"
+
+#: includes/admin/views/html-appointment-general.php:196
+msgid "Requires confirmation?"
+msgstr "דורש אישור?"
+
+#: includes/admin/views/html-appointment-general.php:198
+msgid ""
+"Check this box if the appointment requires approval/confirmation. Payment "
+"will not be taken during checkout."
+msgstr ""
+"סמן תיבה זו אם הפעילות דורשת אישור/אישור. התשלום לא תיעשה במהלך הבדיקה."
+
+#: includes/admin/views/html-appointment-general.php:203
+msgid "Can be cancelled?"
+msgstr "יכולה להתבטל?"
+
+#: includes/admin/views/html-appointment-general.php:205
+msgid ""
+"Check this box if the appointment can be cancelled by the customer. A refund "
+"will not be sent automatically."
+msgstr ""
+"סמן תיבה זו אם הפגישה יכולה להתבטל על ידי הלקוח. החזר כספי לא יישלחו באופן "
+"אוטומטי."
+
+#: includes/admin/views/html-appointment-general.php:215
+msgid "Cancelled at least"
+msgstr "בוטל לפחות"
+
+#: includes/admin/views/html-appointment-general.php:223
+msgid "before the start date."
+msgstr "לפני תאריך ההתחלה."
+
+#: includes/admin/views/html-appointment-general.php:246
+msgid "Calendar color"
+msgstr "לוח שנה"
+
+#: includes/admin/views/html-appointment-general.php:248
+msgid ""
+"Pick a color that will represent this appointable product inside admin "
+"calendar."
+msgstr "בחירת צבע שייצג מוצר appointable זה בתוך לוח שנת admin."
+
+#: includes/admin/views/html-appointment-pricing-fields.php:60
+#, fuzzy
+#| msgid "Quantity"
+msgid "Quantity count"
+msgstr "כמות"
+
+#: includes/admin/views/html-appointment-staff-member.php:7
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:10
+msgid "Remove"
+msgstr "הסר"
+
+#: includes/admin/views/html-appointment-staff-member.php:9
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin.php:46
+#: woocommerce-appointments.php:515
+msgid "Edit"
+msgstr "עריכה"
+
+#: includes/admin/views/html-appointment-staff-member.php:11
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:11
+msgid "Click to toggle"
+msgstr "לחץ כדי לסמן"
+
+#: includes/admin/views/html-appointment-staff-member.php:24
+msgid "Additional Cost"
+msgstr "עלות נוספת"
+
+#: includes/admin/views/html-appointment-staff.php:8
+#: includes/appointment-form/class-wc-appointment-form.php:141
+#: includes/integrations/class-wc-appointments-integration-gcal.php:538
+#: includes/wc-appointments-functions.php:61
+msgid "Providers"
+msgstr "ספק"
+
+#: includes/admin/views/html-appointment-staff.php:9
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:63
+msgid "Label"
+msgstr "תווית"
+
+#: includes/admin/views/html-appointment-staff.php:12
+msgid "The label shown on the frontend if the staff is customer defined."
+msgstr "התווית המוצגות הקדמי אם הצוות הוא לקוח המוגדר."
+
+#: includes/admin/views/html-appointment-staff.php:18
+msgid "Selection"
+msgstr "& בחירה"
+
+#: includes/admin/views/html-appointment-staff.php:21
+msgid "Customer selected"
+msgstr "בחירת לקוח"
+
+#: includes/admin/views/html-appointment-staff.php:22
+msgid "Automatically assigned"
+msgstr "מוקצה באופן אוטומטי"
+
+#: includes/admin/views/html-appointment-staff.php:23
+msgid "Automatically assigned (all staff together)"
+msgstr "מוקצה באופן אוטומטי (ביחד)"
+
+#: includes/admin/views/html-appointment-staff.php:26
+msgid ""
+"Customer selected staff allow customers to choose one from the appointment "
+"form."
+msgstr "בחירת מדריך על ידי הלקוחות מאפשרת ללקוחות לבחור אחד מן הטופס פגישה ."
+
+#: includes/admin/views/html-appointment-staff.php:60
+msgid "Link Staff"
+msgstr "קשר מדריכים"
+
+#: includes/admin/views/html-appointment-staff.php:72
+msgid "Manage Staff"
+msgstr "ניהול מדריכים"
+
+#: includes/admin/views/html-appointment-staff.php:74
+msgid "Add Staff"
+msgstr "להוסיף מדריך"
+
+#: includes/admin/views/html-calendar-day.php:12
+#: includes/admin/views/html-calendar-month.php:13
+#: includes/admin/views/html-calendar-week.php:12
+msgid "Filter Appointments"
+msgstr "מסנן פגישות"
+
+#: includes/admin/views/html-calendar-day.php:17
+#: includes/admin/views/html-calendar-month.php:18
+#: includes/admin/views/html-calendar-week.php:17
+msgid "By appointable product"
+msgstr "לפי מוצר פגישה"
+
+#: includes/admin/views/html-calendar-day.php:27
+#: includes/admin/views/html-calendar-month.php:28
+#: includes/admin/views/html-calendar-week.php:27
+msgid "By staff"
+msgstr "לפי מדריכים"
+
+#: includes/admin/views/html-calendar-day.php:43
+#: includes/admin/views/html-calendar-week.php:43
+msgid "Month View"
+msgstr "תצוגת חודש"
+
+#: includes/admin/views/html-calendar-day.php:43
+#: includes/admin/views/html-calendar-month.php:64
+#: includes/admin/views/html-calendar-week.php:43
+#: templates/appointment-form/date-picker.php:56
+#: templates/appointment-form/date-picker.php:67
+#: templates/appointment-form/datetime-picker.php:52
+#: templates/appointment-form/datetime-picker.php:63
+msgid "Month"
+msgstr "חודש"
+
+#: includes/admin/views/html-calendar-day.php:44
+#: includes/admin/views/html-calendar-month.php:65
+#, fuzzy
+#| msgid "Week %s"
+msgid "Week View"
+msgstr "תצוגת שבוע"
+
+#: includes/admin/views/html-calendar-day.php:44
+#: includes/admin/views/html-calendar-month.php:65
+#: includes/admin/views/html-calendar-week.php:44
+#, fuzzy
+#| msgid "Week %s"
+msgid "Week"
+msgstr "טווח זמן (כל השבוע)"
+
+#: includes/admin/views/html-calendar-day.php:45
+#: includes/admin/views/html-calendar-month.php:66
+#: includes/admin/views/html-calendar-week.php:45
+#: templates/appointment-form/date-picker.php:59
+#: templates/appointment-form/date-picker.php:64
+#: templates/appointment-form/datetime-picker.php:55
+#: templates/appointment-form/datetime-picker.php:60
+msgid "Day"
+msgstr "יום"
+
+#: includes/admin/views/html-calendar-day.php:131
+#: includes/admin/views/html-calendar-week.php:235
+msgid "All Day"
+msgstr "כל היום"
+
+#: includes/admin/views/html-calendar-dialog-add.php:7
+#: includes/admin/views/html-calendar-dialog-add.php:46
+#: includes/admin/views/html-calendar-dialog.php:8
+#: includes/admin/views/html-calendar-dialog.php:43
+#: includes/appointment-form/class-wc-appointment-form.php:44
+msgid "Close"
+msgstr "סגור"
+
+#: includes/admin/views/html-calendar-dialog-add.php:15
+msgid "Select a product &#8230;"
+msgstr "לבחור מוצר &#8230;"
+
+#: includes/admin/views/html-calendar-dialog-add.php:26
+msgid "Select staff &#8230;"
+msgstr "הצוות בחר &#8230;"
+
+#: includes/admin/views/html-calendar-dialog-add.php:34
+msgid "Date:"
+msgstr "תאריך"
+
+#: includes/admin/views/html-calendar-dialog-add.php:38
+msgid "Time:"
+msgstr "שעה"
+
+#: includes/admin/views/html-calendar-dialog-add.php:143
+#: includes/emails/class-wc-email-new-appointment.php:27
+#: woocommerce-appointments.php:517
+msgid "New Appointment"
+msgstr "פגישה חדש"
+
+#: includes/admin/views/html-calendar-dialog.php:18
+#: includes/wc-appointments-functions.php:666
+msgid "Providers:"
+msgstr "ספק"
+
+#: includes/admin/views/html-calendar-dialog.php:22
+#: templates/order/appointment-summary-list.php:32
+msgid "When:"
+msgstr "מתי"
+
+#: includes/admin/views/html-calendar-dialog.php:26
+#: templates/order/appointment-summary-list.php:35
+#, fuzzy
+#| msgid "Duration"
+msgid "Duration:"
+msgstr "משך"
+
+#: includes/admin/views/html-calendar-dialog.php:30
+msgid "Status:"
+msgstr "סטטוס"
+
+#: includes/admin/views/html-calendar-dialog.php:31
+#: includes/wc-appointments-functions.php:83
+#: includes/wc-appointments-functions.php:110
+#: includes/wc-appointments-functions.php:119
+#: includes/wc-appointments-functions.php:132
+#: includes/wc-appointments-functions.php:144
+#, fuzzy
+#| msgctxt "woocommerce-appointments"
+#| msgid "Un-paid"
+msgid "Unpaid"
+msgstr "לא-שולם"
+
+#: includes/admin/views/html-calendar-dialog.php:34
+msgid "Cost:"
+msgstr "עֲלוּת:"
+
+#: includes/admin/views/html-calendar-dialog.php:49
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:310
+#: woocommerce-appointments.php:516
+msgid "Edit Appointment"
+msgstr "עריכת פגישה"
+
+#: includes/admin/views/html-settings-global-availability.php:10
+msgid "Global availability"
+msgstr "זמינות גלובלית"
+
+#: includes/admin/views/html-settings-global-availability.php:12
+#, fuzzy
+#| msgid ""
+#| "The availability rules you define here will affect all appointable "
+#| "products. You can override them for each product, staff and location."
+msgid ""
+"The availability rules you define here will affect all appointable products. "
+"You can override them for each product, staff."
+msgstr ""
+"החוקים זמינות שייקבעו כאן תשפיע על כל המוצרים פגישה. באפשרותך לעקוף אותם "
+"עבור כל מוצר, צוות ומיקום."
+
+#: includes/admin/views/html-settings-send-notifications.php:9
+#: includes/admin/views/html-settings-send-notifications.php:61
+msgid "Send Notification"
+msgstr "שלח הודעה"
+
+#. translators: 1: starting strong tag 2: closing strong tag 3: starting a href
+#. tag 4: closing a href tag
+#: includes/admin/views/html-settings-send-notifications.php:14
+#, fuzzy
+#| msgid ""
+#| "You may send an email notification to all customers who have a "
+#| "<strong>future</strong> appointment for a particular product. This will "
+#| "use the default template specified under <code>WooCommerce > Settings > "
+#| "Emails</code>."
+msgid ""
+"You may send an email notification to all customers who have a %1$sfuture"
+"%2$s appointment for a particular product. This will use the default "
+"template specified under %3$sWooCommerce > Settings > Emails%4$s."
+msgstr ""
+"ניתן לשלוח הודעת דוא לכל הלקוחות יש %1$sfuture %2$s פגישה עבור מוצר מסוים. "
+"אפשרות זו תשתמש תבנית ברירת המחדל שצוין תחת %3$sWooCommerce > הגדרות > "
+"הודעות דוא ל %4$s."
+
+#: includes/admin/views/html-settings-send-notifications.php:22
+msgid "Appointment Product"
+msgstr "מוצר פגישה"
+
+#: includes/admin/views/html-settings-send-notifications.php:26
+msgid "Select an appointment product..."
+msgstr "בחר מוצר פגישה..."
+
+#: includes/admin/views/html-settings-send-notifications.php:35
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:185
+#: includes/emails/class-wc-email-appointment-cancelled.php:159
+#: includes/emails/class-wc-email-appointment-confirmed.php:180
+#: includes/emails/class-wc-email-appointment-reminder.php:143
+#: includes/emails/class-wc-email-new-appointment.php:230
+msgid "Subject"
+msgstr "נושא"
+
+#: includes/admin/views/html-settings-send-notifications.php:38
+msgid "Email subject"
+msgstr "נושא האימייל"
+
+#: includes/admin/views/html-settings-send-notifications.php:43
+msgid "Message"
+msgstr "הודעה"
+
+#: includes/admin/views/html-settings-send-notifications.php:46
+msgid "The message you wish to send"
+msgstr "ההודעה שברצונך לשלוח"
+
+#: includes/admin/views/html-settings-send-notifications.php:47
+msgid ""
+"The following tags can be inserted in your message/subject and will be "
+"replaced dynamically"
+msgstr "התגיות הבאות ניתן להוסיף ההודעה/הנושא שלך, יוחלפו באופן דינמי"
+
+#: includes/admin/views/html-settings-send-notifications.php:52
+msgid "Attachment"
+msgstr "קובץ מצורף"
+
+#: includes/admin/views/html-settings-send-notifications.php:55
+msgid "Attach <code>.ics</code> file"
+msgstr "לצרף <code>.ics</code> קובץ"
+
+#: includes/appointment-form/class-wc-appointment-form-date-picker.php:34
+#: includes/appointment-form/class-wc-appointment-form-datetime-picker.php:29
+#: includes/data-objects/class-wc-appointment.php:829
+#: includes/wc-appointments-functions.php:62
+msgid "Date"
+msgstr "תאריך"
+
+#: includes/appointment-form/class-wc-appointment-form.php:45
+msgid "Today"
+msgstr "היום"
+
+#: includes/appointment-form/class-wc-appointment-form.php:46
+#: templates/myaccount/appointments.php:83
+msgid "Previous"
+msgstr "הקודם"
+
+#: includes/appointment-form/class-wc-appointment-form.php:62
+#, fuzzy
+#| msgid "This date is unavailable"
+msgid "Selected date is unavailable"
+msgstr "תאריך זה אינו זמין"
+
+#: includes/appointment-form/class-wc-appointment-form.php:63
+#, fuzzy
+#| msgid "Sorry, the selected day is not available."
+msgid "Selected date is not valid"
+msgstr ". מצטער, הזמן שנבחר אינה זמין."
+
+#: includes/appointment-form/class-wc-appointment-form.php:64
+#, fuzzy
+#| msgid "This date is unavailable"
+msgid "Selected time is unavailable"
+msgstr "זמן נבחר אינו זמין"
+
+#: includes/appointment-form/class-wc-appointment-form.php:65
+#, fuzzy
+#| msgid "This date is fully scheduled and unavailable"
+msgid "Selected date is fully scheduled and unavailable"
+msgstr "התאריך שנבחר הוא מלא מתוזמנים ולא זמין"
+
+#: includes/appointment-form/class-wc-appointment-form.php:66
+#, fuzzy
+#| msgid "This date is partially scheduled - but appointments still remain"
+msgid "Selected date is partially scheduled - but appointments still remain"
+msgstr "תאריך זה מלא חלקית - אך פגישות נותרו עדיין"
+
+#: includes/appointment-form/class-wc-appointment-form.php:67
+#, fuzzy
+#| msgid "This date is available"
+msgid "Selected date is available"
+msgstr "תאריך זה זמין"
+
+#: includes/appointment-form/class-wc-appointment-form.php:68
+msgid "Choose a Start Date"
+msgstr "בחר תאריך התחלה"
+
+#: includes/appointment-form/class-wc-appointment-form.php:69
+msgid "Choose an End Date"
+msgstr "בחר תאריך סיום"
+
+#: includes/appointment-form/class-wc-appointment-form.php:70
+msgid "Dates"
+msgstr "תאריכים"
+
+#: includes/appointment-form/class-wc-appointment-form.php:71
+msgid "Please select the options for your appointment above first"
+msgstr "אנא בחר את האפשרויות עבור הפעילות שלך לעיל קודם"
+
+#: includes/appointment-form/class-wc-appointment-form.php:72
+#, fuzzy
+msgid "To clear selection, pick a new start date"
+msgstr "כדי לנקות את הבחירה, בחר תאריך התחלה חדשה"
+
+#: includes/appointment-form/class-wc-appointment-form.php:273
+#: includes/wc-appointments-functions.php:380
+#: includes/wc-appointments-functions.php:400
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s יום"
+msgstr[1] "%s יום"
+
+#. translators: 1: display duration
+#: includes/appointment-form/class-wc-appointment-form.php:275
+#: includes/appointment-form/class-wc-appointment-form.php:277
+#: includes/data-objects/class-wc-product-appointment.php:176
+#: includes/wc-appointments-functions.php:404
+#: includes/wc-appointments-functions.php:414
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "שעה %s"
+msgstr[1] ""
+
+#: includes/appointment-form/class-wc-appointment-form.php:279
+#: includes/appointment-form/class-wc-appointment-form.php:281
+#: includes/wc-appointments-functions.php:409
+#: includes/wc-appointments-functions.php:418
+#: includes/wc-appointments-functions.php:422
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s דקות"
+msgstr[1] ""
+
+#: includes/appointment-form/class-wc-appointment-form.php:366
+msgid "Date is required - please choose one above"
+msgstr "תאריך נדרש - נא בחר את אחת לעיל"
+
+#: includes/appointment-form/class-wc-appointment-form.php:369
+msgid "Time is required - please choose one above"
+msgstr "זמן נדרש - נא בחר את אחת לעיל"
+
+#: includes/appointment-form/class-wc-appointment-form.php:372
+#: includes/appointment-form/class-wc-appointment-form.php:375
+msgid "You must choose a future date and time."
+msgstr "עליך לבחור תאריך ושעה עתידיים."
+
+#. translators: 1: minimum date
+#: includes/appointment-form/class-wc-appointment-form.php:393
+msgid "The earliest appointment possible is currently %s."
+msgstr "הפגישה המוקדמת ביותר האפשרית הוא %s."
+
+#. translators: 1: maximum date
+#: includes/appointment-form/class-wc-appointment-form.php:402
+msgid "The latest appointment possible is currently %s."
+msgstr "הפגישה האחרונה אפשרית הינה %s."
+
+#: includes/appointment-form/class-wc-appointment-form.php:411
+msgid "Sorry, appointments cannot start on this day."
+msgstr "מצטער, פגישות לא ניתן להתחיל את היום הזה."
+
+#: includes/appointment-form/class-wc-appointment-form.php:425
+msgid "Sorry, the selected slot is not available."
+msgstr ". מצטער, הזמן שנבחר אינה זמין."
+
+#: includes/appointment-form/class-wc-appointment-form.php:522
+msgid "Sorry, the selected day is not available."
+msgstr ". מצטער, הזמן שנבחר אינה זמין."
+
+#. translators: 1: a href to an appointable product id
+#: includes/class-wc-appointment-cart-manager.php:243
+msgid ""
+"An appointment for %s has been removed from your cart due to inactivity."
+msgstr "פגישה עבור %s הוסר מן העגלה שלך בשל חוסר פעילות."
+
+#: includes/class-wc-appointment-cart-manager.php:444
+msgid ""
+"An appointment that requires confirmation has been removed from your cart. "
+"It is not possible to complete the purchased along with an appointment that "
+"doesn't require confirmation."
+msgstr ""
+"פעילות הדורשת אישור הוסר מן העגלה שלך. אין אפשרות להשלים את הרכישה יחד עם "
+"פעילות שלא דורש אישור."
+
+#: includes/class-wc-appointment-form-handler.php:36
+msgid "Your appointment has been cancelled."
+msgstr "הפגישה שלך בוטלה."
+
+#: includes/class-wc-appointment-form-handler.php:40
+msgid ""
+"Your appointment can no longer be cancelled. Please contact us if you need "
+"assistance."
+msgstr ""
+"הפגישה שלך כבר לא ניתנת לביטול. אנא צור קשר במידה ואתה זקוק לסיוע נוסף."
+
+#: includes/class-wc-appointment-form-handler.php:42
+#: includes/data-stores/class-wc-appointment-data-store.php:83
+msgid "Invalid appointment."
+msgstr "פגישה  לא חוקית."
+
+#: includes/class-wc-appointment-order-manager.php:193
+#: woocommerce-appointments.php:509 woocommerce-appointments.php:512
+msgid "Appointment"
+msgstr "פגישה"
+
+#: includes/class-wc-appointment-order-manager.php:283
+msgid "Upcoming Appointments"
+msgstr "פגישות עתידיות"
+
+#: includes/class-wc-appointment-order-manager.php:289
+msgid "Past Appointments"
+msgstr "מינויים קודמים"
+
+#. translators: 1: site name
+#: includes/class-wc-appointments-ics-exporter.php:165
+msgid "Appointments from %s"
+msgstr "פגישות מ- %s"
+
+#: includes/class-wc-appointments-ics-exporter.php:183
+msgid "Appointment description:"
+msgstr "תיאור הפגישה:"
+
+#: includes/class-wc-product-appointment-manager.php:42
+#, fuzzy
+msgid ""
+"You cannot trash/delete an appointable product that has Appointments "
+"associated with it."
+msgstr "אתה לא יכול זבל/מחק מוצר appointable יש פעילויות המשויכות לו."
+
+#: includes/compatibility/class-wc-data-store.php:75
+#: includes/compatibility/class-wc-data-store.php:80
+#, fuzzy
+#| msgid "Invalid nonce"
+msgid "Invalid data store."
+msgstr "מאגר נתונים לא חוקיים."
+
+#: includes/compatibility/class-wc-product-data-store-cpt.php:118
+msgid "Invalid product."
+msgstr "ה-ID של המוצר לא תקין."
+
+#: includes/customizer/class-wc-appointments-customizer.php:113
+#, fuzzy
+#| msgid "Select box"
+msgid "Selection color"
+msgstr "צבע הבחירה של טקסט"
+
+#: includes/data-objects/class-wc-appointment.php:178
+#: includes/data-objects/class-wc-appointment.php:1062
+#, fuzzy
+#| msgctxt "woocommerce-appointments"
+#| msgid "In Cart"
+msgid "Was In Cart"
+msgstr "בעגלת הקניות"
+
+#. translators: 1: appointment id 2: old status 3: new status
+#: includes/data-objects/class-wc-appointment.php:231
+#, fuzzy
+#| msgid "Appointment #%d status changed from \"%s\" to \"%s\""
+msgid "Appointment #%1$d status changed from \"%2$s\" to \"%3$s\""
+msgstr "סטטוס הפגישה # %d שונה מ- \"%s\" \"%s\""
+
+#: includes/data-objects/class-wc-appointment.php:827
+#: includes/integrations/class-wc-appointments-integration-gcal.php:535
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:295
+#: templates/emails/admin-appointment-cancelled.php:35
+#: templates/emails/admin-new-appointment.php:55
+#: templates/emails/customer-appointment-cancelled.php:42
+#: templates/emails/customer-appointment-confirmed.php:42
+#: templates/emails/customer-appointment-notification.php:33
+#: templates/emails/customer-appointment-reminder.php:46
+msgid "Appointment ID"
+msgstr "מזהה פגישה"
+
+#: includes/data-objects/class-wc-appointment.php:828
+#: templates/emails/admin-appointment-cancelled.php:39
+#: templates/emails/admin-new-appointment.php:59
+#: templates/emails/customer-appointment-cancelled.php:46
+#: templates/emails/customer-appointment-confirmed.php:46
+#: templates/emails/customer-appointment-notification.php:37
+#: templates/emails/customer-appointment-reminder.php:50
+msgid "Appointment Date"
+msgstr "תאריך פגישה"
+
+#: includes/data-objects/class-wc-appointment.php:830
+msgid "Appointment Time"
+msgstr "שעת הפגישה"
+
+#: includes/data-objects/class-wc-appointment.php:831
+#: includes/wc-appointments-functions.php:63
+#: templates/appointment-form/datetime-picker.php:73
+msgid "Time"
+msgstr "שעה"
+
+#: includes/data-objects/class-wc-product-appointment.php:82
+#: templates/myaccount/appointments.php:98
+msgid "Book"
+msgstr "הזמן עכשיו"
+
+#: includes/data-objects/class-wc-product-appointment.php:91
+msgid "Check Availability"
+msgstr "בדוק זמינות"
+
+#: includes/data-objects/class-wc-product-appointment.php:91
+msgid "Book Now"
+msgstr "הזמן עכשיו"
+
+#: includes/data-objects/class-wc-product-appointment.php:149
+msgid "Free!"
+msgstr "חופשי!"
+
+#. translators: 1: display price
+#: includes/data-objects/class-wc-product-appointment.php:162
+msgid "From: %s"
+msgstr "מאת: %s"
+
+#. translators: 1: available quantity 2: appointment slot date 3: appointment
+#. slot time
+#: includes/data-objects/class-wc-product-appointment.php:1460
+#, fuzzy
+#| msgid "There is only %d place remaining on %s at %s."
+#| msgid_plural "There are %d places remaining on %s at %s."
+msgid "There is a maximum of %1$d place remaining on %2$s at %3$s."
+msgid_plural "There are a maximum of %1$d places remaining on %2$s at %3$s."
+msgstr[0] "יש רק %d המקום שנותר ב- %s ב- %s."
+msgstr[1] ""
+
+#. translators: 1: available quantity 2: appointment slot date
+#: includes/data-objects/class-wc-product-appointment.php:1468
+#: includes/data-objects/class-wc-product-appointment.php:1475
+#, fuzzy
+#| msgid "There is only %d place remaining on %s"
+#| msgid_plural "There are %d places remaining on %s"
+msgid "There is a maximum of %1$d place remaining on %2$s"
+msgid_plural "There are a maximum of %1$d places remaining on %2$s"
+msgstr[0] "יש רק %d המקום שנותר ב- %s"
+msgstr[1] ""
+
+#: includes/data-objects/class-wc-product-appointment.php:2158
+msgid "This slot cannot be scheduled."
+msgstr "אין אפשרות לתזמן זמן  זה."
+
+#: includes/data-stores/class-wc-appointment-data-store.php:55
+msgid "Appointment &ndash; %s"
+msgstr "פגישה-%s"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:20
+msgid "Admin Appointment Cancelled"
+msgstr "ביטול ע\"י מנהל הפגישה "
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:21
+#: includes/emails/class-wc-email-appointment-cancelled.php:21
+msgid ""
+"Appointment cancelled emails are sent when the status of an appointment goes "
+"to cancelled."
+msgstr "פגישה שבוטלה תשלח הודעות דואר אלקטרוני כאשר המצב של פעילות עבר למבוטל."
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:22
+#: includes/emails/class-wc-email-appointment-cancelled.php:20
+#: includes/emails/class-wc-email-appointment-cancelled.php:22
+msgid "Appointment Cancelled"
+msgstr "הפגישה בוטלה"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:23
+msgid "[{blogname}] An appointment of \"{product_title}\" has been cancelled"
+msgstr "[{blogname}] פגישה של \"{product_title}\" בוטלה"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:171
+#: includes/emails/class-wc-email-appointment-cancelled.php:153
+#: includes/emails/class-wc-email-appointment-confirmed.php:174
+#: includes/emails/class-wc-email-appointment-notification.php:190
+#: includes/emails/class-wc-email-appointment-reminder.php:137
+#: includes/emails/class-wc-email-new-appointment.php:216
+msgid "Enable/Disable"
+msgstr "לנטרל/לאפשר"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:173
+#: includes/emails/class-wc-email-appointment-cancelled.php:155
+#: includes/emails/class-wc-email-appointment-confirmed.php:176
+#: includes/emails/class-wc-email-appointment-notification.php:192
+#: includes/emails/class-wc-email-appointment-reminder.php:139
+#: includes/emails/class-wc-email-new-appointment.php:218
+msgid "Enable this email notification"
+msgstr "לאפשר הודעת דואל"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:177
+#: includes/emails/class-wc-email-new-appointment.php:222
+msgid "Recipient(s)"
+msgstr "נמענים"
+
+#. translators: 1: admin email
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:180
+#: includes/emails/class-wc-email-new-appointment.php:225
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr "הזן נמענים (מופרדות בפסיק) דוא ל זו. לברירת המחדל <code>%s</code> ."
+
+#. translators: 1: subject
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:188
+#: includes/emails/class-wc-email-appointment-cancelled.php:162
+#: includes/emails/class-wc-email-appointment-confirmed.php:183
+#: includes/emails/class-wc-email-appointment-reminder.php:145
+#: includes/emails/class-wc-email-new-appointment.php:233
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"זה קובע את שורת הנושא של דואר אלקטרוני. השאר אותו ריק כדי להשתמש נושא ברירת "
+"מחדל: <code>%s</code> ."
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:193
+#: includes/emails/class-wc-email-appointment-cancelled.php:167
+#: includes/emails/class-wc-email-appointment-confirmed.php:188
+#: includes/emails/class-wc-email-appointment-reminder.php:150
+#: includes/emails/class-wc-email-new-appointment.php:246
+msgid "Email Heading"
+msgstr "כותרת דואר אלקטרוני"
+
+#. translators: 1: heading
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:196
+#: includes/emails/class-wc-email-appointment-cancelled.php:170
+#: includes/emails/class-wc-email-appointment-confirmed.php:191
+#: includes/emails/class-wc-email-appointment-reminder.php:152
+#: includes/emails/class-wc-email-new-appointment.php:249
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"קובע את הכותרת הראשית הכלול בתוך הדואל. השאר אותו ריק כדי להשתמש על כותרת "
+"ברירת המחדל: <code>%s</code> ."
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:201
+#: includes/emails/class-wc-email-appointment-cancelled.php:175
+#: includes/emails/class-wc-email-appointment-confirmed.php:196
+#: includes/emails/class-wc-email-appointment-notification.php:196
+#: includes/emails/class-wc-email-appointment-reminder.php:157
+#: includes/emails/class-wc-email-new-appointment.php:262
+msgid "Email type"
+msgstr "סוג דואל"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:203
+#: includes/emails/class-wc-email-appointment-cancelled.php:177
+#: includes/emails/class-wc-email-appointment-confirmed.php:198
+#: includes/emails/class-wc-email-appointment-notification.php:198
+#: includes/emails/class-wc-email-appointment-reminder.php:159
+#: includes/emails/class-wc-email-new-appointment.php:264
+msgid "Choose which format of email to send."
+msgstr "בחרי סוג אימייל לשליחה"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:207
+#: includes/emails/class-wc-email-appointment-cancelled.php:181
+#: includes/emails/class-wc-email-appointment-confirmed.php:202
+#: includes/emails/class-wc-email-appointment-notification.php:202
+#: includes/emails/class-wc-email-appointment-reminder.php:163
+#: includes/emails/class-wc-email-new-appointment.php:268
+msgid "Plain text"
+msgstr "טקסט רגיל"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:208
+#: includes/emails/class-wc-email-appointment-cancelled.php:182
+#: includes/emails/class-wc-email-appointment-confirmed.php:203
+#: includes/emails/class-wc-email-appointment-notification.php:203
+#: includes/emails/class-wc-email-appointment-reminder.php:164
+#: includes/emails/class-wc-email-new-appointment.php:269
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:209
+#: includes/emails/class-wc-email-appointment-cancelled.php:183
+#: includes/emails/class-wc-email-appointment-confirmed.php:204
+#: includes/emails/class-wc-email-appointment-notification.php:204
+#: includes/emails/class-wc-email-appointment-reminder.php:165
+#: includes/emails/class-wc-email-new-appointment.php:270
+msgid "Multipart"
+msgstr "הודעה מרובת חלקים"
+
+#: includes/emails/class-wc-email-appointment-cancelled.php:23
+msgid "[{blogname}] Your appointment of \"{product_title}\" has been cancelled"
+msgstr "[{blogname}] הפגישה של \"{product_title}\" בוטלה"
+
+#: includes/emails/class-wc-email-appointment-confirmed.php:20
+#: includes/emails/class-wc-email-appointment-confirmed.php:22
+msgid "Appointment Confirmed"
+msgstr "הפגישה אושרה"
+
+#: includes/emails/class-wc-email-appointment-confirmed.php:21
+msgid ""
+"Appointment confirmed emails are sent when the status of an appointment goes "
+"to confirmed."
+msgstr "שליחת מייל אישור נשלחים רק כאשר המצב של הפגישה עובר ל מאושרות."
+
+#: includes/emails/class-wc-email-appointment-confirmed.php:23
+msgid ""
+"[{blogname}] Your appointment of \"{product_title}\" has been confirmed "
+"(Order {order_number}) - {order_date}"
+msgstr ""
+"[{blogname}] הפגישה של \"{product_title}\" כבר אישר (סדר {order_number}) - "
+"{order_date}"
+
+#: includes/emails/class-wc-email-appointment-notification.php:21
+msgid "Appointment Notification"
+msgstr "הודעה על פגישה"
+
+#: includes/emails/class-wc-email-appointment-notification.php:22
+msgid ""
+"Appointment notification emails are sent manually from WooCommerce > "
+"Appointments > Send Notification."
+msgstr ""
+"ההודעות אימיילים נשלחים באופן ידני באמצעות WooCommerce > פגישות > ושלח הודעה."
+
+#: includes/emails/class-wc-email-appointment-reminder.php:20
+#: includes/emails/class-wc-email-appointment-reminder.php:22
+msgid "Appointment Reminder"
+msgstr "תזכורת פגישה"
+
+#: includes/emails/class-wc-email-appointment-reminder.php:21
+msgid ""
+"Appointment reminders are sent to the customer to remind them of an upcoming "
+"appointment."
+msgstr "תזכורות נשלחים ללקוח להזכיר להם על פגישה שמתקרבת."
+
+#: includes/emails/class-wc-email-appointment-reminder.php:23
+msgid "[{blogname}] A reminder about your appointment of \"{product_title}\""
+msgstr "[{blogname}] תזכורת על הפגישה של \"{product_title}\""
+
+#: includes/emails/class-wc-email-new-appointment.php:28
+msgid ""
+"New appointment emails are sent to the admin when a new appointment is "
+"created and paid. This email is also received when a Pending confirmation "
+"appointment is created."
+msgstr ""
+"מיילים עבור פגישה חדשה נשלחים אל המנהל  בעת פגישה חדשה הוא יצר ושילם. "
+"האימייל הזה מתקבל גם בעת יצירת פגישה אישור בהמתנה."
+
+#: includes/emails/class-wc-email-new-appointment.php:29
+msgid "New appointment"
+msgstr "פגישה חדש"
+
+#: includes/emails/class-wc-email-new-appointment.php:30
+#: templates/order/admin/appointment-display.php:43
+msgid "Confirm appointment"
+msgstr "לאשר את הפגישה"
+
+#: includes/emails/class-wc-email-new-appointment.php:31
+msgid ""
+"[{blogname}] New appointment for {product_title} (Order {order_number}) - "
+"{order_date}"
+msgstr ""
+"[{blogname}] פגישה חדשה עבור {product_title} (סדר {order_number}) - "
+"{order_date}"
+
+#: includes/emails/class-wc-email-new-appointment.php:32
+msgid ""
+"[{blogname}] A new appointment for {product_title} (Order {order_number}) is "
+"awaiting your approval - {order_date}"
+msgstr ""
+"[{blogname}] פגישה חדשה עבור {product_title} (סדר {order_number}) ממתין "
+"לאישורך - {order_date}"
+
+#: includes/emails/class-wc-email-new-appointment.php:238
+msgid "Subject (Pending confirmation)"
+msgstr "נושא (ממתין לאישור)"
+
+#. translators: 1: subject confirmation
+#: includes/emails/class-wc-email-new-appointment.php:241
+msgid ""
+"This controls the email subject line for Pending confirmation appointments. "
+"Leave blank to use the default subject: <code>%s</code>."
+msgstr ""
+"זה קובע את שורת הנושא של דואר אלקטרוני עבור ממתינות לאישור מינויים. השאר "
+"אותו ריק כדי להשתמש נושא ברירת מחדל: <code>%s</code> ."
+
+#: includes/emails/class-wc-email-new-appointment.php:254
+msgid "Email Heading (Pending confirmation)"
+msgstr "דואל כותרת (ממתין לאישור)"
+
+#. translators: 1: heading confirmation
+#: includes/emails/class-wc-email-new-appointment.php:257
+msgid ""
+"This controls the main heading contained within the email notification for "
+"Pending confirmation appointments. Leave blank to use the default heading: "
+"<code>%s</code>."
+msgstr ""
+"קובע את הכותרת הראשית הכלול בתוך הודעת דואר אלקטרוני עבור ממתינות לאישור "
+"מינויים. השאר אותו ריק כדי להשתמש על כותרת ברירת המחדל: <code>%s</code> ."
+
+#: includes/gateways/class-wc-appointments-gateway.php:17
+msgid "Check appointment availability"
+msgstr "בדוק זמינות הפגישה"
+
+#: includes/gateways/class-wc-appointments-gateway.php:19
+msgid "Request Confirmation"
+msgstr "בקשת אישור"
+
+#: includes/gateways/class-wc-appointments-gateway.php:38
+msgid "Settings"
+msgstr "הגדרות"
+
+#: includes/gateways/class-wc-appointments-gateway.php:42
+msgid ""
+"This is fictitious payment method used for appointments that requires "
+"confirmation."
+msgstr "שיטת תשלום פיקטיבית  עבור פגישות הדורש אישור."
+
+#: includes/gateways/class-wc-appointments-gateway.php:43
+msgid "This gateway requires no configuration."
+msgstr "שער תשלום זה אינו דורש קביעת תצורה."
+
+#: includes/gateways/class-wc-appointments-gateway.php:77
+msgid "This order is awaiting confirmation from the shop manager"
+msgstr "פגישה זה הוא ממתינה לאישור של מנהל"
+
+#: includes/gateways/class-wc-appointments-gateway.php:96
+msgid "Your appointment has been confirmed. Thank you."
+msgstr "הפגישה שלך אושרה. תודה."
+
+#: includes/gateways/class-wc-appointments-gateway.php:98
+msgid ""
+"Your appointment is awaiting confirmation. You will be notified by email as "
+"soon as we've confirmed availability."
+msgstr "הפגישה שלך ממתינה לאישור. תקבל הודעה במייל ברגע שאישרנו את הזמינות."
+
+#: includes/integrations/class-wc-appointments-integration-customer-relationship-manager.php:86
+msgid "Customer Notes"
+msgstr "פרטי לקוח"
+
+#: includes/integrations/class-wc-appointments-integration-customer-relationship-manager.php:93
+msgid "Order Notes"
+msgstr "תאריך הזמנה: %s"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:31
+msgid "Google Calendar Sync"
+msgstr "Google Calendar Sync"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:119
+msgid "Client ID"
+msgstr "זיהוי לקוח"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:121
+#, fuzzy
+msgid "Your Google Client ID."
+msgstr "תעודת-הזהות שלך Google לקוח"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:126
+msgid "Client Secret"
+msgstr "Google Client Secret"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:128
+#, fuzzy
+msgid "Your Google Client Secret."
+msgstr "הקוד הסודי של גוגל"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:133
+#, fuzzy
+msgid "Calendar ID"
+msgstr "לוח שנה מזהה"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:135
+msgid "Your Google Calendar ID."
+msgstr ""
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:140
+msgid "Authorization"
+msgstr "הרשאות Authorization"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:144
+msgid "Testing"
+msgstr "בדיקות"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:149
+msgid "Debug Log"
+msgstr "איתור באגים"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:151
+msgid "Enable logging"
+msgstr "אפשר/ביטול תיעוד באגים"
+
+#. translators: 1: log file path
+#: includes/integrations/class-wc-appointments-integration-gcal.php:154
+msgid "Log Google Calendar events, such as API requests, inside %s"
+msgstr "יומן אירועים בלוח השנה של גוגל, כגון בקשות API, בתוך %s"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:193
+msgid "Connect with Google"
+msgstr "סינכרון עם גוגל"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:195
+msgid "Successfully authenticated."
+msgstr "אומת בהצלחה."
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:196
+msgid "Disconnect"
+msgstr "מנותק"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:198
+msgid ""
+"Unable to authenticate, you must enter with your <strong>Client ID</strong>, "
+"<strong>Client Secret</strong> and <strong>Calendar ID</strong>."
+msgstr ""
+"אין אפשרות לבצע אימות, עליך להזין עם שלך <strong>מזהה הלקוח</strong>, "
+"<strong>הלקוח הסוד</strong> ומזהה <strong>לוח שנה</strong>."
+
+#. translators: 1: link to setup instructions
+#: includes/integrations/class-wc-appointments-integration-gcal.php:214
+msgid "To use this integration go through %s instructions."
+msgstr "כדי להשתמש שילוב זה לעבור על הוראות %s."
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:214
+msgid "Google Calendar Integration"
+msgstr "Google Calendar אינטגרציה"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:406
+msgid "Permission denied!"
+msgstr "גישה נדחתה"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:444
+msgid "Invalid request!"
+msgstr "בקשה לא תקינה!"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:457
+msgid "Account connected successfully!"
+msgstr "חשבון מחובר בהצלחה!"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:459
+msgid ""
+"Failed to connect to your account, please try again, if the problem "
+"persists, turn on Debug Log option and see what is happening."
+msgstr ""
+"לא הצליחנו להתחבר לחשבון שלך, אנא נסה שוב, אם הבעיה נמשכת, הפעל יומן איתור "
+"באגים על מנת ולראות מה קורה."
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:465
+msgid "Account disconnected successfully!"
+msgstr "חשבון מנותק בהצלחה!"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:467
+msgid ""
+"Failed to disconnect to your account, please try again, if the problem "
+"persists, turn on Debug Log option and see what is happening."
+msgstr ""
+"לא הצליחנו להתנתק מחשבון שלך, אנא נסה שוב, אם הבעיה נמשכת, הפעל יומן איתור "
+"באגים על מנת ולראות מה קורה."
+
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:252
+#, fuzzy
+#| msgid "Parent Appointments"
+msgid "Recent Appointments"
+msgstr "הפגישות האחרונות"
+
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:286
+#, fuzzy
+#| msgid "This appointment is unavailable."
+msgid "There are no appointments available."
+msgstr "יש פגישות ללא זמינים."
+
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:296
+#: templates/emails/admin-appointment-cancelled.php:30
+#: templates/emails/admin-new-appointment.php:51
+#: templates/emails/customer-appointment-cancelled.php:38
+#: templates/emails/customer-appointment-confirmed.php:38
+#: templates/emails/customer-appointment-notification.php:29
+#: templates/emails/customer-appointment-reminder.php:42
+msgid "Scheduled Product"
+msgstr "המוצר מתוזמן"
+
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:299
+#, fuzzy
+#| msgid "Start Date:"
+msgid "Start Date"
+msgstr "תאריך התחלה"
+
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:300
+#, fuzzy
+#| msgid "End Date:"
+msgid "End Date"
+msgstr "תאריך סיום"
+
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:312
+msgid "Edit Product"
+msgstr "ערוך מוצר"
+
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:329
+msgid "Order Detail"
+msgstr "פרטי ההזמנה"
+
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:329
+#, fuzzy
+msgid "#%d"
+msgstr "%d"
+
+#: includes/integrations/class-wc-appointments-integration-twilio-sms.php:83
+#: includes/integrations/class-wc-appointments-integration-twilio-sms.php:143
+msgid ""
+"Reminder: Appointment (%appointment_name%) will take place soon "
+"(%appointment_time%)."
+msgstr "תזכורת: מינוי (%appointment_name%) יתקיים בקרוב (%appointment_time%)."
+
+#: includes/integrations/class-wc-appointments-integration-wcml.php:281
+msgid "Calculate costs in other currencies automatically"
+msgstr ""
+
+#: includes/integrations/class-wc-appointments-integration-wcml.php:286
+#, fuzzy
+msgid "Set costs in other currencies manually"
+msgstr "קביעת עלויות במטבעות אחרים באופן ידני"
+
+#: includes/integrations/class-wc-appointments-integration-wcml.php:764
+msgid "Appointment currency"
+msgstr "מטבע פגישות"
+
+#: includes/integrations/class-wc-appointments-integration-wcml.php:812
+msgid "Invalid nonce"
+msgstr "אינו חוקי"
+
+#: includes/integrations/class-wc-appointments-integration-wcml.php:901
+msgid "Staff Label"
+msgstr "צוות התווית"
+
+#: includes/integrations/class-wc-appointments-integration-wcml.php:920
+msgid "Title"
+msgstr "כותרת"
+
+#: includes/integrations/class-wc-appointments-integration-wcml.php:988
+msgid "Staff label"
+msgstr "תווית מדריכים"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:75
+msgid "Before Scheduled Date"
+msgstr "לפני תאריך שתוזמן"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:76
+msgid "After Scheduled Date"
+msgstr "לאחר תאריך שתוזמן"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:77
+msgid "After Appointment is Created"
+msgstr "לאחר הפגישה נוצרה"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:82
+msgid "After Appointment Status: %s"
+msgstr "לאחר הפגישה מצב: %s"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Appointments"
+msgstr "WooCommerce פגישות"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:89
+msgid "WooCommerce Appointment"
+msgstr "WooCommerce פגישה"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:92
+msgid ""
+"Send follow-up emails to customers that schedule appointments, services or "
+"rentals.<br />Increase revenue with a custom lifecycle marketing program "
+"from Outbound Commerce. It is email marketing for busy eCommerce businesses "
+"built by experienced eCommerce and marketing professionals."
+msgstr ""
+"לשלוח מיילים מעקב ללקוחות, לתזמן את הפעילויות, השירותים או השכרות.<br>להגדיל "
+"את ההכנסות עם מחזור חיים מותאמים אישית של שיווק תוכנית מסחר היוצאת. זה מקצוע "
+"אימייל שיווק לעסקים מסחר אלקטרוני עסוק שנבנה על ידי מנוסה מסחר אלקטרוני "
+"ושיווק..."
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:93
+msgid ""
+"Not sure where to start? Let Outbound Commerce help. Get email marketing for "
+"busy eCommerce businesses built by experienced eCommerce and marketing "
+"professionals."
+msgstr ""
+"לא בטוחה היכן להתחיל? תן עזרה יוצאת המסחר. לקבל אימייל שיווק לעסקים מסחר "
+"אלקטרוני עסוק שנבנה על ידי מנוסה מסחר אלקטרוני ושיווק אנשי מקצוע."
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:104
+msgid "Customers who scheduled this event"
+msgstr "לקוחות שנרשמו לפגישה זאת"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:247
+msgid "Send on %s"
+msgstr "נשלח ב- %s"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:263
+msgid "The name of the purchased item."
+msgstr "השם של הפריט שנרכש."
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:264
+msgid "The list of categories where the purchased item is under."
+msgstr "רשימת קטגוריות איפה הפריט שנרכש תחת."
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:265
+msgid "The quantity of the purchased item."
+msgstr "כמות הפריט שנרכש."
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:266
+msgid "The start date of the scheduled product or service"
+msgstr "תאריך ההתחלה המתוזמן המוצר או השירות"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:267
+msgid "The end date of the scheduled product or service"
+msgstr "תאריך הסיום של מתוזמנת המוצר או השירות"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:268
+msgid "The duration of the scheduled product or service"
+msgstr "משך מתוזמן של המוצר או השירות"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:269
+msgid "The date of the scheduled product or service"
+msgstr "תאריך שתוזמן המוצר או השירות"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:270
+msgid "The time of the scheduled product or service"
+msgstr "הזמן של מתוזמנת המוצר או השירות"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:271
+msgid "The amount or cost of the scheduled product or service"
+msgstr "הסכום או העלות מתוזמנת המוצר או השירות"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:272
+msgid "The staff scheduled"
+msgstr "הצוות המתוזמן"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:273
+#, fuzzy
+#| msgid "The date of the scheduled product or service"
+msgid "The ID of scheduled product or service"
+msgstr "תאריך שתוזמן המוצר או השירות"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:274
+#, fuzzy
+#| msgid "Unconfirm appointments"
+msgid "The cancellation link for appointment"
+msgstr "פגישות לא מאושרות"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:884
+msgid "Email queued: %s scheduled on %s<br/>Trigger: %s"
+msgstr "דוא ל תור: %s מתוזמנות ב- %s<br>המפעיל: %s"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:3
+msgid "Enable for"
+msgstr "הפוך לזמין עבור"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:5
+msgid "All products"
+msgstr "כל המוצרים"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:6
+msgid "A specific product"
+msgstr "מוצר ספציפי"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:7
+msgid "A specific category"
+msgstr "קטגוריה ספציפית"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:34
+msgid "Search for a product&hellip;"
+msgstr "חיפוש מוצר &hellip;"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:48
+msgid "Include variations"
+msgstr "כולל וריאציות"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:54
+msgid "Category"
+msgstr "קטגוריה"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:56
+msgid "Search for a category&hellip;"
+msgstr "חיפוש קטגוריה &hellip;"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:57
+msgid "Any Category"
+msgstr "כל הקטגוריה"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/triggers.php:5
+msgid "Last Status"
+msgstr "סטאטוס אחרון"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/triggers.php:7
+msgid "Any status"
+msgstr "כל סטטוס"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/triggers.php:13
+msgid ""
+"Only send this email if the appointment's last status matches the selected "
+"value"
+msgstr "שלח את האימייל הזה אם המצב האחרון של הפעילות תואמת את הערך שנבחר"
+
+#: includes/integrations/woocommerce-point-of-sale/class-wc-appointments-integration-point-of-sale.php:61
+msgid "Raise Sale"
+msgstr "תרי מכירה"
+
+#: includes/integrations/woocommerce-product-addons/admin/class-product-addon-admin.php:33
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin.php:9
+msgid "Global Add-ons"
+msgstr "תוספות גלובליות"
+
+#: includes/integrations/woocommerce-product-addons/admin/class-product-addon-admin.php:64
+msgid "Add-on saved successfully"
+msgstr "ההרחבה שנשמרו בהצלחה"
+
+#: includes/integrations/woocommerce-product-addons/admin/class-product-addon-admin.php:79
+msgid "Error: Global Add-on not found"
+msgstr "שגיאה: ההרחבה הכללית לא נמצאה"
+
+#: includes/integrations/woocommerce-product-addons/admin/class-product-addon-admin.php:109
+#: includes/integrations/woocommerce-product-addons/admin/class-product-addon-admin.php:142
+msgid "Global Add-on Group"
+msgstr "קבוצה הרחבות גלובלית"
+
+#: includes/integrations/woocommerce-product-addons/admin/class-product-addon-admin.php:121
+msgid "Add-on deleted successfully"
+msgstr "ההרחבה נמחקה בהצלחה"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon-option.php:7
+msgid "Default Label"
+msgstr "תווית ברירת המחדל"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon-panel.php:10
+msgid "Close all"
+msgstr "סגור הכל"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon-panel.php:10
+msgid "Expand all"
+msgstr "הרחב הכל"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon-panel.php:28
+#, fuzzy
+#| msgid "New Addon Group"
+msgid "New add-on"
+msgstr "ההרחבה החדשה"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon-panel.php:31
+msgid "Import"
+msgstr "ייבוא"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon-panel.php:32
+msgid "Export"
+msgstr "ייצוא"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon-panel.php:37
+msgid ""
+"Paste exported form data here and then save to import fields. The imported "
+"fields will be appended."
+msgstr ""
+"הדבק נתוני טופס מיוצאים כאן ולאחר מכן שמור לשדות יבוא. השדות המיובאים יצורפו."
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon-panel.php:43
+msgid "Global Addon Exclusion"
+msgstr "הרחבות גלובלית מנוטרלות"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon-panel.php:44
+msgid "Check this to exclude this product from all Global Addons"
+msgstr "סמן אפשרות זו כדי להוציא את המוצר הזה מן ההרחבות הכלליות"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon-panel.php:50
+#, fuzzy
+msgid "All addon fields require a name."
+msgstr "כל השדות addon דורשים שם."
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon-panel.php:93
+#, fuzzy
+msgid "Min / max price"
+msgstr "מחיר מינימלי ומחיר מקסימלי"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon-panel.php:97
+#, fuzzy
+msgid "Min / max multiplier"
+msgstr "מינימום / מקסימום מכפיל"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon-panel.php:106
+#, fuzzy
+msgid "Min / max characters"
+msgstr "מינימום / מקסימום תווים"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon-panel.php:110
+#, fuzzy
+msgid "Min / max"
+msgstr "מינימום / מקסימום"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon-panel.php:185
+msgid "Are you sure you want remove this add-on?"
+msgstr "אתה בטוח שאתה רוצה להסיר את ההרחבה הזאת?"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon-panel.php:264
+msgid "Are you sure you want delete this option?"
+msgstr "האם אתה בטוח שברצונך למחוק אפשרות זו?"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:12
+msgid "Group"
+msgstr "קבוצה"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:14
+#, fuzzy
+#| msgid "Custom price input"
+msgid "Additional custom price input"
+msgstr "מחיר מותאם אישית"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:15
+#, fuzzy
+msgid "Additional price multiplier"
+msgstr "מכפיל מחיר נוסף"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:16
+msgid "Checkboxes"
+msgstr "תיבות סימון"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:17
+msgid "Custom input (textarea)"
+msgstr "קלט מותאמות אישית (textarea)"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:18
+msgid "Custom input (text)"
+msgstr "קלט מותאמות אישית (טקסט)"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:19
+msgid "Any text"
+msgstr "כל טקסט"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:20
+msgid "Email address"
+msgstr "כתובת אימייל"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:21
+msgid "Only letters"
+msgstr "רק אותיות"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:22
+msgid "Only letters and numbers"
+msgstr "אותיות ומספרים בלבד"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:23
+msgid "Only numbers"
+msgstr "מספרים בלבד"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:25
+msgid "File upload"
+msgstr "העלאת קובץ"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:26
+msgid "Radio buttons"
+msgstr "כפתורי רדיו"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:27
+msgid "Select box"
+msgstr "תיבת בחירה"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:37
+#, fuzzy
+#| msgid "Name:"
+msgid "Name"
+msgstr "שם:"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:43
+msgid "Required fields?"
+msgstr "שדות חובה?"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:51
+msgid "Description"
+msgstr "תיאור"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:64
+#: templates/emails/customer-appointment-confirmed.php:100
+msgid "Price"
+msgstr "מחיר"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:65
+#, fuzzy
+msgid "Min / Max"
+msgstr "דקות"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-addon.php:72
+msgid "New&nbsp;Option"
+msgstr "אפשרות חדשה"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin-add.php:9
+msgid "Add/Edit Global Add-on"
+msgstr "הוסף / מחק הרחבות גלובליות"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin-add.php:15
+msgid "Global Add-on Reference"
+msgstr "ייחוס הרחבה גלובלית "
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin-add.php:19
+msgid "Give this global add-on a reference/name to make it recognisable."
+msgstr "תן להרחברה הגלובלית התייחסות / תן שם כדי להפוך אותו למזוהה."
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin-add.php:24
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin.php:16
+msgid "Priority"
+msgstr "עדיפות"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin-add.php:28
+#, fuzzy
+#| msgid ""
+#| "Give this global addon a priority - this will deternmine the order in "
+#| "which multiple groups of addons get displayed on the frontend. Per-"
+#| "product add-ons will always have priority 10."
+msgid ""
+"Give this global addon a priority - this will determine the order in which "
+"multiple groups of addons get displayed on the frontend. Per-product add-ons "
+"will always have priority 10."
+msgstr "תן עדיפות לקבוצה זו."
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin-add.php:33
+msgid "Applied to..."
+msgstr "החל על..."
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin-add.php:36
+msgid "Choose some options&hellip;"
+msgstr "בחר  כמה אפשרויות &hellip;"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin-add.php:37
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin.php:36
+msgid "All Products"
+msgstr "כל המוצרים"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin-add.php:38
+msgid "Product category notifications"
+msgstr "הודעות קטגוריית מוצר"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin-add.php:43
+msgid "Category:"
+msgstr "קטגוריה:"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin-add.php:49
+msgid ""
+"Choose categories which should show these addons (or apply to all products)."
+msgstr "בחר קטגוריות אשר צריך להציג הרחבות אלה (או חלים על כל מוצריו)."
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin-add.php:66
+msgid "Save Global Add-on"
+msgstr "שמור את התוספת הגלובלית"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin.php:9
+msgid "Add Global Add-on"
+msgstr "הוסף  הרחבות גלובליות"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin.php:14
+msgid "Reference"
+msgstr "אסמכתא"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin.php:15
+msgid "Number of Fields"
+msgstr "מספר השדות"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin.php:17
+msgid "Applies to..."
+msgstr "יישם על..."
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin.php:46
+msgid "Delete"
+msgstr "מחק"
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin.php:54
+msgid "No global add-ons exists yet."
+msgstr "תוספות הכללית לא קיימת עדיין."
+
+#: includes/integrations/woocommerce-product-addons/admin/views/html-global-admin.php:54
+msgid "Add one?"
+msgstr "להוסיף אחד?"
+
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:57
+msgid "Hide duration label for customers"
+msgstr "להסתיר את משך תווית עבור לקוחות"
+
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:63
+msgid "Hide price label for customers"
+msgstr "להסתיר את תווית המחיר עבור לקוחות"
+
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:81
+#, fuzzy
+msgid "units"
+msgstr "יחידות"
+
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:84
+msgid "Duration (%s)"
+msgstr "משך הזמן (%s)"
+
+#: includes/integrations/woocommerce-product-addons/includes/class-product-addon-display.php:68
+msgid "Options total:"
+msgstr "סך הכל אפשרויות:"
+
+#: includes/integrations/woocommerce-product-addons/includes/class-product-addon-display.php:69
+msgid "Grand total:"
+msgstr "הסכום הכולל:"
+
+#: includes/integrations/woocommerce-product-addons/includes/class-product-addon-display.php:70
+msgid "characters remaining"
+msgstr "תווים שנותרו"
+
+#: includes/integrations/woocommerce-product-addons/includes/class-product-addon-display.php:305
+msgid "Please enter letters only"
+msgstr "נא להזין אותיות בלבד"
+
+#: includes/integrations/woocommerce-product-addons/includes/class-product-addon-display.php:318
+msgid "Please enter digits only"
+msgstr "הזן את הספרות בלבד"
+
+#: includes/integrations/woocommerce-product-addons/includes/class-product-addon-display.php:331
+msgid "Please enter letters or digits only"
+msgstr "הזינו את אותיות או ספרות בלבד"
+
+#: includes/integrations/woocommerce-product-addons/includes/class-product-addon-display.php:343
+msgid "Please enter an email address"
+msgstr "אנא הכנס את כתובת המייל"
+
+#: includes/integrations/woocommerce-product-addons/includes/class-product-addon-display.php:399
+#: includes/integrations/woocommerce-product-addons/includes/legacy/class-product-addon-display-legacy.php:68
+msgid "Select options"
+msgstr "בחר אפשרויות"
+
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-product-addon-field-custom.php:20
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-product-addon-field-file-upload.php:29
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-product-addon-field-list.php:15
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-product-addon-field-select.php:14
+msgid "\"%s\" is a required field."
+msgstr "\"%s\" שדה חובה ."
+
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-product-addon-field-custom.php:32
+#, fuzzy
+#| msgid "The minimum allowed length for \"%s - %s\" is %s."
+msgid "The minimum allowed length for \"%1$s - %2$s\" is %3$s."
+msgstr "המינימום אורך המותר עבור '%s - %s' הוא %s."
+
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-product-addon-field-custom.php:36
+#, fuzzy
+#| msgid "The maximum allowed length for \"%s - %s\" is %s."
+msgid "The maximum allowed length for \"%1$s - %2$s\" is %3$s."
+msgstr "\"%s - %s\" מהאורך המירבי המותר הוא %s."
+
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-product-addon-field-custom.php:43
+#, fuzzy
+#| msgid "The minimum allowed amount for \"%s - %s\" is %s."
+msgid "The minimum allowed amount for \"%s - %s\" is %s."
+msgstr "המינימום אורך המותר עבור '%s - %s' הוא %s."
+
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-product-addon-field-custom.php:49
+#, fuzzy
+#| msgid "The maximum allowed amount for \"%s - %s\" is %s."
+msgid "The maximum allowed amount for \"%s - %s\" is %s."
+msgstr "הסכום המרבי המותר עבור \"%s - %s\" הוא %s."
+
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-product-addon-field-custom.php:60
+#, fuzzy
+#| msgid "Please enter a value greater than 0 for \"%s - %s\"."
+msgid "Please enter a value greater than 0 for \"%1$s - %2$s\"."
+msgstr "נא הזן ערך גדול מ- 0 עבור '%s - %s'."
+
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-product-addon-field-custom.php:65
+#, fuzzy
+#| msgid "Only letters are allowed for \"%s - %s\"."
+msgid "Only letters are allowed for \"%s - %s\"."
+msgstr "רק אותיות מותרים עבור '%s - %s'."
+
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-product-addon-field-custom.php:70
+#, fuzzy
+#| msgid "Only digits are allowed for \"%s - %s\"."
+msgid "Only digits are allowed for \"%s - %s\"."
+msgstr "ספרות בלבד מותרים עבור '%s - %s'."
+
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-product-addon-field-custom.php:75
+#, fuzzy
+#| msgid "Only letters and digits are allowed for \"%s - %s\"."
+msgid "Only letters and digits are allowed for \"%s - %s\"."
+msgstr "רק אותיות וספרות מותרים עבור '%s - %s'."
+
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-product-addon-field-custom.php:80
+#, fuzzy
+#| msgid "A valid email address is required for \"%s - %s\"."
+msgid "A valid email address is required for \"%1$s - %2$s\"."
+msgstr "כתובת דוא ל תקפה נדרש עבור '%s - %s'."
+
+#: includes/integrations/woocommerce-product-addons/includes/groups/class-product-addon-groups.php:51
+msgid "Unable to retrieve data. Invalid global add ons group or product ID."
+msgstr ""
+
+#: includes/integrations/woocommerce-product-addons/includes/groups/class-product-addon-groups.php:83
+msgid "Unable to delete group. Invalid global add ons group ID."
+msgstr ""
+
+#: includes/integrations/woocommerce-product-addons/templates/addons/addon-start.php:6
+msgid "Required field"
+msgstr "שדה נדרש!"
+
+#: includes/integrations/woocommerce-product-addons/templates/addons/file_upload.php:21
+#: includes/integrations/woocommerce-product-addons/templates/addons/file_upload.php:27
+msgid "(max file size %s)"
+msgstr "(גודל הקובץ המירבי %s)"
+
+#: includes/integrations/woocommerce-product-addons/templates/addons/input_multiplier.php:27
+msgid "This must be a number!"
+msgstr "זה חייב להיות מספר!"
+
+#: includes/integrations/woocommerce-product-addons/templates/addons/select.php:10
+msgid "None"
+msgstr "ללא"
+
+#: includes/integrations/woocommerce-product-addons/templates/addons/select.php:12
+msgid "Select an option..."
+msgstr "בחר אפשרות..."
+
+#: includes/wc-appointments-functions.php:84
+#: includes/wc-appointments-functions.php:111
+#: includes/wc-appointments-functions.php:120
+#: includes/wc-appointments-functions.php:133
+#: includes/wc-appointments-functions.php:145
+msgid "Pending Confirmation"
+msgstr "ממתין לאישור"
+
+#: includes/wc-appointments-functions.php:85
+#: includes/wc-appointments-functions.php:112
+#: includes/wc-appointments-functions.php:121
+#: includes/wc-appointments-functions.php:134
+#: includes/wc-appointments-functions.php:139
+#: includes/wc-appointments-functions.php:146
+msgid "Confirmed"
+msgstr "אושר"
+
+#: includes/wc-appointments-functions.php:86
+#: includes/wc-appointments-functions.php:113
+#: includes/wc-appointments-functions.php:122
+#: includes/wc-appointments-functions.php:135
+#: includes/wc-appointments-functions.php:140
+#: includes/wc-appointments-functions.php:147
+#, fuzzy
+msgid "Paid"
+msgstr "סמן פגישות כשולמו."
+
+#: includes/wc-appointments-functions.php:87
+#: includes/wc-appointments-functions.php:114
+msgid "Cancelled"
+msgstr "בוטל"
+
+#: includes/wc-appointments-functions.php:88
+#: includes/wc-appointments-functions.php:115
+#: includes/wc-appointments-functions.php:148
+msgid "Complete"
+msgstr "הושלם"
+
+#: includes/wc-appointments-functions.php:89
+#: includes/wc-appointments-functions.php:149
+msgid "In Cart"
+msgstr "בעגלת הקניות"
+
+#: includes/wc-appointments-functions.php:93
+#: includes/wc-appointments-functions.php:154
+#, fuzzy
+#| msgid "Automatically assigned"
+msgid "Partially Paid"
+msgstr "תשלום חלקי"
+
+#: includes/wc-appointments-functions.php:126
+msgid "Expected"
+msgstr "ציפיתי ל ־"
+
+#: includes/wc-appointments-functions.php:127
+#, fuzzy
+#| msgid "arrived"
+msgid "Arrived"
+msgstr "NEW"
+
+#: includes/wc-appointments-functions.php:128
+#, fuzzy
+#| msgid "no-show"
+msgid "No-show"
+msgstr "אי-הגעה"
+
+#: includes/wc-appointments-functions.php:485
+msgid "Rules further down the table will override those at the top."
+msgstr "כללים מתחתית הטבלה ידרסו את אלה הנמצאים בראש הטבלה."
+
+#: includes/wc-appointments-functions.php:489
+msgid ""
+"Rules with lower priority numbers will override rules with a higher priority "
+"(e.g. 9 overrides 10 ). Global rules take priority over product rules which "
+"take priority over staff rules. By using priority numbers you can execute "
+"rules in different orders."
+msgstr ""
+"כללים עם מספרים בעדיפות נמוכים יותר יעקפו חוקים עם עדיפות גבוהה יותר (למשל 9 "
+"עוקפים 10). חוקים כלליים עדיפים על-פני כלל לייבניץ אשר מקבל עדיפות על פני "
+"כללי צוות. באמצעות מספרים עדיפים שתוכל לבצע כללים בסדר שונה."
+
+#: includes/wc-appointments-functions.php:899
+msgid "Morning"
+msgstr "בוקר"
+
+#: includes/wc-appointments-functions.php:904
+msgid "Afternoon"
+msgstr "אחר הצהריים"
+
+#: includes/wc-appointments-functions.php:909
+msgid "Evening"
+msgstr "ערב"
+
+#: includes/wc-appointments-functions.php:924
+msgid " data-locale=\"Your local time: %s\""
+msgstr " data-locale=\"הזמן המקומי שלך: %s\""
+
+#. translators: 1: quantity available
+#: includes/wc-appointments-functions.php:943
+msgid "%d left"
+msgid_plural "%d left"
+msgstr[0] "%d נותר"
+msgstr[1] ""
+
+#: includes/wc-appointments-functions.php:959
+msgid "&#45;"
+msgstr "&#45;"
+
+#: templates/appointment-form/date-picker.php:25
+#: templates/appointment-form/datetime-picker.php:26
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: templates/appointment-form/date-picker.php:29
+#: templates/appointment-form/datetime-picker.php:30
+msgid "Choose..."
+msgstr "בחר…"
+
+#: templates/appointment-form/date-picker.php:55
+#: templates/appointment-form/date-picker.php:66
+#: templates/appointment-form/datetime-picker.php:51
+#: templates/appointment-form/datetime-picker.php:62
+msgid "mm"
+msgstr "mm"
+
+#: templates/appointment-form/date-picker.php:58
+#: templates/appointment-form/date-picker.php:63
+#: templates/appointment-form/datetime-picker.php:54
+#: templates/appointment-form/datetime-picker.php:59
+msgid "dd"
+msgstr "dd"
+
+#: templates/appointment-form/date-picker.php:70
+#: templates/appointment-form/datetime-picker.php:67
+msgid "YYYY"
+msgstr "YYYY"
+
+#: templates/appointment-form/date-picker.php:71
+#: templates/appointment-form/datetime-picker.php:68
+msgid "Year"
+msgstr "שנה"
+
+#: templates/appointment-form/datetime-picker.php:75
+msgid "Choose a date above to see available time slots."
+msgstr "בחר תאריך על-מנת לראות שעות אפשריות."
+
+#: templates/appointment-form/select-staff.php:28
+msgid "&mdash; No Preference &mdash;"
+msgstr "&mdash; אין העדפה &mdash;"
+
+#: templates/emails/admin-appointment-cancelled.php:24
+#, fuzzy
+#| msgid ""
+#| "The following appointment has been cancelled by the customer. The details "
+#| "of the cancelled appointment can be found below."
+msgid ""
+"The following appointment has been cancelled. The details of the cancelled "
+"appointment can be found below."
+msgstr "הפגישה הבאה בוטלה. ניתן למצוא את הפרטים של הפגישה שבוטלה להלן."
+
+#: templates/emails/admin-appointment-cancelled.php:43
+#: templates/emails/admin-new-appointment.php:63
+#: templates/emails/customer-appointment-cancelled.php:50
+#: templates/emails/customer-appointment-confirmed.php:50
+#: templates/emails/customer-appointment-notification.php:41
+#: templates/emails/customer-appointment-reminder.php:54
+msgid "Appointment Duration"
+msgstr "משך הפגישה"
+
+#: templates/emails/admin-appointment-cancelled.php:49
+#: templates/emails/admin-new-appointment.php:69
+#: templates/emails/customer-appointment-cancelled.php:56
+#: templates/emails/customer-appointment-confirmed.php:56
+#: templates/emails/customer-appointment-notification.php:47
+#: templates/emails/customer-appointment-reminder.php:60
+msgid "Appointment Providers"
+msgstr "ספק הפגישה"
+
+#. translators: 1: a href to appointment
+#: templates/emails/admin-appointment-cancelled.php:59
+#: templates/emails/admin-new-appointment.php:83
+#: templates/emails/plain/admin-appointment-cancelled.php:45
+msgid "You can view and edit this appointment in the dashboard here: %s"
+msgstr "ניתן להציג ולערוך את הפגישה בלוח הבקרה כאן: %s"
+
+#. translators: 1: billing first and last name
+#: templates/emails/admin-new-appointment.php:23
+msgid ""
+"An appointment has been made by %s and is awaiting your approval. The "
+"details of this appointment are as follows:"
+msgstr "פגישה בוצע על-ידי %s, ממתין לאישורך. הפרטים של פעילות זו הן כדלהלן:"
+
+#. translators: 1: billing first and last name
+#: templates/emails/admin-new-appointment.php:26
+msgid ""
+"An new appointment has been made by %s. The details of this appointment are "
+"as follows:"
+msgstr "פגישה חדשה בוצע על-ידי %s. הפרטים של פגישה זו הן כדלהלן:"
+
+#: templates/emails/admin-new-appointment.php:77
+#: templates/emails/plain/admin-new-appointment.php:67
+msgid ""
+"This appointment is awaiting your approval. Please check it and inform the "
+"customer if the date is available or not."
+msgstr ""
+"פגישה ממתינה לאישורך. אנא לבדוק את זה, להודיע ללקוח אם התאריך זמין או לא."
+
+#. translators: 1: billing first name
+#: templates/emails/customer-appointment-cancelled.php:28
+#: templates/emails/customer-appointment-confirmed.php:28
+#: templates/emails/customer-appointment-reminder.php:28
+#: templates/emails/plain/customer-appointment-cancelled.php:25
+#: templates/emails/plain/customer-appointment-confirmed.php:25
+#: templates/emails/plain/customer-appointment-reminder.php:25
+msgid "Hello %s"
+msgstr "שלום %s "
+
+#: templates/emails/customer-appointment-cancelled.php:33
+#: templates/emails/plain/customer-appointment-cancelled.php:28
+msgid ""
+"We are sorry to say that your appointment could not be confirmed and has "
+"been cancelled. The details of the cancelled appointment can be found below."
+msgstr ""
+"אנו מצטערים להגיד כי הפגישה שלך אינה יכולה להיות מאושרת ולכן היא בוטלה. ניתן "
+"למצוא את הפרטים של הפגישה שבוטלה להלן."
+
+#: templates/emails/customer-appointment-cancelled.php:63
+#: templates/emails/plain/customer-appointment-cancelled.php:49
+msgid "Please contact us if you have any questions or concerns."
+msgstr "אנא צור קשר אם יש לך שאלות או חששות."
+
+#: templates/emails/customer-appointment-confirmed.php:33
+msgid ""
+"Your appointment has been confirmed. The details of your appointment are "
+"shown below."
+msgstr "הפגישה שלך אושרה. הפרטים של הפגישה שלך מוצגים להלן."
+
+#. translators: 1: checkout payment url
+#: templates/emails/customer-appointment-confirmed.php:70
+#: templates/emails/plain/customer-appointment-confirmed.php:53
+msgid "To pay for this appointment please use the following link: %s"
+msgstr "לשלם עבור פעילות זו אנא השתמש בקישור הבא: %s"
+
+#: templates/emails/customer-appointment-confirmed.php:70
+msgid "Pay for appointment"
+msgstr "לשלם על הפגישה"
+
+#: templates/emails/customer-appointment-confirmed.php:99
+msgid "Quantity"
+msgstr "כמות"
+
+#: templates/emails/customer-appointment-reminder.php:34
+msgid "This is a reminder that your appointment will take place today."
+msgstr "זוהי תזכורת כי הפגישה שלך תתקיים מחר."
+
+#: templates/emails/customer-appointment-reminder.php:36
+msgid "This is a reminder that your appointment will take place tomorrow."
+msgstr "זוהי תזכורת כי הפגישה שלך תתקיים מחר."
+
+#: templates/emails/plain/admin-appointment-cancelled.php:23
+msgid ""
+"The following appointment has been cancelled by the customer. The details of "
+"the cancelled appointment can be found below."
+msgstr ""
+"הפגישה הבאה בוטלה על ידי הלקוח. ניתן למצוא את הפרטים של הפגישה שבוטלה להלן."
+
+#. translators: 1: appointment product title
+#: templates/emails/plain/admin-appointment-cancelled.php:28
+#: templates/emails/plain/admin-new-appointment.php:50
+#: templates/emails/plain/customer-appointment-cancelled.php:33
+#: templates/emails/plain/customer-appointment-confirmed.php:33
+#: templates/emails/plain/customer-appointment-notification.php:31
+#: templates/emails/plain/customer-appointment-reminder.php:37
+#, fuzzy
+#| msgid "Scheduled Product"
+msgid "Scheduled Product: %s"
+msgstr "המוצר מתוזמנת"
+
+#. translators: 1: appointment ID
+#: templates/emails/plain/admin-appointment-cancelled.php:30
+#: templates/emails/plain/admin-new-appointment.php:52
+#: templates/emails/plain/customer-appointment-cancelled.php:35
+#: templates/emails/plain/customer-appointment-confirmed.php:35
+#: templates/emails/plain/customer-appointment-notification.php:33
+#: templates/emails/plain/customer-appointment-reminder.php:39
+msgid "Appointment ID: %s"
+msgstr "מזהה פגישה: %s"
+
+#. translators: 1: appointment start date
+#: templates/emails/plain/admin-appointment-cancelled.php:32
+#: templates/emails/plain/admin-new-appointment.php:54
+#: templates/emails/plain/customer-appointment-cancelled.php:37
+#: templates/emails/plain/customer-appointment-confirmed.php:37
+#: templates/emails/plain/customer-appointment-notification.php:35
+#: templates/emails/plain/customer-appointment-reminder.php:41
+msgid "Appointment Date: %s"
+msgstr "תאריך הפגישה: %s"
+
+#. translators: 1: appointment duration
+#: templates/emails/plain/admin-appointment-cancelled.php:34
+#: templates/emails/plain/admin-new-appointment.php:56
+#: templates/emails/plain/customer-appointment-cancelled.php:39
+#: templates/emails/plain/customer-appointment-confirmed.php:39
+#: templates/emails/plain/customer-appointment-notification.php:37
+#: templates/emails/plain/customer-appointment-reminder.php:43
+#, fuzzy
+#| msgid "Appointment Date: %s"
+msgid "Appointment Duration: %s"
+msgstr "תאריך הפגישה: %s"
+
+#. translators: 1: appointment staff names
+#: templates/emails/plain/admin-appointment-cancelled.php:39
+#: templates/emails/plain/admin-new-appointment.php:61
+#: templates/emails/plain/customer-appointment-cancelled.php:44
+#: templates/emails/plain/customer-appointment-confirmed.php:44
+#: templates/emails/plain/customer-appointment-notification.php:42
+#: templates/emails/plain/customer-appointment-reminder.php:48
+msgid "Appointment Providers: %s"
+msgstr "מספק השירות: %s"
+
+#. translators: 1: billing first and last name
+#: templates/emails/plain/admin-new-appointment.php:25
+msgid ""
+"A appointment has been made by %s and is awaiting your approval. The details "
+"of this appointment are as follows:"
+msgstr "פגישה בוצע על-ידי %s, ממתין לאישורך. הפרטים של פעילות זו הן כדלהלן:"
+
+#. translators: 1: billing first and last name
+#: templates/emails/plain/admin-new-appointment.php:28
+msgid ""
+"A new appointment has been made by %s. The details of this appointment are "
+"as follows:"
+msgstr "פגישה חדשה בוצע על-ידי %s. הפרטים של פגישה זו הן כדלהלן:"
+
+#: templates/emails/plain/customer-appointment-confirmed.php:28
+msgid ""
+"Your appointment for has been confirmed. The details of your appointment are "
+"shown below."
+msgstr "הפגישה שלך עבור אושרה. הפרטים של הפגישה שלך מוצגים להלן."
+
+#. translators: 1: order number
+#: templates/emails/plain/customer-appointment-confirmed.php:67
+msgid "Order number: %s"
+msgstr "מספר הזמנה: %s"
+
+#. translators: 1: order date
+#: templates/emails/plain/customer-appointment-confirmed.php:69
+msgid "Order date: %s"
+msgstr "תאריך הזמנה: %s"
+
+#: templates/emails/plain/customer-appointment-notification.php:26
+msgid "The details of your appointment are shown below."
+msgstr "הפרטים של הפגישה שלך מוצגים להלן."
+
+#: templates/emails/plain/customer-appointment-reminder.php:29
+msgid ""
+"This is a reminder that your appointment will take place today. The details "
+"of your appointment are shown below."
+msgstr ""
+"זוהי תזכורת כי הפגישה שלך תתקיים מחר. הפרטים של הפגישה שלך מוצגים להלן."
+
+#: templates/emails/plain/customer-appointment-reminder.php:31
+msgid ""
+"This is a reminder that your appointment will take place tomorrow. The "
+"details of your appointment are shown below."
+msgstr ""
+"זוהי תזכורת כי הפגישה שלך תתקיים מחר. הפרטים של הפגישה שלך מוצגים להלן."
+
+#: templates/myaccount/appointments.php:35
+msgid "Scheduled"
+msgstr "מתוזמן"
+
+#: templates/myaccount/appointments.php:71
+msgid "Cancel"
+msgstr "ביטול"
+
+#: templates/myaccount/appointments.php:100
+msgid "No appointments scheduled yet."
+msgstr "אין פגישות מתוכננות עדיין."
+
+#: templates/order/admin/appointment-display.php:46
+#, fuzzy
+#| msgid "View appointment"
+msgid "View appointment &rarr;"
+msgstr "הצג את פעילות &rarr;"
+
+#: templates/order/appointment-display.php:45
+#, fuzzy
+#| msgid "View appointment"
+msgid "View my appointments &rarr;"
+msgstr "צפה בפגישה"
+
+#: templates/single-product/add-to-cart/appointment.php:29
+msgid ""
+"Your browser must support JavaScript in order to schedule an appointment."
+msgstr "הדפדפן שלך חייב לתמוך JavaScript על מנת לקבוע פגישה."
+
+#. translators: 1: href link to new product screen
+#: woocommerce-appointments.php:135
+msgid ""
+"Welcome to WooCommerce Appointments. <a href=\"%s\" class=\"button button-"
+"primary\">Add Appointable Products</a>"
+msgstr ""
+"ברוכים הבאים WooCommerce פגישות. <a href=\"%s\" class=\"button button-primary"
+"\">להוסיף מוצרים Appointable</a>"
+
+#. translators: 1: href link to global availability settings
+#: woocommerce-appointments.php:137
+msgid ""
+"Global availability has been configured from Monday to Friday, 9am to 5pm. "
+"<span class=\"dashicons dashicons-edit\"></span> <a href=\"%s\">Edit global "
+"availability here</a>."
+msgstr ""
+"זמינות גלובלית נקבעה מיום שני עד שישי, 9 בבוקר עד 5 אחה\"צ <span class="
+"\"dashicons dashicons-edit\"></span> <a href=\"%s\">לערוך כאן זמינותזמינות "
+"גלובלית</a>."
+
+#: woocommerce-appointments.php:209
+msgid "Shop Staff"
+msgstr "מדריכים"
+
+#: woocommerce-appointments.php:514
+msgid "Add New Appointment"
+msgstr "הוספת תור חדש"
+
+#: woocommerce-appointments.php:518 woocommerce-appointments.php:519
+msgid "View Appointment"
+msgstr "צפה בפגישה"
+
+#: woocommerce-appointments.php:520
+msgid "Search Appointments"
+msgstr "חיפוש פגישה"
+
+#: woocommerce-appointments.php:521
+msgid "No Appointments found"
+msgstr "לא נמצאו פגישות"
+
+#: woocommerce-appointments.php:522
+msgid "No Appointments found in trash"
+msgstr "לא נמצאו פגישות בסל המחזור"
+
+#: woocommerce-appointments.php:523
+msgid "Parent Appointments"
+msgstr "פגישות אב"
+
+#: woocommerce-appointments.php:525
+msgid "All Appointments"
+msgstr "כל הפגישות"
+
+#: woocommerce-appointments.php:527
+msgid "This is where appointments are stored."
+msgstr "לא נמצאו פגישות"
+
+#. translators: 1: count, 2: count
+#: woocommerce-appointments.php:556
+msgid "Complete <span class=\"count\">(%s)</span>"
+msgid_plural "Complete <span class=\"count\">(%s)</span>"
+msgstr[0] "הסתיים <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#. translators: 1: count, 2: count
+#: woocommerce-appointments.php:565
+msgid "Paid &amp; Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Paid &amp; Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "בתשלום &amp; מאושרות <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#. translators: 1: count, 2: count
+#: woocommerce-appointments.php:574
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "מאושרות <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#. translators: 1: count, 2: count
+#: woocommerce-appointments.php:583
+msgid "Un-paid <span class=\"count\">(%s)</span>"
+msgid_plural "Un-paid <span class=\"count\">(%s)</span>"
+msgstr[0] "לא שולם <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#. translators: 1: count, 2: count
+#: woocommerce-appointments.php:592
+msgid "Pending Confirmation <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Confirmation <span class=\"count\">(%s)</span>"
+msgstr[0] "בקשות בהמתנה <span class=\"count\">%s</span>"
+msgstr[1] ""
+
+#. translators: 1: count, 2: count
+#: woocommerce-appointments.php:601
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "מבוטלים <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#. translators: 1: count, 2: count
+#: woocommerce-appointments.php:610
+msgid "In Cart <span class=\"count\">(%s)</span>"
+msgid_plural "In Cart <span class=\"count\">(%s)</span>"
+msgstr[0] "בעגלה <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#. translators: 1: count, 2: count
+#: woocommerce-appointments.php:629
+#, fuzzy
+#| msgid "Cancelled <span class=\"count\">(%s)</span>"
+#| msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgid "Partially Paid <span class=\"count\">(%s)</span>"
+msgid_plural "Partially Paid <span class=\"count\">(%s)</span>"
+msgstr[0] "מבוטלים <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#: woocommerce-appointments.php:655
+msgid "View Documentation"
+msgstr "צפה בתיעוד"
+
+#: woocommerce-appointments.php:655
+msgid "Docs"
+msgstr "מסמכים"
+
+#: woocommerce-appointments.php:656
+msgid "Visit Support Forum"
+msgstr "בקר בפורום תמיכת לקוח"
+
+#: woocommerce-appointments.php:656
+msgid "Premium Support"
+msgstr "תמיכת פרמיום"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.bizzthemes.com/plugins/woocommerce-appointments/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Setup appointable products for WooCommerce"
+msgstr "התקנה של  מוצרי פגישה עבור WooCommerce"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "BizzThemes"
+msgstr "BizzThemes"
+
+#. Author URI of the plugin/theme
+msgid "https://bizzthemes.com"
+msgstr ""
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:160
+msgctxt "appointment cost string"
+msgid "Cost"
+msgstr "עֲלוּת"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:110
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"
+
+#. translators: 1: guest name
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:176
+#, fuzzy
+#| msgid "Guest"
+msgctxt "woocommerce-appointments"
+msgid "Guest (%s)"
+msgstr "אורח"
+
+#: includes/integrations/class-wc-appointments-integration-twilio-sms.php:33
+msgctxt "woocommerce-appointments"
+msgid "Appointment Reminder"
+msgstr "תזכורת פגישה"
+
+#: woocommerce-appointments.php:550
+msgctxt "woocommerce-appointments"
+msgid "Complete"
+msgstr "הושלם"
+
+#: woocommerce-appointments.php:559
+msgctxt "woocommerce-appointments"
+msgid "Paid &amp; Confirmed"
+msgstr "הושלם &amp; שולם"
+
+#: woocommerce-appointments.php:568
+msgctxt "woocommerce-appointments"
+msgid "Confirmed"
+msgstr "אושר"
+
+#: woocommerce-appointments.php:577
+msgctxt "woocommerce-appointments"
+msgid "Un-paid"
+msgstr "לא-שולם"
+
+#: woocommerce-appointments.php:586
+msgctxt "woocommerce-appointments"
+msgid "Pending Confirmation"
+msgstr "ממתין לאישור"
+
+#: woocommerce-appointments.php:595
+msgctxt "woocommerce-appointments"
+msgid "Cancelled"
+msgstr "בוטל"
+
+#: woocommerce-appointments.php:604
+msgctxt "woocommerce-appointments"
+msgid "In Cart"
+msgstr "בעגלת הקניות"
+
+#: woocommerce-appointments.php:623
+#, fuzzy
+#| msgid "Automatically assigned"
+msgctxt "woocommerce-appointments"
+msgid "Partially Paid"
+msgstr "מוקצה באופן אוטומטי"
+
+#: includes/admin/views/html-appointment-availability.php:43
+msgctxt "date format"
+msgid "w"
+msgstr "כexecute permission"
+
+#: includes/admin/views/html-appointment-availability.php:44
+#: includes/admin/views/html-calendar-month.php:82
+msgctxt "date format"
+msgid "l"
+msgstr "חמשים"
+
+#. translators: 1: guest name
+#: includes/data-objects/class-wc-appointment.php:926
+#, fuzzy
+#| msgid "Guest"
+msgctxt "Guest string with name from appointment order in brackets"
+msgid "%s (Guest)"
+msgstr ")שירותי אורחים("
+
+#: includes/data-stores/class-wc-appointment-data-store.php:55
+msgctxt "Appointment date parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr "%b %d, %Y @ %I:%M %p"
+
+#: woocommerce-appointments.php:524
+msgctxt "Admin menu name"
+msgid "Appointments"
+msgstr "פגישות"
+
+#~ msgid "Number of customers"
+#~ msgstr "מספר הלקוחות"
+
+#~ msgid "Capacity"
+#~ msgstr "כמות"
+
+#~ msgid "The maximum number of customers allowed per slot."
+#~ msgstr "המספר המרבי של לקוחות המותר עבור כל חריץ."
+
+#~ msgid "Slot count"
+#~ msgstr "כמות טווחים"
+
+#~ msgid "Capacity count"
+#~ msgstr "כמות"
+
+#~ msgid "Staff selection"
+#~ msgstr "בחירת צוות העובדים"
+
+#~ msgid ""
+#~ "Capacity for this appointable product will equal number of staff linked."
+#~ msgstr "קיבולת עבור מוצר פגישה תהיה שווה למספר העובדים מקושרים."
+
+#~ msgid "Appointments by day"
+#~ msgstr "פגישות לפי יום"
+
+#~ msgid "unpaid"
+#~ msgstr "לא-שולם"
+
+#~ msgid "Appointments by month"
+#~ msgstr "פגישות לפי חודש"
+
+#~ msgid "<small class=\"from\">From </small>%s"
+#~ msgstr "<small class=\"from\">מ- </small>%s"
+
+#, fuzzy
+#~| msgid "%s: %s"
+#~ msgid "%1$s: %2$s"
+#~ msgstr "%s: %s"
+
+#, fuzzy
+#~| msgid "Email queued: %s scheduled on %s<br/>Trigger: %s"
+#~ msgid "Email queued: %1$s scheduled on %2$s<br/>Trigger: %3$s"
+#~ msgstr "דוא ל תור: %s מתוזמנות ב- %s<br>המפעיל: %s"
+
+#, fuzzy
+#~| msgctxt "woocommerce-appointments"
+#~| msgid "Paid &amp; Confirmed"
+#~ msgid "Paid &amp; Confirmed"
+#~ msgstr "הושלם &amp; שולם"
+
+#, fuzzy
+#~| msgid "Automatically assigned"
+#~ msgctxt "woocommerce-deposits"
+#~ msgid "Partially Paid"
+#~ msgstr "מוקצה באופן אוטומטי"
+
+#~ msgid "Order &ndash; %s"
+#~ msgstr "הזמנה %s"
+
+#~ msgid "User Email:"
+#~ msgstr "הדוא\"ל של המשתמש:"
+
+#~ msgid "View User"
+#~ msgstr "הצג משתמש"
+
+#~ msgid "View Order"
+#~ msgstr "הצג הזמנה"
+
+#~ msgid "Select an order&hellip;"
+#~ msgstr "בחר הזמנה &hellip;"
+
+#~ msgid "Appointment #%d status changed manually from \"%s\" to \"%s\""
+#~ msgstr "סטטוס # %d פעילות שינתה באופן ידני של \"%s\" \"%s\""
+
+#~ msgid "Customer does not exist"
+#~ msgstr "פרטי לקוח"
+
+#~ msgid "Provider"
+#~ msgstr "ספק"
+
+#~ msgid "%y year"
+#~ msgid_plural "%y years"
+#~ msgstr[0] "שנה %y"
+#~ msgstr[1] ""
+
+#~ msgid "%m month"
+#~ msgid_plural "%m months"
+#~ msgstr[0] "חודש %m"
+#~ msgstr[1] ""
+
+#~ msgid "%d day"
+#~ msgid_plural "%d days"
+#~ msgstr[0] "%d יום"
+#~ msgstr[1] "%d יום"
+
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "דקות %i "
+#~ msgstr[1] ""
+
+#~ msgid "Author:"
+#~ msgstr "הרשאות Authorization"
+
+#~ msgid ""
+#~ "The product %s has been removed from the order because the appointment #"
+#~ "%d cannot be confirmed."
+#~ msgstr "המוצר %s הוסר מן ההזמנה שלך כי לא יכל לאשר את הפעילות # %d."
+
+#~ msgid "There is only %d place remaining on %s."
+#~ msgid_plural "There are %d places remaining on %s."
+#~ msgstr[0] "יש רק %d המקום שנותר ב- %s."
+#~ msgstr[1] ""
+
+#~ msgid "Custom Input Multiplier"
+#~ msgstr "מכפיל קלט מותאמות אישית"
+
+#~ msgid "Group Name"
+#~ msgstr "שם קבוצה"
+
+#~ msgid "Option Label"
+#~ msgstr "אפשרויות תווית"
+
+#~ msgid "Option Price"
+#~ msgstr "אפשרויות מחירים"
+
+#~ msgid "paid"
+#~ msgstr "לא-שולם"
+
+#~ msgid "pending-confirmation"
+#~ msgstr "ממתין לאישור"
+
+#~ msgid "confirmed"
+#~ msgstr "אושר"
+
+#~ msgid "cancelled"
+#~ msgstr "בוטל"
+
+#~ msgid "complete"
+#~ msgstr "הושלם"
+
+#~ msgid "in-cart"
+#~ msgstr "ב-עגלה"
+
+#~ msgid "Scheduled: %s"
+#~ msgstr "מתוכנן: %s"
+
+#~ msgid "Appointment Time: %s"
+#~ msgstr "זמן פגישה: %s"
+
+#~ msgid "Go Book"
+#~ msgstr "לְהַזמִין"
+
+#~ msgid "Select a appointable product..."
+#~ msgstr "בחר מוצר פגישה..."
+
+#~ msgid "Auto-select day?"
+#~ msgstr "בחירת לקוח"
+
+#~ msgid ""
+#~ "Check this box if you want first available day on the calendar to be auto-"
+#~ "selected."
+#~ msgstr ""
+#~ "סמן תיבה זו אם ברצונך ביום ראשון זמין בלוח השנה כדי להיות כשיר לבחירה "
+#~ "אוטומטית."
+
+#~ msgid "Scheduled Individually"
+#~ msgstr "מתוזמן  בנפרד"
+
+#~ msgid "Check this box if the appointment is limited to 1 customer only."
+#~ msgstr "סמן תיבה זו אם הפגישה היא מוגבלת רק ללקוח אחד."
+
+#~ msgid "Enter with your Google Client ID."
+#~ msgstr "להיכנס עם תעודה מזהה לקוח של גוגל"
+
+#~ msgid "Enter with your Google Client Secret."
+#~ msgstr " Google Client Secret."
+
+#~ msgid "To use this integration you need create a project in %s:"
+#~ msgstr "כדי להשתמש שילוב זה צריך ליצור פרוייקט ב- %s:"
+
+#~ msgid "Google Developers Console"
+#~ msgstr "Google Developers Console"
+
+#~ msgid "Create Project."
+#~ msgstr "צור פרוייקט"
+
+#~ msgid ""
+#~ "Enable the <strong>Google Calendar API</strong> in <strong>APIs & auth > "
+#~ "APIs</strong>."
+#~ msgstr ""
+#~ "הפעלת ה- <strong>api של גוגל לוח שנה</strong> ב- <strong>APIs & אימות > "
+#~ "api של</strong>."
+
+#~ msgid ""
+#~ "While in <strong>APIs & auth > Credentials</strong>, create an OAuth "
+#~ "client for a <strong>Web application</strong> and set the "
+#~ "<strong>Authorized redirect URI</strong> as <code>%s</code>."
+#~ msgstr ""
+#~ "בזמן <strong>APIs & אימות > אישורי</strong>, ליצור לקוח OAuth עבור "
+#~ "<strong>יישום אינטרנט</strong> ולקבוע את <strong>מורשה לנתב מחדש אורי</"
+#~ "strong> כמו <code>%s</code> ."
+
+#~ msgid ""
+#~ "While in <strong>APIs & auth > Push</strong>, Add your site root URL as "
+#~ "<code>%s</code>. Your site must be under <strong>https://</strong> URL, "
+#~ "otherwise two-way synchronization won't work."
+#~ msgstr ""
+#~ "בזמן <strong>APIs & אימות > לדחוף</strong>, הוסף אתר השורש ה-URL שלך כמו "
+#~ "<code>%s</code> . האתר שלך חייב להיות תחת <strong>https://</strong> URL, "
+#~ "אחרת לא יעבוד בסינכרון דו-כיווני."
+
+#~ msgid "Staff #"
+#~ msgstr "צוות #"
+
+#, fuzzy
+#~ msgid "Status: "
+#~ msgstr "סטטוס"
+
+#~ msgid "Before"
+#~ msgstr "לפני"
+
+#~ msgid "After"
+#~ msgstr "אחרי"
+
+#~ msgid "Before and After"
+#~ msgstr "לפני ואחרי"
+
+#~ msgid ""
+#~ "Specify the number of minutes or hours of padding you need around the "
+#~ "service."
+#~ msgstr "ציין את מספר דקות או שעות של מרווח  שעליך סביב השירות."
+
+#~ msgid "Enter a name for the new staff"
+#~ msgstr "הזן שם עבור הסגל החדש"
+
+#~ msgid "Membership cancelled because subscription was trashed."
+#~ msgstr "חברות בוטלה בגלל שהמנוי הועבר לסל מחזור"
+
+#~ msgid "Membership cancelled because subscription was deleted."
+#~ msgstr "חברות בוטלה בגלל שהמנוי נמחק"
+
+#~ msgid ""
+#~ "Membership free trial activated because subscription was re-activated."
+#~ msgstr "מנוי ניסיון חינם מופעל כי המנוי היה מופעל מחדש."
+
+#~ msgid "Membership activated because subscription was re-activated."
+#~ msgstr "חברות מופעל כי המנוי היה מופעל מחדש."
+
+#~ msgid "Membership paused because subscription was put on-hold."
+#~ msgstr "החברות מושהה כי המנוי היה נמצא בהמתנה."
+
+#~ msgid "Membership expired because subscription expired."
+#~ msgstr "חברות פגה תוקף משום מנוי פג תוקף."
+
+#~ msgid ""
+#~ "Membership marked as pending cancellation because subscription is pending "
+#~ "cancellation."
+#~ msgstr "חברות המסומנים כפי ממתין לביטול כי המנוי הוא ממתין לביטול."
+
+#~ msgid "Membership cancelled because subscription was cancelled."
+#~ msgstr "חברות בוטלה בגלל שהמנוי בוטל."
+
+#~ msgid "Free Trial <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Free Trial <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "ניסיון חינם <span class=\"count\">(%s)</span>"
+#~ msgstr[1] ""
+
+#~ msgid "Subscription not yet ended"
+#~ msgstr "המנוי עדיין לא הסתיים"
+
+#~ msgid "Subscription:"
+#~ msgstr "הרשמה:"
+
+#~ msgid "Next Bill On:"
+#~ msgstr "חיוב הבא ב:"
+
+#~ msgid "Next Bill On"
+#~ msgstr "חיוב הבא ב"
+
+#~ msgid ""
+#~ "Membership will be active while the purchased subscription is active."
+#~ msgstr "החברות יהיה פעיל בזמן המנוי שנרכש פעיל."
+
+#~ msgid ""
+#~ "If membership access is granted via the purchase of a subscription, then "
+#~ "membership length will be automatically equal to the length of the "
+#~ "subscription, regardless of the membership length setting above."
+#~ msgstr ""
+#~ "אם הרשאת גישה חברות באמצעות רכישת מנוי, אז אורך החברות יהיה שווה באופן "
+#~ "אוטומטי האורך של המנוי, ללא קשר להגדרה אורך חברות מעל."
+
+#~ msgid "Start after trial"
+#~ msgstr "התחל לאחר תקופת ניסיון חינם"
+
+#~ msgid ""
+#~ "Membership activated because WooCommerce Subscriptions was activated."
+#~ msgstr "חברות הופעלה מאחר  מנויים ב WooCommerce  הופעלו."
+
+#~ msgid ""
+#~ "Membership free trial activated because WooCommerce Subscriptions was "
+#~ "activated."
+#~ msgstr "מנוי ניסיון חינם התחיל מאחר ומנויי WooCommerce  הופעל."
+
+#~ msgid "Membership paused because WooCommerce Subscriptions was deactivated."
+#~ msgstr "החברות מושהה משום שמנויי WooCommerce  הוקפאה."
+
+#~ msgctxt "Membership Status"
+#~ msgid "Free Trial"
+#~ msgstr "נסיון חינם"
+
+#~ msgid "Appointment cost"
+#~ msgstr "עלות פגישה"
+
+#~ msgid "Scheduled by"
+#~ msgstr "שתוזמנו על-ידי"
+
+#~ msgid "Date created:"
+#~ msgstr "תאריך יצירה:"
+
+#~ msgid "Appointment Specification"
+#~ msgstr "מפרט הפגישה"
+
+#~ msgid "Appointment Quantity"
+#~ msgstr "כמות הפגישות:"
+
+#~ msgid "Appointment Date/Time"
+#~ msgstr "פגישה תאריך/שעה"
+
+#~ msgid "Busy Filter"
+#~ msgstr "מסנן עסוק"
+
+#~ msgid ""
+#~ "Remove some of your available slots. If your appointable product is not "
+#~ "busy enough, we recommend using it."
+#~ msgstr ""
+#~ "להסיר חלק את החריצים הזמינים. אם המוצר הואא פגישה שלך אינו מספיק עסוק, "
+#~ "אנו ממליצים להשתמש בו."
+
+#~ msgid "Off"
+#~ msgstr "כבוי"
+
+#~ msgid "Remove roughly 20% of your openings"
+#~ msgstr "להסיר בערך 20% פתיחות שלך"
+
+#~ msgid "Remove roughly 35% of your openings"
+#~ msgstr "להסיר בערך 35% פתיחות שלך"
+
+#~ msgid "Remove roughly 50% of your openings"
+#~ msgstr "להסיר בערך 50% פתיחות שלך"
+
+#~ msgid "Book Appointment"
+#~ msgstr "הזמן פגישה"
+
+#~ msgid "All scheduled"
+#~ msgstr "הכל מתוכנן"
+
+#~ msgid "My appointments"
+#~ msgstr "הפגישות שלי"

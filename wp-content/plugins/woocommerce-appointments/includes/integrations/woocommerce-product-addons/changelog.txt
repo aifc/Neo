@@ -1,0 +1,80 @@
+*** Product Addons Changelog ***
+
+2016-12-09 - version 2.7.26
+* Fix - Issue where required fields are failing to add to the cart using the order again option.
+* Fix - Issue product add-ons are not being re-added when paying for pending or failed renewal orders.
+* Fix - Update deprecated API of WooCommerce being used this extension.
+
+2016.10.26 - version 2.7.25
+* Fix - Text field type addon is not accounting for multibyte characters.
+
+2016.09.29 - version 2.7.24
+* Fix - Undefined error when variation data is not found.
+* Fix - Product totals not updated instantly when clicking up and down number input.
+* Fix - In Safari browser, validation not working when minimum set to 0.
+
+2016.09.06 - version 2.7.23
+* Fix - Addon totals were displayed on top of options due to last version.
+
+2016.08.10 - version 2.7.22
+* Tweak - Relocate addon fields to be after the variation description.
+
+2016.07.16 - version 2.7.21
+* Fix - Tax inclusive display is not showing on addons in cart/checkout.
+
+2016.07.07 - version 2.7.20
+* Tweak - Load frontend CSS with wp_enqueue_script hook instead of get_header
+
+
+2016.06.14 - version 2.7.19
+* Fix - Product addons not applying to grouped products when using global addons.
+
+
+2016.05.26 - version 2.7.18
+* Tweak - Adjusts the 'Product Data' icon to use Dashicons
+* Fix   - Ensure compatibility with appointments where the price was not affected by the cost multiplier.
+
+2016.04.04 - version 2.7.17
+* Fix - Options total/grand total does not work with "Free" product.
+* Fix - Missing minified quickview.js.
+
+2016.03.20 - version 2.7.16
+* Fix - When fields are not required and left empty, prevented add to cart from working.
+* Fix - Compatibility with Subscriptions title when addon is present.
+* Tweak - Compatibility with Composite Products.
+* Tweak - Clear addon fields when clear variations link is clicked.
+* Tweak - Using custom multiplier if zero is entered, don't show addons in cart.
+* Update - POT file.
+* Remove - accounting.js file in favor of using the one that comes with WC core.
+
+
+2016.01.26 - version 2.7.15
+* Tweak - Show the price display suffix on the grand total.
+
+2016.01.14 - version 2.7.14
+* Fix - WooCommerce 2.5 compatibility.
+* Fix - Made the 'required' tooltip translatable.
+
+
+2015.11.24 - version 2.7.13
+* Fix - Compatibility fix for WooCommerce Photography. The "select options" button should now lead to the correct screen when using WC Photography 1.0.6.
+* i18n / translation updates
+
+2015.11.06 - version 2.7.12
+* Fix - Compatibility fix for WooCommerce Photography. Users can no longer add photography products to cart without filling any required add-on fields.
+* Fix - The "default label" place holder now clears when you click into it.
+* Fix - Fix toggle display on "global add-ons" page.
+* Fix - Compatibility fix for WooCommerce Quick View. Prices with variations now quickly display the correct grand total on single product pages.
+
+2015.09.29 - version 2.7.11
+* Limit input element names in HTML to less than 64 characters to avoid issues on some hosts
+
+2015.10.13 - version 2.7.10
+* Automatically add a default option when a new add-on group is added to a product
+* Prevent merchant from removing all options in a given add-on group
+* Add custom email as an add-on field option
+* Add custom letters only text, digits only text and letters and digits only text as add-on field options
+* Add subscription period to add-on prices and totals for simple subscriptions too (not just those with variations)
+
+2015.08.14 - version 2.7.9
+* Forked version of WooCommerce Product Add-ons

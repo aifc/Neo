@@ -1,0 +1,39 @@
+#wpcontent, #wpfooter {
+    margin-left: 0;
+}
+
+html.wp-toolbar {
+    padding-top: 0px;
+}
+
+#adminmenuback, #adminmenuwrap, #wpadminbar, #contextual-help-link-wrap,
+#screen-options-link-wrap, #update-nag, .update-nag, a.page-title-action,
+#object_type, #advanced-sortables {
+    display: none;
+}
+
+#woocommerce-product-data div#appointments_availability {
+    display: block !important;
+    width: 100%;
+}
+
+#woocommerce-coupon-data .wc-metaboxes-wrapper, #woocommerce-coupon-data .woocommerce_options_panel,
+#woocommerce-product-data .wc-metaboxes-wrapper, #woocommerce-product-data .woocommerce_options_panel,
+#woocommerce-coupon-data ul.wc-tabs, #woocommerce-product-data ul.wc-tabs, .woocommerce ul.wc-tabs,
+#post-body-content,#major-publishing-actions,#misc-publishing-actions,#preview-action,
+h2.ui-sortable-handle, div.show_if_appointment,
+div.options_group > p,
+#postexcerpt, #commentsdiv, .wp-heading-inline,
+#footer-upgrade, .button-link, .notice-warning {
+    display: none !important;
+}
+
+.options_group .toolbar {
+    border-bottom: none !important;
+}
+
+#minor-publishing-actions
+{
+	padding: 10px;
+}
+

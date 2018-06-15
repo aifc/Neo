@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BizzThemes//WooCommerce Appointments 2.6.2//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:My Christian Counsellor
+X-ORIGINAL-URL:http://mychristiancounsellor.org.au/
+X-WR-CALDESC:Appointments from My Christian Counsellor
+X-WR-TIMEZONE:Australia/Sydney
+BEGIN:VEVENT
+DTEND:20180521T180000
+UID:wc_appointments_1604
+DTSTAMP:20180520T214311
+LOCATION:
+DESCRIPTION:Staff: Doctor Strange\n\n
+URL;VALUE=URI:https://zoom.us/j/811699192
+SUMMARY:#1604 - Appointment with Doctor Strange
+DTSTART:20180521T170000
+END:VEVENT
+END:VCALENDAR

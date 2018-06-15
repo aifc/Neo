@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BizzThemes//WooCommerce Appointments 2.6.2//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Neo
+X-ORIGINAL-URL:http://mychristiancounsellor.org.au/
+X-WR-CALDESC:Appointments from Neo
+X-WR-TIMEZONE:Australia/Sydney
+BEGIN:VEVENT
+DTEND:20171213T110000
+UID:wc_appointments_1058
+DTSTAMP:20171128T053013
+LOCATION:
+DESCRIPTION:Staff: Doctor Strange\n\n
+URL;VALUE=URI:http://mychristiancounsellor.org.au/woocommerce-account-page/view-order/1059
+SUMMARY:#1058 - Appointment with Doctor Strange
+DTSTART:20171213T100000
+END:VEVENT
+END:VCALENDAR

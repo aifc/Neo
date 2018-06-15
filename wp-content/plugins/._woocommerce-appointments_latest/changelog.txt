@@ -1,0 +1,1056 @@
+*** WooCommerce Appointments Changelog ***
+
+2017.12.18 - version 3.5.6
+* Improvement   - Added weekday-x, with x as day number of week for each calendar day.
+* Improvement   - Bump tested version to WooCommerce 3.3
+* Improvement   - Order metadata synced with Google Calendar sync.
+* Improvement   - Better indication of places left, with overall number when staff is assigned.
+* Improvement   - Updated all translations.
+* Improvement   - Updated Product Add-ons to v2.9.1
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/289/change-in-code
+* Fix           - Appointments overwriting notes made directly on Google Calendar on subsequent syncs.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/216/wc-memberships-base-price-discounted-twice
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/284/week-start-day-wrong-calendar-class-ui
+* Fix           - Customer defined slots by hour durations buffering by incorrect amounts.
+* Fix           - Remove activation notice when plugin is deactivated.
+* Fix           - Global and product rule not overriding staff rules when calling get_slots_in_range directly
+* Fix           - Incorrect remaining count on slots when staff members overlap and are set to automatically assigned.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/290/wc_availability_rules_priority-acting
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/251/not-working-with-gravity-forms-add-ons
+* Fix           - Added 1 hour to lead time to account for current time.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/286/incorrect-slot-availability-calculation-on
+* Fix           - WPML not duplicating staff across all languages.
+* Fix           - WPML removing all staff inventory for translated products, even when more qty is available.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/288/wrong-inventory-with-wpml
+* Fix           - Deposit integration parent order not marked as completed when it contains an appointment.
+* Fix           - Failed order's appointments are never cancelled.
+* Fix           - Make sure lead time accounted for start time as well as end time.
+
+2017.11.23 - version 3.5.5
+* Improvement   - Autoselect first available slot for next 12 months.
+
+2017.11.20 - version 3.5.4
+* Feature       - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/19/switch-capacity-to-official-woocommerce
+* Improvement   - Added 'wc_availability_rules_priority' filter for modifying appointment rules level weight.
+* Improvement   - Updated translations.
+* Fix           - Display addon duration and extra appointment fields in admin at all times.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/283/auto-select-first-slot-not-working
+
+2017.11.15 - version 3.5.3.1
+* Improvement   - Updated translations.
+* Fix           - https://bizzthemes.com/forums/topic/incorrect-remaining-places-message-missing-remaining-places-information/
+
+2017.11.14 - version 3.5.3
+* Fix           - https://bizzthemes.com/forums/topic/incorrect-remaining-places-message-missing-remaining-places-information/
+
+2017.11.14 - version 3.5.2.1
+* Fix           - X-scroll issue with daily staff view in admin calendar
+
+2017.11.14 - version 3.5.2
+* Improvement   - Updated calendar design in admin.
+* Improvement   - Updated calendar design in frontend.
+* Fix           - When multiple staff is scheduled at once, use max quantity of all combined.
+* Fix           - Make sure CSS classes are accounted for even for disabled days on calendar.
+* Fix           - 'schedule_fo_' transient cache not working properly, missing from and to dates.
+* Fix           - Google calendar events don't remove staff slots, when -- No Preference -- is selected.
+
+2017.11.11 - version 3.5.1
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/282/availability-with-staff-members-not
+
+2017.11.07 - version 3.5.0
+* Feature       - Allow price overriding for all Appointments by adding equals operator in the costs range.
+* Improvement   - Removed Inventory from Global availability rules to reduce confusion and improve usability.
+* Improvement   - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/279/global-inventory-interfeers-with-staff
+* Improvement   - Add new notice for plugin activation.
+* Improvement   - Calendar page title.
+* Improvement   - Updated translations.
+* Improvement   - Improve error feedback on calendar timepicker.
+* Improvement   - Update sanity check notices and convert them to warnings.
+* Improvement   - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/281/capacity-and-capacity-max-tooltip-the-same
+* Fix           - Staff dropdown should only display the costs related to the staff.
+* Fix           - Prevent deleting products that have bookings associated with them.
+* Fix           - "Scheduled By" column is empty if there's no email address specified for the customer.
+* Fix           - Restrict Days not working when site is translated.
+* Fix           - Incorrect remaining count on slots when staff overlap.
+* Fix           - Calendar not defaulting to first available date with shared staff.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/280/product-capacity-acting-strange
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/216/wc-memberships-base-price-discounted-twice
+
+2017.10.28 - version 3.4.9
+* Fix           - Missing slots, when no staff selected.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/276/the-status-bar-width-on-days-in-calendar
+* Fix           - https://bizzthemes.com/forums/topic/problem-with-last-one-update-3-4-7/
+
+2017.10.24 - version 3.4.8
+* Improvement   - Updated translations.
+* Fix           - Calendar availability for appointments that end at midnight.
+* Fix           - Calendar does not show schedule bar for staff not fully scheduled.
+* Fix           - When no staff selected, available slots not shown.
+* Fix           - https://bizzthemes.com/forums/topic/problem-with-last-one-update-3-4-7/
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/276/the-status-bar-width-on-days-in-calendar
+* Fix           - https://bizzthemes.com/forums/topic/integration-with-gravity-forms-product-add-ons/page/2/#post-146233
+
+2017.10.21 - version 3.4.7
+* Improvement   - Removed compatibility for older version, where staff capacity was saved inside user edit screen.
+* Improvement   - Big performance improvements, especially when staff is assigned to products.
+* Fix           - https://bizzthemes.com/forums/topic/integration-with-gravity-forms-product-add-ons/
+* Fix           - Calendar admin week view grid lines.
+* Fix           - Fixed availability issues for multiple staff.
+
+2017.10.19 - version 3.4.6
+* Feature       - Allow downloadable items with appointments.
+* Improvement   - Added integration with "WooCommerce Print Invoices/Packing Lists" extension.
+                  Also compatible with free "WooCommerce PDF Invoices".
+* Improvement   - To reduce confusion, replaced staff inventory placeholder with N/A.
+* Improvement   - Make sure Availability and Staff product admin menu tabs are place just below General and Inventory.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/269/wrong-appointment-status-with-pos-plugin
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/270/conflict-with-activity-log-plugin
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/271/general-tab-on-variable-products-with
+* Fix           - Division by zero notice.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/272/appointments-added-through-gcal-block-all
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/273/when-saving-appointment-in-backend
+
+2017.10.12 - version 3.4.5
+* Improvement   - Remove ACF plugin's timepicker scripts.
+* Improvement   - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/144/attach-ics-to-customer-order-complete
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/251/not-working-with-gravity-forms-add-ons
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/243/duplicate-appointments-with-wpml-in-the-my
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/252/woocommerce-multilingual-custom-pricing
+
+2017.10.09 - version 3.4.4
+* Improvement   - Calendar view selection in admin saved and set to default automatically.
+* Improvement   - Additional checks for staff existence.
+* Fix           - Pagination of "My Appointments" for custom endpoints (other than "appointments") doesn't work.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/267/staff-notice-on-list-appointments
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/266/staff-members-cant-add-new-appointments
+* Fix           - Uncaught Exception: Invalid product.
+
+2017.10.03 - version 3.4.3
+* Fix           - PHP Fatal error: Uncaught Error: Call to a member function skip_status_transition_events() on null
+
+2017.10.02 - version 3.4.2
+* Improvement   - Changed terminology from "Capacity" to "Inventory" before switching to WooCommerce default inventory system.
+* Improvement   - Week selection in admin calendar's week view by datepicker.
+* Improvement   - Updated translations.
+* Fix           - Confirmation email sent twice.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/233/changing-order-status-from-complete-to
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/224/very-confusing-order-status
+
+2017.09.30 - version 3.4.1
+* Improvement   - Updated translations.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/251/not-working-with-gravity-forms-add-ons
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/227/refunding-an-appointable-product-leaves
+
+2017.09.29 - version 3.4.0
+* Feature       - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/184/view-appointments-by-week-in-backend
+* Improvement   - Added link to staff profile inside admin calendar / appointment card.
+* Improvement   - Pagination of "My Appointments".
+* Improvement   - Switch order of operations for `status_transitioned_handler`.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/250/icon-position-issue
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/259/error-when-trying-to-delete-wocommerce
+* Fix           - Full day appointments missing from Day view in admin calendar.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/260/woocommerce-order-appointment-displayphp
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/229/canelation-from-frontend-doesnt-remove
+* Fix           - Customer cancelled appointments were not triggering cancellation emails.
+* Fix           - Incorrect text domain for translation.
+* Fix           - Appointments Calendar not functioning properly for RTL languages.
+* Fix           - Random availability problem.
+* Fix           - Calendar calculation wasn't taking into consideration days before actual appointment for duration of type days.
+* Fix           - Data manipulation allows appointments outside of defined slots.
+* Fix           - Orders with multiple cancelled appointments still show as "Completed".
+* Fix           - PHP notice when adding bookable product that requires confirmation to the cart.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/262/capacity-count-in-custom-pricing-is-not
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/261/capcity-not-working-with-staff
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/264/email-triggered-everytime-confirmed
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/263/wrong-spaces-left-number
+* Fix           - Appointment status was saved as 'pending' instead of 'pending-confirmation'.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/255/follow-ups-not-working-on-latest-version
+
+2017.09.19 - version 3.3.3
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/256/duration-in-emails-is-wrong-in-332
+* Fix           - https://bizzthemes.com/forums/topic/dates-greyed-out-urgent/
+
+2017.09.15 - version 3.3.2
+* Fix           - Division by zero error.
+
+2017.09.14 - version 3.3.1
+* Fix           - Throwing JS errors for products with daily duration.
+
+2017.09.14 - version 3.3.0
+* Feature       - New functionality to restrict the day a appointment can start on.
+* Improvement   - Optimized loading times, much faster on all levels.
+* Improvement   - Added filters to allow switching to date created for My Account > Appointments.
+* Improvement   - Added wc_appointments_summary_list_date filter for wc_appointments_get_summary_list.
+* Improvement   - Moved Appointment Display to templates for orders on both front-end and admin.
+* Improvement   - Moved Appointment Summary list to templates for orders on both front-end and admin.
+* Improvement   - Send confirmation email for manually created appointments without an order.
+* Improvement   - Querystring for "time" now uses more readable format. Instead of "12:00", now "1200".
+* Improvement   - Removed "Order again" button for appointment orders.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/244/wc-memberships-with-discount-100-not-taken
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/242/time-zone-problems
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/241/sms-notification-doesn-t-work-for
+* Fix           - Admin calendar day view incorrect when times below 10am.
+* Fix           - Appointments calendar on the backend doesn't respect time format in WordPress settings.
+* Fix           - Appointments with orders created in admin had totals without taxes included.
+* Fix           - Fatal error when using woocommerce_email_recipient_appointment_confirmed
+* Fix           - Fatal if create_wc_appointment used to create appointment based on parent.
+* Fix           - Hour based slots overlapping midnight marks next day as partially booked even though it doesn't affect any of the slots.
+* Fix           - Refunded orders will update the Appointments status to Refunded.
+                  https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/227/refunding-an-appointable-product-leaves
+* Fix           - Today's availability rules were being ignored.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/246/issue-with-memberships-and-staff-extra
+* Fix           - Updated price HTML display to correctly show additional costs.
+* Fix           - Book button disabled on each price/slot calculation, prevents double appointment.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/251/not-working-with-gravity-forms-add-ons
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/248/lead-time-not-working-ok
+
+2017.08.21 - version 3.2.9.1
+* Improvement   - Unavailable days show as available on calendar.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/238/weird-acting-when-duration-interval-is-55
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/239/appointment-reminders-being-triggered
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/221/latest-tc-update-46-does-not-work-with
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/218/timezone-check-for-reminder-emails
+
+2017.08.17 - version 3.2.9
+* Improvement   - Book now button disabled until cost is calculated and availability checked.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/221/latest-tc-update-46-does-not-work-with
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/237/reminder-emails-not-sent
+
+2017.08.16 - version 3.2.8
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/236/wc-memberships-not-working-ok
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/216/wc-memberships-base-price-discounted-twice
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/221/latest-tc-update-46-does-not-work-with
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/232/wrong-first-slot-with-combined-product-and
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/234/availability-rule-acting-weird
+
+2017.07.31 - version 3.2.7
+* Improvement   - Double check if order has been created for the appointment.
+* Improvement   - Overnight rules for Sunday now correctly span into Monday.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/230/fatal-error-on-the-wc-settings-emails-page
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/231/cant-edit-the-subject-and-header-email-new
+
+2017.07.28 - version 3.2.6
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/228/my-account-appointments-throws-an-error
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/195/wrong-availability-with-time-range-date
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/208/monday-15-00-00-30-with-duration-30min-no
+
+2017.07.26 - version 3.2.5
+* Fix           - Error 500 when using external object cache, such as Memcached.
+* Fix           - Emails are triggered when saving an appointment and changes aren't made.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/222/no-preference-shows-no-slots-but-there-are
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/223/emails-sent-to-wrong-staff
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/226/connect-with-google-button-not-working
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/225/capacity-not-working-ok
+
+2017.07.24 - version 3.2.4
+* Improvement   - Updated Product add-ons to version 2.9.0
+* Fix           - Update WC 3.x compatibilities when duplicating product.
+* Fix           - Taxes not added when creating a appointment from admin.
+* Fix           - Reminder and complete cron events not set if Appointment is created without an order from the backend.
+* Fix           - Fatal error when appointments used with a cached objects.
+* Fix           - Email ID was the same for customer and admin appointment cancelled email.
+* Fix           - All day appointment option was being ignored on calendar after availability refactor.
+* Fix           - Availability rules using Date Range calculation on the frontend.
+* Fix           - "Connect with Google" does not save/update entries.
+* Fix           - Availability rules with dates in the past should be ignored for performance reasons.
+* Fix           - Add woocommerce_appointments_email_actions filter to allow additional Appointments emails.
+* Fix           - Default price being used when price rules make price 0.
+* Fix           - Incorrect date being checked when getting time slots vs availability rules.
+* Fix           - Endless loop when auto completion of appointment when it has no order.
+
+2017.07.19 - version 3.2.3
+* Fix           - Current day is not available, when lead time is less than 1 day.
+                  https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/220/lead-time-set-to-1-hour-disables-whole-day
+* Fix           - Removed support for recurring events with Google Calendar sync, due to crashes.
+                  https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/219/add-max-date-for-gcal-sync
+
+2017.07.18 - version 3.2.2
+* Feature       - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/135/add-staff-and-add-ons-to-querystring
+* Improvement   - Updated all translations.
+* Improvement   - Added additional get_price checks for better external plugin compatibility.
+* Improvement   - Updated WPML and added support for WPML multi-currency.
+
+2017.07.15 - version 3.2.1
+* Fix           - Current day is not available in any case.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/185/cant-have-2-autoselect-products-on-the
+
+2017.07.14 - version 3.2.0
+* Improvement   - Moved staff capacity from user edit screen to product edit screen.
+* Improvement   - Removed availability capacity from staff/user edit screen, due to complexity.
+* Improvement   - Simplified availability rule code checking.
+* Improvement   - Addon duration missing for select add-on fields.
+* Improvement   - Staff can also add products from other staff members, but can only edit products they created.
+* Improvement   - Partially scheduled dates now show percentage remaining for selected days as well.
+* Improvement   - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/216/wc-memberships-base-price-discounted-twice
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/209/error-with-wc-memberships
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/156/make-it-compatible-with-discouts-using
+* Fix           - Assigning all staff at once produces mixed results.
+* Fix           - Double check that queried appointments don't return empty array.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/207/unavailable-dates-show-as-bookable-on
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/214/fatal-error-on-staff-appointments-list
+* Fix           - Delete database entries on uninstall only in case `WC_REMOVE_ALL_DATA` is true.
+* Fix           - `/appointments/` account slug rewrite rules now stay put on permalink flush.
+* Fix           - Staff product tab showing wrong icon.
+* Fix           - Only sync Google Calendar if the integration is configured.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/215/staff-members-dont-see-any-appointments
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/217/lead-time-title-od-unavailable-days-is
+* Fix           - Brought back filter "woocommerce_appointments_remind_before_time".
+                  https://bizzthemes.com/forums/topic/has-the-filter-woocommerce_appointments_remind_before_time-been-removed/
+* Fix           - Show "From: xy" next to price, when staff with additional cost is assigned.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/202/order-total-is-empty-when-creating
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/194/cancelling-appointment-in-edit-appointment
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/211/emails-not-working-ok-when-appointment-is
+* Fix           - Not showing all staff in admin select box, when required.
+
+2017.06.29 - version 3.1.9
+* Improvement   - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/205/add-a-filter-to-customr-details-meta-box
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/208/monday-15-00-00-30-with-duration-30min-no
+
+2017.06.27 - version 3.1.8
+* Improvement   - Refactored and moved most DB queries to Data Store.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/201/calendar-in-admin-shows-sunday-as-first
+* Fix           - Email templates did not display cell borders correctly.
+* Fix           - Tweaked availability rules.
+* Fix           - Missing customer phone for admin created appointments.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/198/add-shop-manager-and-admin-as
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/196/product-slect-not-working-if-signed-in-as
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/143/fix-process_staff_unavailability_rules
+
+2017.06.22 - version 3.1.7
+* Improvement   - Calendar appointments in ASC order by start_date.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/193/notice-in-follow-up-emails
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/195/wrong-availability-with-time-range-date
+* Fix           - Temporarily added https://bizzthemes.com/forums/topic/order-notes-dont-seem-to-reflect-all-appointment-status-changes/#post-134484
+
+2017.06.21 - version 3.1.6
+* Improvement   - When customer is a registered user, show user details before billing details.
+* Fix           - Staff unavailability rules not merged correctly for Time range (date range) rules.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/182/appointment-after-midnight-doesnt-take
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/183/availability-rule-from-20-00-to-06-00
+* Fix           - Custom price label text. Deleted no payment for custom price label.
+* Fix           - Order_by argument for my_appointments was wrong, was orderby instead of order_by.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/188/staff-name-is-blank-in-follow-ups
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/175/create-appointment-from-backend-doesnt
+
+2017.06.07 - version 3.1.5
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/180/product-capacity-doesnt-work
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/178/slots-left-wrong-when-no-preference-is
+
+2017.06.04 - version 3.1.4
+* Fix           - Slots that extend over midnight are not able to schedule.
+
+2017.06.04 - version 3.1.3
+* Fix           - Availability rules for next day not working correctly.
+* Fix           - Custom pricing for base cost and slot cost fixes.
+* Fix           - Removed division and multiplier for custom slot cost as you can't multiply and divide zero.
+
+2017.06.02 - version 3.1.2
+* Fix           - Midnight availability rules not working correctly.
+
+2017.06.01 - version 3.1.1
+* Improvement   - All availability rules now apply for all slots
+* Improvement   - Global capacity now overrides product capacity for all products
+* Improvement   - Deprecated days global availability rule set by default in older plugin versions
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/174/sale-price-not-displayed-correctly
+
+2017.05.30 - version 3.1.0
+* Feature       - Added customizer option to edit default color scheme
+* Feature       - Deep WC Product Vendors integration
+                  https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/92/add-better-woocommerce-product-vendors
+* Improvement   - Updated translations
+* Fix           - Could not override myaccount/appointments.php template
+* Fix           - Staff checking across multiple products.
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/153/padding-not-taken-into-account-over
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/169/capacity-in-availability-rules-is-ignored
+
+2017.05.25 - version 3.0.9
+* Improvement   - .ics file now attached to all email notifications, except cancelled ones:
+                  https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/144/attach-ics-to-customer-order-complete
+* Fix           - Capacity issues, defined with availability rules
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/168/staff-members-can-see-all-appointment-in
+
+2017.05.23 - version 3.0.8
+* Improvement   - More CRUD queries
+* Improvement   - Refactored functions, controllers and rule manager
+* Improvement   - "Cash on delivery" payments trigger reminders and admin/staff notifications
+* Fix           - Conflict with WC Product Add-ons plugin
+* Fix           - Staff availability rules
+* Fix 			- https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/172/availability-rules-override-to-much
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/171/changing-status-of-order-falls-into-a-loop
+
+2017.05.16 - version 3.0.7
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/137/product-add-on-duration-multiplier-does
+
+2017.05.16 - version 3.0.6
+* Feature       - Set customer status to "No Show" when appointment is past due and is not paid for
+* Fix           - Order ajax search now works when editing appointment
+* Fix           - Query for appointments didn't work correctly
+* Fix           - Calendar capacity was incorrect, when no staff was assigned
+* Fix           - Google calendar sync product name missing
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/166/hiding-duration-info-with
+* Fix           - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/165/remove-view-my-appointments-for-guests
+
+2017.05.12 - version 3.0.5
+* Feature       - Add-on fields inside Google Calendar sync
+* Feature       - On certain cases not syncing to Google calendar
+* Fix           - Trashing an appointment will no longer trash its order if order has other items.
+* Fix   		- Compatibility issue with Product Add-Ons integrations.
+
+2017.05.09 - version 3.0.4
+* Feature       - Added add-ons to appointment edit screen in admin
+* Fix           - Fixed autoselect for date/time
+
+2017.05.06 - version 3.0.3
+* Fix           - Fixed Google calendar sync on appointments list
+
+2017.05.05 - version 3.0.2
+* Fix           - https://bizzthemes.com/forums/topic/plugin-doesnt-show-pricing/
+
+2017.05.04 - version 3.0.1
+* Improvement   - My account page displays better appointment data
+
+2017.05.04 - version 3.0.0
+* Feature       - WooCommerce 3.0 full CRUD compatibility
+* Improvement   - Better date/time rendering with duration always visible
+* Improvement   - Update translations
+* Fix           - The post_status field from submitdiv meta box causing unexpected transition appointment status events.
+* Fix           - https://bizzthemes.com/forums/topic/quick-edit-in-all-posts-missing/
+
+2017.04.06 - version 2.6.3
+* Feature       - Added Spanish translation es_ES
+* Improvement   - https://bitbucket.org/bizzthemes/woocommerce-appointments/pull-requests/28/add-data-object-to-filter-for-gcal-add/diff
+* Improvement   - https://bitbucket.org/bizzthemes/woocommerce-appointments/pull-requests/29/additional-past-and-upcoming-classes-for/diff
+* Fix   		- https://bitbucket.org/bizzthemes/woocommerce-appointments/pull-requests/25/fix-for-datepicker-not-showing-correct/diff
+* Fix   		- https://bitbucket.org/bizzthemes/woocommerce-appointments/pull-requests/30/fix-reference-to-customer-name-when-added/diff
+* Fix   		- https://bitbucket.org/bizzthemes/woocommerce-appointments/pull-requests/27/fix-for-issue-153-padding-not-taken-into/diff
+* Fix   		- https://bitbucket.org/bizzthemes/woocommerce-appointments/pull-requests/23/show-the-date-in-format-when-selected/diff
+
+2017.03.02 - version 2.6.2
+* Fix   		- https://bitbucket.org/bizzthemes/woocommerce-appointments/pull-requests/21/format-single-day-view-date-by-general
+* Fix   		- https://bitbucket.org/bizzthemes/woocommerce-appointments/pull-requests/22/urgent-fix-administration-calendar-query/diff
+
+2017.03.01 - version 2.6.1
+* Fix   		- https://bitbucket.org/bizzthemes/woocommerce-appointments/pull-requests/20/urgent-fix-to-use-or-instead-of-and-when
+
+2017.02.26 - version 2.6.0
+* Feature       - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/23/add-possibility-to-select-date-and-time
+* Improvement   - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/110/number-of-appointments-not-corresponding
+* Improvement   - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/120/add-php-code-sniffer-and-wpcs-to
+* Improvement   - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/129/follow-up-plugin-integration-missing
+* Improvement   - ALL PHP files linted and improved for better readability
+* Improvement   - Updated all languages
+* Fix   		- https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/119/remove-first-ajax-request-on-cost
+* Fix   		- https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/123/missing-slot-for-24-hour-business
+* Fix   		- https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/125/display-duration-as-weeks-instead-of-days
+* Fix   		- Issue with support for both padded appointments and 24/7 appointments (existing appointments query fix)
+
+2017.02.21 - version 2.5.2
+* Fix   		- https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/127/padding-time-is-not-taken-into-account
+* Fix   		- https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/130/timezone-issues-with-different-date-format
+
+2017.01.23 - version 2.5.1
+* Improvement   - Linted all PHP files
+* Fix   		- https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/117/next-slot-also-unavailable-when-duration
+
+2017.01.22 - version 2.5.0
+* Improvement   - Better automatic updates for the plugin.
+* Fix   		- https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/102/autoselect-doesnt-work-if-current-month
+* Fix   		- Better slot availability checking, when multiple staff is present. Added missing slots.
+* Fix   		- https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/112/css-rules-for-global-availablity
+
+2017.01.20 - version 2.4.9
+* Improvement   - Added filter for time slots: 'woocommerce_appointments_time_slots_html'.
+* Improvement   - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/28/deleting-staff-should-update-products
+* Improvement   - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/100/date-time-editing-for-approved-confirmed
+* Improvement   - Updated translations.
+* Fix   		- Fixed Google Calendar response_move variable notice.
+* Fix           - Google calndar events not synced into existing products correctly.
+
+2017.01.19 - version 2.4.8
+* Improvement   - Added missing appointment_id variable to Follow Ups plugin integration.
+* Fix           - Only schedule reminder for future appointments.
+* Fix           - Midnight being 1 minute short is now fixed.
+* Fix           - Datetime checking now works for the full appointment duration and not just intervals.
+* Fix           - Added missing $minutes_not_available variable for checking scheduled out time.
+* Fix           - Saving staff clears transients correctly.
+
+2017.01.06 - version 2.4.7
+* Fix           - Notices on comflict not working correctly.
+* Fix           - Clearing transients on staff deleting on product edit screen.
+* Fix           - Removed unused Appointment Notification email template to reduce confusion.
+
+2017.01.04 - version 2.4.6
+* Feature       - Notice on appointment conflicts in admin
+* Improvement   - Deprecated 'woocommerce_appointments_appointment_cost_string' filter
+				  and replaced it with 'woocommerce_appointments_appointment_cost_html'
+				  for the whole ajax price HTML
+* Improvement   - Date/time editing for approved/confirmed appointment should reschedule reminders.
+* Improvement   - Better organized external integration classes
+* Fix           - Frontend CSS fixes for various themes
+* Fix           - Added plugin version number to all JS files for caching issues.
+* Fix           - Clearing transients on staff saving on product edit screen.
+* Fix           - https://bizzthemes.com/forums/topic/not-sending-appointment-confirmation-email-and-error/
+
+2016.12.26 - version 2.4.5
+* Fix           - Minute slots shows not available when paired with time range with date rule type.
+* Fix           - Blogname not shown when cancelling appointments via bulk order.
+* Fix           - Availability rules ignored for hour duration type in certain configurations.
+* Fix           - Form fields don't save due to non-indexed form arrays.
+* Fix           - Fully scheduled days showing up as partially scheduled days and can be over scheduled.
+* Fix           - Product add on not calculating on when the duration unit was set to day.
+
+2016.12.23 - version 2.4.4
+* Improvement   - Updated Product add-ons to version 2.7.26
+* Improvement   - Dropped some support for WooCommerce 2.1 or older
+* Fix           - Some date format might be causing unintended message: "The earliest appointment possible is currently..."
+
+2016.12.14 - version 2.4.3
+* Fix - https://bizzthemes.com/forums/topic/appointment-confirmation-not-working-after-new-version-update-yesterday/
+* Fix - https://bizzthemes.com/forums/topic/only-one-slot-available-for-appointment/
+
+2016.12.09 - version 2.4.2
+* Fix - Availability rules issues.
+* Improvement - Updated translations
+
+2016.12.07 - version 2.4.1
+* Fix - PHP error when adding appointment in admin.
+
+2016.12.07 - version 2.4.0
+* Feature - Better support for Deposits partialy paid status.
+* Feature - Full compatibitily with Follow Up Emails extensions 5.0
+* Improvement - Dropped support for WooCommerce 2.2 or older
+* Improvement - Improved cutomer metabox
+* Fix - "Time Range (date range)" availability rule now works as it should
+* Fix - Different rule types couldn't be used on the same product as priorities were not respected across types.
+* Fix - Unavailable slots showed when rule time range goes beyond midnight (e.g. 9:30 PM - 06:30 AM )
+* Fix - Date with time showed days as not available when only a few hours was set is not available.
+* Fix - Multiple appointments per order cancellation emails polluted email data.
+
+2016.11.16 - version 2.3.0
+* Improvement - Filter `woocommerce_appointments_get_posted_data` to filter the data within an ajax request.
+* Improvement - Filter `woocommerce_appointment_is_scheduled_on_day`.
+* Improvement - Appointment status strings can be translated.
+* Improvement - Refactored appointment product query, broken into several parts
+* Improvement - Better code quality
+* Improvement - Updated translations
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/98/customer-status-on-completed-appointment
+* Fix - Cache is not emptying properly.
+* Fix - In cart appointments not showing unavailable in calendar.
+* Fix - Appointment spanning into multi-day shows 0 slots available.
+* Fix - Confirmation email sent with wrong dates when creating and changing a appointment date/time in admin.
+
+2016.11.02 - version 2.2.9
+* Feature - Set up advanced caching functions for implementation with one of next updates
+* Improvement - Updated Product add-ons to 2.7.25
+* Fix - Staff capacity re-fix
+
+2016.10.25 - version 2.2.8
+* Improvement - Minor performance upgrade
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/93/synching-repeated-events-from-google
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/83/hide-others-appointments-with-staff-role
+* Fix - Staff capacity
+
+2016.10.19 - version 2.2.7
+* Feature - Introduced staff capacity
+* Improvement - Updated all translations
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/90/appointment-status-bug
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/84/multiply-duration-with-add-on-multiplier
+* Fix - Fixed overflow issue for calendar in admin, where appointments would stretch far right
+
+2016.10.14 - version 2.2.6
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/89/bug-assigning-managing-staff
+
+2016.10.14 - version 2.2.5
+* Improvement - Appointment filtering by staf and/or product available
+* Fix - No more duplicates from Google Calendar sync to multiple sites
+* Fix - Appointment filtering now works for date and status inside appointment list table
+
+2016.10.13 - version 2.2.4
+* Feature - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/73/auto-select-first-available-time-slot
+* Improvement - Slightly optimized code for better performance
+* Improvement - Added filter 'woocommerce_appointments_convert_to_hours'
+* Improvement - Unavailable times don't show up for multiple staff assigned any more
+* Improvement - Better day availability detection for multi-day duration
+
+2016.10.05 - version 2.2.3
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/83/hide-others-appointments-with-staff-role
+
+2016.10.05 - version 2.2.2
+* Fix - Slots scheduled on Google Calendar not greyed out on calendar
+
+2016.10.04 - version 2.2.1
+* Improvement - Updated Product add-ons to 2.7.24
+* Fix - Live Google Calendar sync now connects to correct resource ID
+* Fix - Syncing all statuses now possible
+
+2016.10.03 - version 2.2.0
+* Feature - Calendar now has option to see all staff in columns for Day View
+* Feature - Google Calendar v2
+* Feature - Ability to define minimum and maximum quantity required for schduling
+* Improvement - Calendar dilog box has better styling and customer avatars are enabled
+* Improvement - Day View has been improved and allows for better display
+* Improvement - Simpler query for appointable products
+* Improvement - Twilio SMS now better integrated
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/80/settings-page
+
+2016.09.16 - version 2.1.6
+* Improvement - Added filter 'woocommerce_appointments_get_staff_assignment'
+* Improvement - Product Add-ons: Duration label can be hidden for customers
+* Improvement - Product Add-ons: Price label can be hidden for customers
+* Fix - Better integration with plugin WooCommerce Twilio SMS Notification
+
+2016.09.14 - version 2.1.5
+* Improvement - Updated Product add-ons to 2.7.23
+* Fix - https://bizzthemes.com/forums/topic/received-3-email-when-appointment-status-updated/
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/74/appointment-edit-with-shop-staff-role
+
+2016.09.05 - version 2.1.4
+* Feature - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/70/staff-has-separated-view-for-all
+* Improvement - Added much better WPML + WooCommerce Multilingual support
+* Improvement - Priority for availability is now on product level: Product < Staff < Global
+* Improvement - When duration is set to multiple days, all days available for scheduling are highlighted, not just start date
+* Improvement - Updated My Appointments template page under My Account !IMPORTANT Save permalinks to take into account updated structure
+* Fix - Renamed main plugin filename.
+* Fix - Email recipients not showing "customer" in email settings.
+* Improvement - Updated all translations
+
+2016.09.01 - version 2.1.3
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/68/staff-date-range-time-range-date-range-bug
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/71/order-status-notes
+
+2016.08.31 - version 2.1.2
+* Fix - https://bizzthemes.com/forums/topic/wrong-message/
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/64/malfunctioning-appointments-nonsense
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/65/bug-with-staff-availability-rules
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/68/staff-date-range-time-range-date-range-bug
+* Fix - Fatal error:  Uncaught Error: Class 'WC_Appointments_Admin' not found
+* Improvement - Updating appointment status manually now triggers events like reminder emails etc.
+* Improvement - Deprecated filter 'woocommerce_appointments_remind_before_days' and replaced it with 'woocommerce_appointments_remind_before_time'
+* Improvement - New filter 'woocommerce_appointments_remind_before_time' now allows you to specify '1 hour' or '1 day' etc.
+* Improvement - When staff is changed and autoselected date/time is on, don't reload the whole calendar
+
+2016.08.19 - version 2.1.1
+* Fix - Email templates now copied to woocommerce/ folder for overriding
+
+2016.08.18 - version 2.1.0
+* Improvement - Moved all template overrides from /woocommerce-appointments/ to core /woocommerce/ theme folder
+* Improvement - Support core template overrides scan via 'woocommerce_template_overrides_scan_paths'.
+* Improvement - Introduced better template versioning, baked into core WooCommerce system
+* Improvement - Optimized DB query for existing appointment
+* Improvement - Updated all translations
+
+2016.08.16 - version 2.0.1
+* Improvement - Admin calendar with miultiple staff assigned
+* Fix - Gravity Forms Product Add-ons now works with newer versions
+* Fix - Global Add-ons now work with duration as well
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/60/multiple-staff-will-not-appear-on-edit
+
+2016.08.12 - version 2.0.0
+* Feature - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/22/assign-multiple-staff-members-to-same
+* Feature - Added French translation
+* Feature - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/57/add-on-duration-for-multiple-days
+* Improvement - Updated all translations
+* Improvement - Avaialbility rules and capacity now work across board without any known glitches
+* Improvement - Updated all email templates !IMPORTANT if you edited email templates
+* Improvement - Product and staff now separated in admin
+* Improvement - Padding is now simplified and works much smoother, when padding times are evalauted for multiple product for same staff
+* Improvement - Added template versioning for better future compatibility
+* Fix - https://bizzthemes.com/forums/topic/padding-time-after-doesnt-work/
+* Fix - Capacity now correctly configured for date and time. Only product capacity is taken, no multiplication by staff.
+* Fix - Staff notification emails now work
+
+2016.07.20 - version 1.9.15
+* Improvement - Updated German translation
+
+2016.07.19 - version 1.9.14
+* Improvement - Updated translations and added RTL support
+
+2016.07.19 - version 1.9.13
+* Feature - Added German translation
+* Improvement - Updated Product Add-ons to v2.7.21
+* Improvement - Appointments with price set to zero are now labled as Free!
+* Improvement - Transitioned to system fonts on all levels
+* Improvement - Updated Hebrew translation
+* Improvement - Updated Dutch translation
+* Fix - Order status not being prefixed in db.
+* Fix - Remove heavy appointment object cache from being saved to db causing performance issue.
+* Fix - When staff is not enabled, default it to customer assignment.
+* Fix - Partially scheduled days were not showing on the calendar for duration minute and hours.
+* Add - Filter to account for different country calendar formats 'woocommerce_appointments_mdy_format'.
+
+2016.07.18 - version 1.9.12
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/55/new-bug-in-1911
+
+2016.07.18 - version 1.9.11
+* Improvement - Fixed CRM Integration (filter instead of action) New features: display customer & order notes as tooltips.
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/54/appointment-reminder-don-t-get-send
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/53/appointment-guest
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/52/php-error
+
+2016.07.08 - version 1.9.10
+* Improvement - WordPress 4.6 compatibility
+* Improvement - Date picker now unified across admin interface and automatically translated for WP 4.6+
+* Improvement - Theme compatibility fixes for calendar on front-end
+* Fix - Admin scripts for datepicker now called correctly
+* Fix - Automatic staff assignment on empty staff
+
+2016.07.07 - version 1.9.9
+* Improvement - Styled datepicker in admin
+* Improvement - Styled admin calendar
+* Improvement - Moved all-day appointment to top
+* Improvement - Removed jQuery UI style from front-end
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/47/serious-availability-bug
+
+2016.07.04 - version 1.9.8
+* Improvement - Moved appointments in My account to separate tab (WC 2.6+ feature)
+* Improvement - Increased staff avatars size to 48px for retina displays
+* Improvement - Further integration with http://codecanyon.net/item/woocommerce-point-of-sale-pos/7869665
+* Improvement - Better appointment editing screen
+* Improvement - Better day view calendar
+* Improvement - Updated Select2 library to v4.0.3
+* Improvement - When staff count is less than 6, search is disabled
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/47/serious-availability-bug
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/21/provider-no-preference-today
+
+2016.06.23 - version 1.9.7.2
+* Fix - Unavailable dates displayed on calendar
+
+2016.06.23 - version 1.9.7.1
+* Fix - PHP error
+
+2016.06.23 - version 1.9.7
+* Fix - Staff select box now displays correctly with increased z-index
+* Fix - Edit staff link in admin is now fully clickable
+* Fix - Auto-selecting first available day doesn't trigger automatically any more
+* Fix - Availability rules work for time range with date correctly
+
+2016.06.22 - version 1.9.6
+* Improvement - Staff availability drops to default if no availability is set up.
+* Improvement - Only paid and confirmed appointments are considered for occupied date/time slots
+* Add - Filter wc_appointments_product_get_available_slots
+* Fix - WC 2.6 request confirmation showing even when no appointable product in cart.
+* Fix - Google Calendar missign $wpdb variable
+* Fix - Unable to pay for confirmed appointment if coupon reduces price.
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/29/customer-billing-shipping-address
+
+2016.06.17 - version 1.9.5
+* Fix - Site crash due to unregistered is_plugin_active() function
+
+2016.06.17 - version 1.9.4.1
+* Fix - https://bizzthemes.com/forums/topic/how-to-disable-checkout-checkbox-check-appointment-availability/
+
+2016.06.17 - version 1.9.4
+* Feature - Option to Auto-select first available day
+* Improvement - Reduced staff table queries to 1 transient
+* Improvement - Significant loading time reduction
+* Improvement - Updated Product Add-ons to v2.7.19
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/35/delete-appointment-from-postphp
+* Fix - Local time conversion now works the same across all devices
+
+2016.06.15 - version 1.9.3
+* Feature - Integration with http://codecanyon.net/item/woocommerce-point-of-sale-pos/7869665
+* Feature - Integration with http://codecanyon.net/item/woocommerce-customer-relationship-manager/5712695
+* Improvement - Text "Book Appointment" is now "Book Now" and "Book Now" is now only "Book"
+* Improvement - Slightly faster appointment form loading time
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/43/staff-members-see-only-their-own
+* Fix - Staff filtering in admin now works as it should
+* Fix - Cancelled appointments slots are available again
+* Fix - Don't count padding time into interval
+* Fix - Cart item quantity can't be modified any more in any theme (Avada fix)
+* Fix - All admin tooltips are now generalized with wc_help_tip() function
+
+2016.06.08 - version 1.9.2
+* Improvement - Appointment form set to 100% width for wider theme compatibility
+* Improvement - "Appointment cost" text set to just "Cost"
+* Improvement - Removed Busy filter option as practically nobody used it
+* Improvement - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/36/edit-appointment-format-of-date
+* Fix - Integration with latest version of "WooCommerce TM Extra Product Options" plugin
+
+2016.06.06 - version 1.9.1
+* Improvement - Updated Product Add-ons to v2.7.18
+* Improvement - admin calendar works better
+
+2016.05.30 - version 1.9.0
+* Feature - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/8/woothemes-twilio-sms-integration
+* Improvement - admin CSS structure
+* Improvement - admin calendar time format now in line with site's time format
+
+2016.05.25 - version 1.8.9
+* Feature - Times are converted to local times of visitors
+* Improvement - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/16/display-cancelled-appointments-in-calendar
+* Fix - Updating appointments with no orders PHP notice
+
+2016.05.23 - version 1.8.8
+* Improvement - Admin calendar view dialog now includes appointable product title
+
+2016.05.21 - version 1.8.7
+* Feature - Admin calendar appointment can be viewed in a dialog for better overview with basic actions
+* Improvement - Improvement admin calendar view
+* Improvement - Appointment reminder email now shows reminder for today if set so
+* Fix - Frontend CSS fix for addons spacing
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/33/staff-capacity-mimicking-pre-version-182
+
+2016.05.08 - version 1.8.6
+* Improvement - Replaced all date and time format with native WooCommerce functions
+* Improvement - Added current time indicator for day view, when viewing current day
+* Improvement - Improvement admin calendar view
+* Fix - https://bizzthemes.com/forums/topic/php-error-when-saving-appointment/
+
+2016.05.04 - version 1.8.5
+* Improvement - Frontend calendar design looks slightly better
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/27/memory-issue-with-scheduled_slots-array
+* Fix - Removed duplicated post type registration
+* Fix - Warning on single product page caused by appointment objects transient stored
+		as empty string. The reason for this is when false is stored via set_transient,
+		it will return empty string when retrieved via get_transient.
+* Fix - Plugin files loaded after all other plugins for better compatibility
+* Fix - Appointment editing now syncs with order correctly, including customer ID
+
+2016.04.22 - version 1.8.4
+* Improvement - Cache appointment objects in appointment's controller.
+* Improvement - Google calendar sync now works better for all statuses. Sync appointment when appointment is edited from edit appointment screen.
+* Improvement - Use WC logging mechanism, especially when appointment is added to or removed from cart.
+* Fix - Make sure appointment costs that span beyond end of the year are supported.
+* Fix - Staff availability is now displayed correctly.
+* Fix - Add a false value if order_ids return empty during search. This fixes issue of SQL syntax error when searching in Appointments.
+* Fix - Limit status changes to only affect qualifying appointments. This should prevents status updated to 'was-in-cart' issue.
+* Fix - Set default staff availability quantity to 1 which fixes issue of a product with staff is not appointable.
+* Fix - Construct Date-object from UTC to ignore browser's TZ and incorrect calculated duration on particular timezones.
+* Fix - Check automatic staff assignments on each date to make sure a fully scheduled date is not available instead of partially scheduled.
+* Fix - Use admin_url instead of WC()->ajax_url() for ajax_url in class-wc-appointment-form.php WC()->ajax_url() uses relative scheme that might cause if fronted site is SSL'ed.
+* Fix - Reset tags on email body before each trigger which fixes tag placeholders. were not substituted properly.
+* Fix - Removed deprecated args causing notices displayed in confirmation email.
+
+2016.04.19 - version 1.8.3
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/11/admin-calendar-bug
+
+2016.04.18 - version 1.8.2
+* Feature - Added Hebrew language support
+* Improvement - Added 'woocommerce_appointments_calendar_view' filter that allows setting default calendar view to 'day'
+* Improvement - Updated Product add-ons to 2.7.17
+* Fix - Addon total now displays again
+* Fix - https://bizzthemes.com/forums/topic/time-slot-gone-after-1-booking-but-capacity-is-80/
+* Fix - Qty display for appointments in admin
+
+2016.03.30 - version 1.8.1
+* Improvement - Product Add-ons intergration updated to 2.7.16
+* Fix - Capacity checking for daily appointments
+* Fix - https://bitbucket.org/bizzthemes/woocommerce-appointments/issues/1/wrong-z-index-lightbox-and-select-input
+* Improvement - Select2 library updated from RC1 to 4.0.2
+* Improvement - Linted all JS files
+
+2016.03.25 - version 1.8.0
+* Improvement - Added option for quantity inside Add appointment in admin screen
+* Improvement - Localized admin calendar inside appointment edit screen
+* Improvement - Appointments statuses now available for translation
+* Improvement - Color palette resembles that from latest WooCommerce version
+* Feature - Pricing rule for quantity scheduled
+* Feature - Added support for padding days, not just padding hours
+* Experimental - Show discounts for each day in calendar with 'add_theme_support( 'woocomerce-appointments-show-discounted-slots' );' added to your theme
+* Fix - Appointment with guest checkouts now list 'Guest' on the list of appointments
+
+2016.03.22 - version 1.7.9
+* Fix - Undefined notice for global availability settings
+* Fix - Availability rule order now correct global > product > staff
+* Fix - Previous day was highlighted
+* Fix - Dates that are not available are now disabled
+* Improvement - Appointable product page load speed increased
+* Improvement - Add-on price symbol now wrapped in span with class name "amount-symbol"
+* Feature - Allow multiple appointments per staff at one time
+
+2016.02.29 - version 1.7.8
+* Fix - https://bizzthemes.com/forums/topic/admin-calendar-tooltips-are-gone-with-last-update/
+
+2016.02.27 - version 1.7.7
+* Feature - Staff notification emails
+* Improvement - Added margin below email notification table for better styling
+
+2016.02.27 - version 1.7.6
+* Improvement - Calendar font now inherits body font
+* Improvement - Calendar day columns now have the same width
+* Improvement - Select2 library updated to 4.0.2-RC1
+
+2016.02.24 - version 1.7.5
+* Fix - PHP Notice:  Trying to get property of non-object in \\includes\\class-wc-appointment.php on line 566
+* Fix - PHP Notice:  Undefined variable: values in \\includes\\integrations\\class-wc-appointments-integration-addons.php on line 98
+
+2016.02.24 - version 1.7.4
+* Fix - https://bizzthemes.com/forums/topic/error-message-at-cart/
+* Fix - Overrides Bookly absolute calendar positioning: https://bizzthemes.com/forums/topic/divi-theme-not-showing-good-calendar-in-products-page/
+* Fix - https://bizzthemes.com/forums/topic/add-ons-are-not-being-added-to-the-order-item-list-properly/
+
+2016.02.17 - version 1.7.3
+* Fix - Scheduled multiple quantity is now correctly calculated in
+
+2016.02.12 - version 1.7.2
+* Feature - Select custom time intervals independently from duration
+* Tweak - Cancel time is now by default 1 day prior to appointment instead of 1 month
+* Fix - Adding appointment in now shows the calculated price
+
+2016.02.12 - version 1.7.1
+* Fix - Sale price display error
+* Fix - Translation of remaining slots for scheduling
+
+2016.02.11 - version 1.7.0
+* Feature - Customer can now schedule multiple appointments at once
+* Tweak - Add-ons cost now displayed with a plus + sign prefix
+* Tweak - jQuery: deprecated size() replaced with length()
+* Tweak - Updated translations
+* Tweak - Add-ons multipled with quantity scheduled
+* Fix - gCal sync error on appointment removal fixed
+* Fix - Appointment editing in admin now correctly synced with corresponding Order
+
+2016.02.09 - version 1.6.2
+* Tweak - Added more WPML support
+* Tweak - New Appointments specific add-on section under WooCommerce > Add-ons.
+* Tweak - Show a notice when viewing an appointment if it's add-on plugin no longer is installed.
+* Fix - Prevent the Duration input field from displaying on non appointment products when using the product add-ons extension.
+* Fix - Prevent start times that end after date times from showing up when using padding times.
+* Fix - Appointment in "My Account" not created with Confirmation Requried Appointment + New User account
+* Fix - Missing ending double quotes in order note of appointment status transition
+* Fix - Use full unit 'hour' when using date/time str in strtotime
+* Fix - Removed a bug with cost calculation that resulted in PHP warning
+
+2016.02.04 - version 1.6.1
+* Fix - Price wasn't calculated correctly for Staff, when pricing rules were empty
+
+2016.02.03 - version 1.6.0
+* Feature - Custom pricing rule
+* Feature - Additional price per staff
+* Improvement - Price calculations on all product levels
+* Improvement - Display FROM label before price, when additional costs are applied
+* Tweak - Staff capacity overrides appointment capacity
+* Tweak - Staff is set as appointment author, so you can filter capabilities correctly
+* Fix - No preference for staff now selects only available staff
+* Fix - Changing staff on scheduling form now reloads the time slots
+
+2016.01.28 - version 1.5.4
+* Improvement - Updated Add-ons to version 2.7.15
+* Tweak - Sync appointments without orders (manually created appointments) to Google Calendar.
+* Tweak - Humanized order status in order column of appointments list.
+* Fix - If the new staff input is canceled, the staff input area will no longer be blocked.
+* Fix - Format the datetime form based on site language (matches behavior for day form).
+* Fix - Fix for possible availability problems using time range slots.
+* Fix - Prevent extra border from showing on time slots when using TwentySixteen as your theme.
+* Fix - Save the correct (appointment, not order) ID when saving appointment details on the admin screen.
+
+2016.01.27 - version 1.5.3
+* Feature - Ability to check availability rules against starting slot in range only
+
+2016.01.26 - version 1.5.2
+* Feature - Full integration with 'WooCommerce Follow Up Emails' extension
+* Tweak - Display of appointment customer in admin
+
+2016.01.20 - version 1.5.1
+* Improvement - Updated Add-ons to version 2.7.14
+* Fix - Staff access to their schedule
+* Tweak - Some WooCommerce 2.5 compatibility fixes
+
+2016.01.15 - version 1.5.0
+* Feature - Capacity can be overriden on availability rule level, great for classes
+* Tweak - When manually creating appointments that either have no order or are attached to an existing order, the status will now default to "confirmed" instead of "pending confirmation".
+* Tweak - Adding staff now more stramlined
+* Improvement - Deprecated time range on specific date and replaced with time range with date range
+* Improvement - Highlighted all selected day if appointment lasts for more than 1 day
+* Improvement - Not messing with WooCommerce pricing any more. Selecting price label doesn't set price to zero.
+* Fix - Fix ranges on non-product rules.
+
+2015.12.23 - version 1.4.6
+* Fix - Capacity is now independent from staff count
+* Tweak - Added 'woocommerce_appointments_get_posted_data' filter
+* Tweak - Added 'woocommerce_appointments_order_item_status' filter
+* Feature - Full WPML compatibility
+
+2015.12.23 - version 1.4.5
+* Fix - Price including tax displayed correctly
+* Tweak - Zero total in cart should avoid cache, temporarily disabled hiding price, when zero
+* Tweak - Updated Select2 script to 4.0.1
+* Feature - Integration with free plugin "WooCommerce Product Price Based on Countries"
+* Feature - Integration with free plugin "TM Extra Product Options"
+
+2015.12.17 - version 1.4.4
+* Tweak - New filter added: 'woocommerce_appointments_gcal_sync_statuses'
+
+2015.12.17 - version 1.4.3
+* Tweak - New filter added: 'woocommerce_before_appointment_form_output'
+* Tweak - WooCommerce 2.5+ compatibility
+* Fix - Email reminders not looped any more
+* Fix - Email reminders now sent on paid appointment status only
+
+2015.12.08 - version 1.4.2
+* Fix - Add-ons syntax error
+
+2015.12.08 - version 1.4.1
+* Fix - Calendar day names localization
+* Fix - Product Add-ons localization is now merged with "woocommercea-appointments" text-string
+
+2015.12.05 - version 1.4.0
+* Tweak - Better UI for adding appointments in admin
+* Tweak - Integrated product add-ons, when adding appointments in admin
+* Tweak - Add-ons displayed after available time slot is selected
+* Tweak - Add-ons now show extra duration next to each addon label
+* Feature - Appointments by day - can be scheduled for multiple days at a time.
+
+2015.12.01 - version 1.3.1
+* Tweak - first day of week also applies to admin calendar picker
+
+2015.12.01 - version 1.3.0
+* Tweak - New filter to change custom appointment labels.
+* Fix - Rules ending at midnight will now properly be parsed.
+* Fix - Google Calendar events now properly include the correct end date.
+* Fix - Slots smaller than 30 minute chunks will no longer get cut off on the admin calendar.
+* Fix - Prevent the partial scheduled indicator from sometimes showing on a previous day to a day with appointments.
+* Fix - If there are 0 time slots left, make sure not to show the slot at all.
+* Fix - Fix a bug with hours spanning days that can potentially show (still unschedulable) slots on other days
+* Feature - Time based appointments can now extend into the next day.
+* Feature - Rules can now have priorities set to create custom availability schedules.
+* Tweak - Our "partially scheduled" indicator now works for day slots with multiple spots.
+* Tweak - Tooltips have been added on the appointment calendar to explain what each color means.
+* Tweak - New get_wc_appointment_statuses() to return an array of appointment statuses.
+* Tweak - Use wc_date_format/wc_time_format instead of hard-coded format strings for default date & time formats.
+* Fix - Show days as available if time based rules say so.
+* Fix - Fatal error that occurs when setting an appointment's scheduled product to N/A.
+* Fix - Associate appointment details with an order, even if the appointment and order are created separately.
+* Fix - Only send appointment cancelation emails for appointments and not orders.
+* Fix - Next/Previous tooltip text can now be translated.
+* Tweak - Updated Product Add-ons to 2.7.13
+* Fix - Capacity not showing correct number
+
+2015.11.09 - version 1.2.4
+* Feature - added shortcode 'appointment_form'
+* Improvement - Better price display with label instead of cost
+* Improvement - Removed any cost mention, when cart/order total is zero
+* Fix - appointment form design now more consistent
+* Fix - time range with specific date now works correctly (leading zero not added for months and days)
+
+2015.10.15 - version 1.2.3
+* Fix - wc_appointment_pretty_addon_duration functions definition
+* Fix - Product Add-ons assests linked correctly
+* Fix - availability error
+
+2015.10.15 - version 1.2.2
+* Improvement - Better price display with sale price
+* Fix - Price label display
+
+2015.10.15 - version 1.2.1
+* Fix - Availability for Time range (specific date) now works, when no other rule is active
+
+2015.10.14 - version 1.2.0
+* Feature - When duration longer than 120 minutes it gets broken into hours and minutes
+* Improvement - Updated WooCommerce Product Add-ons to 2.7.10
+* Improvement - Front-end classes now fire inside $GLOBALS[] variable
+* Improvement - Translations can now be handled inside WP languages directory
+* Improvement - Replaced WC deprecated functions
+* Fix - Cancelled appointment staff member
+* Fix - Select2 removed from datetime-picker.php template
+* Fix - Padding time now assinged correctly
+
+2015.09.07 - version 1.1.0
+* Fix - Clear transients after an order is canceled by a user
+* Fix - Show an error message if an invalid date is entered
+* Fix - Fatal error that sometimes occurs when canceling a "requires confirmation" appointment
+* Fix - Search now correctly pulls out appointments when you search for customer info
+* Fix - Correctly calculate the quantity of spots needed in create_wc_appointment if the multiplier is set to yes & multiple persons are appointment
+
+2015.09.01 - version 1.0.0
+ * First Release.

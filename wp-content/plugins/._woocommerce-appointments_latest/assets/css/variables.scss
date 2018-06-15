@@ -1,0 +1,24 @@
+$woocommerce: 		#ad74a2;
+$green:				#7ad03a;
+$dark-green:		#27ae60;
+$red:				#a00;
+$orange:			#ffba00;
+$blue:				#2ea2cc;
+$grey:				#999;
+
+$primary:           #96588a;                                    // Primary colour for buttons (alt)
+$primarytext:       desaturate(lighten($primary, 50%), 18%);    // Text on primary colour bg
+
+$secondary:         desaturate(lighten($primary, 40%), 21%);    // Secondary buttons
+$secondarytext:     desaturate(darken($secondary, 60%), 21%);   // Text on secondary colour bg
+
+$highlight:         adjust-hue($primary, 150deg);               // Prices, In stock labels, sales flash
+$highlightext:      desaturate(lighten($highlight, 50%), 18%);  // Text on highlight colour bg
+
+$contentbg:         #fff;                                       // Content BG - Tabs (active state)
+$subtext:           #777;                                       // small, breadcrumbs etc
+
+$hours-width:		101px;
+$hours-height:		100% / 24;
+$hours-height-q:	100% / (24*4);
+$column-width:		170px;

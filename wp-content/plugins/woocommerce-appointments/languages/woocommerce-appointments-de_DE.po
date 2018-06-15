@@ -1,0 +1,3655 @@
+# Copyright (C) 2016 BizzThemes
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Appointments\n"
+"Report-Msgid-Bugs-To: https://bizzthemes.com/contact/\n"
+"POT-Creation-Date: 2017-02-26 18:40+0100\n"
+"PO-Revision-Date: 2017-02-26 18:58+0100\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.10\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: dependencies/EDD_SL_Plugin_Updater.php:199
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Eine neue Version von %1$s steht bereit. %2$s anzeigen Version %3$s Details "
+"%4$s ."
+
+#: dependencies/EDD_SL_Plugin_Updater.php:207
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Eine neue Version von %1$s steht bereit. %2$s anzeigen Version %3$s Details "
+"%4$s oder %5$s Jetzt aktualisieren %6$s ."
+
+#: dependencies/EDD_SL_Plugin_Updater.php:394
+msgid "You do not have permission to install plugin updates"
+msgstr "Sie haben keine Berechtigung Plugin-Updates zu installieren"
+
+#: dependencies/EDD_SL_Plugin_Updater.php:394
+msgid "Error"
+msgstr "Fehler"
+
+#: includes/admin/class-wc-appointments-admin-add.php:19
+msgid "Error - please try again"
+msgstr "Fehler - Bitte versuchen Sie es erneut"
+
+#: includes/admin/class-wc-appointments-admin-add.php:29
+msgid "Please choose an appointable product"
+msgstr "Bitte wählen Sie ein Produkt vom Typ Termin"
+
+#: includes/admin/class-wc-appointments-admin-add.php:37
+#: includes/admin/class-wc-appointments-admin-add.php:87
+msgid "Invalid order ID provided"
+msgstr "Ungültige Bestell-ID angegeben"
+
+#: includes/admin/class-wc-appointments-admin-add.php:81
+msgid "Error: Could not create order"
+msgstr "Fehler: Konnte Bestellung nicht erstellen"
+
+#: includes/admin/class-wc-appointments-admin-add.php:105
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:126
+msgid "Error: Could not create item"
+msgstr "Fehler: Konnte Element nicht erstellen"
+
+#: includes/admin/class-wc-appointments-admin-add.php:200
+msgid "Order &ndash; %s"
+msgstr "Bestellung &ndash; %s"
+
+#: includes/admin/class-wc-appointments-admin-addons.php:22
+#: includes/admin/class-wc-appointments-admin-settings.php:19
+#: includes/class-wc-appointment-order-manager.php:127
+#: includes/integrations/class-wc-appointments-integration-wcml.php:432
+#: woocommerce-appointments.php:431
+msgid "Appointments"
+msgstr "Termine"
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:28
+#: includes/admin/class-wc-appointments-admin-ajax.php:51
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+"Sie verfügen nicht über ausreichende Berechtigungen um auf diese Seite "
+"zuzugreifen."
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:31
+#: includes/admin/class-wc-appointments-admin-ajax.php:54
+msgid "You have taken too long. Please go back and retry."
+msgstr ""
+"Sie haben zu lange gebraucht. Bitte gehen Sie zurück und versuchen Sie es "
+"erneut."
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:87
+msgid "This appointment is unavailable."
+msgstr "Dieser Termin ist nicht verfügbar."
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:151
+msgid "Please enter a valid date."
+msgstr "Bitte gib ein korrektes Datum an."
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:182
+msgid "No slots available."
+msgstr "Keine Slots zur Verfügung."
+
+#: includes/admin/class-wc-appointments-admin-calendar.php:223
+#: includes/admin/class-wc-appointments-admin-calendar.php:262
+#: includes/admin/class-wc-appointments-admin-cpt.php:288
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:110
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:111
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:114
+#: includes/admin/views/html-add-appointment-page.php:20
+#: includes/admin/views/html-calendar-dialog.php:7
+#: includes/class-wc-appointment.php:639 includes/class-wc-appointment.php:640
+#: includes/integrations/class-wc-appointments-integration-gcal.php:502
+msgid "Guest"
+msgstr "Gast"
+
+#: includes/admin/class-wc-appointments-admin-calendar.php:247
+#: includes/admin/class-wc-appointments-admin-cpt.php:297
+#: includes/admin/class-wc-appointments-admin-cpt.php:467
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:162
+msgid "[ Google Calendar ]"
+msgstr "[ Google Kalender ]"
+
+#: includes/admin/class-wc-appointments-admin-calendar.php:399
+msgid "Edit User and Availability"
+msgstr "Benutzer bearbeiten und Verfügbarkeit"
+
+#: includes/admin/class-wc-appointments-admin-calendar.php:402
+msgid "Unassigned"
+msgstr "Nicht zugewiesen"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:103
+msgid "Confirm appointments"
+msgstr "Termin bestätigen"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:105
+msgid "Unconfirm appointments"
+msgstr "Termin widersprechen"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:107
+msgid "Cancel appointments"
+msgstr "Termin stornieren"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:109
+msgid "Mark appointments as paid"
+msgstr "Termine als bezahlt markieren"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:111
+msgid "Mark appointments as unpaid"
+msgstr "Termine als unbezahlt markieren"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:185
+msgid "Appointment status changed."
+msgid_plural "%s appointment statuses changed."
+msgstr[0] "Terminstatus geändert."
+msgstr[1] "Terminstatus geändert."
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:221
+msgid "Appointment Title"
+msgstr "Termin Titel"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:238
+#: templates/myaccount/appointments.php:37
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:239
+#: templates/myaccount/appointments.php:32
+msgid "ID"
+msgstr "ID"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:240
+#: templates/emails/customer-appointment-confirmed.php:64
+#: templates/myaccount/appointments.php:34
+msgid "Order"
+msgstr "Bestellung"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:241
+#: includes/admin/views/html-calendar-dialog-add.php:12
+#: includes/integrations/class-wc-appointments-integration-gcal.php:507
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/followup-form.php:23
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/templates/email-form/appointments/email-form.php:14
+#: templates/emails/customer-appointment-confirmed.php:69
+msgid "Product"
+msgstr "Produkt"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:242
+#: includes/admin/views/html-appointment-staff.php:25
+#: includes/admin/views/html-appointment-tab.php:1
+#: includes/integrations/class-wc-appointments-integration-wcml.php:444
+#: includes/integrations/class-wc-appointments-integration-wcml.php:445
+msgid "Staff"
+msgstr "Personal"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:243
+msgid "Scheduled By"
+msgstr "Gebucht von"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:244
+msgid "Qty"
+msgstr "Menge"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:245
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:539
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:540
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:542
+#: includes/appointment-form/class-wc-appointment-form-date-picker.php:34
+#: includes/appointment-form/class-wc-appointment-form-datetime-picker.php:29
+#: includes/wc-appointments-functions.php:47
+#: templates/myaccount/appointments.php:35
+msgid "Date"
+msgstr "Datum"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:246
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:548
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:549
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:551
+#: includes/wc-appointments-functions.php:48
+#: templates/appointment-form/datetime-picker.php:56
+#: templates/myaccount/appointments.php:36
+msgid "Time"
+msgstr "Zeit"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:247
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin.php:13
+msgid "Actions"
+msgstr "Aktionen"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:269
+msgid "Appointment #%d"
+msgstr "Termin # %d"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:327
+msgid "View"
+msgstr "Ansehen"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:334
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:339
+#: templates/myaccount/appointments.php:64
+msgid "Cancel"
+msgstr "Stornieren"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:455
+msgid "All Appointable Products"
+msgstr "Alle buchbaren Leistungen"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:482
+msgid "All Staff"
+msgstr "Alle Personal"
+
+#: includes/admin/class-wc-appointments-admin-cpt.php:673
+msgid "All"
+msgstr "Alle"
+
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:14
+msgid "Customer details"
+msgstr "Kundendetails"
+
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:29
+msgid "Name:"
+msgstr "Name:"
+
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:39
+msgid "User Email:"
+msgstr "Benutzer E-Mail:"
+
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:47
+msgid "View User"
+msgstr "Benutzer ansehen"
+
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:56
+msgid "Address:"
+msgstr "Adresse:"
+
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:61
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:71
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:81
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:97
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:93
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:158
+#: includes/admin/views/html-appointment-availability-fields.php:140
+#: includes/emails/class-wc-email-appointment-cancelled.php:77
+#: includes/emails/class-wc-email-appointment-confirmed.php:102
+#: includes/emails/class-wc-email-appointment-notification.php:74
+#: includes/emails/class-wc-email-appointment-notification.php:77
+#: includes/emails/class-wc-email-appointment-notification.php:80
+#: includes/emails/class-wc-email-appointment-notification.php:83
+#: includes/emails/class-wc-email-appointment-reminder.php:71
+#: includes/emails/class-wc-email-new-appointment.php:97
+msgid "N/A"
+msgstr "n.v."
+
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:66
+msgid "Email:"
+msgstr "E-Mail:"
+
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:76
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: includes/admin/class-wc-appointments-admin-customer-meta-box.php:88
+msgid "View Order"
+msgstr "Bestellung anzeigen"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:14
+msgid "Appointment Details"
+msgstr "Termindetails"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:42
+msgid ""
+"This appointment is scheduled over 2 years into the future. Please ensure "
+"this is correct."
+msgstr ""
+"Dieser Termin wurde mehr als 2 Jahre in der Zukunft geplant. Überprüfen Sie "
+"ob das richtig ist."
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:47
+msgid ""
+"This appointment is scheduled over the products allowed max appointment date "
+"(%s). Please ensure this is correct."
+msgstr ""
+"Bei diesem Termin wurde das maximal erlaubte planbare Datum für dieses "
+"Produkt überschritten (%s). Überprüfen Sie ob das richtig ist."
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:51
+msgid "This appointment has an end date set before the start date."
+msgstr "Das Enddatum von diesem Termin liegt vor dem Startdatum."
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:57
+msgid ""
+"This appointment is missing a required add-on (product type: %s). Some "
+"information is shown below but might be incomplete. Please install the "
+"missing add-on through the plugins screen."
+msgstr ""
+"Diesem Termin fehlt ein erforderliches Add-ons (Produkttyp: %s ). Einige "
+"Informationen werden unten gezeigt, sind aber möglicherweise unvollständig. "
+"Installieren Sie bitte das fehlende Add-on über die Plugins Seite."
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:66
+#: includes/integrations/class-wc-appointments-integration-gcal.php:495
+msgid "Appointment #%s"
+msgstr "Termin #%s"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:66
+msgid "View on calendar"
+msgstr "Anzeigen auf dem Kalender"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:71
+msgid "Order %s"
+msgstr "Bestellung %s"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:75
+msgid "Appointment type: %s"
+msgstr "Termintyp: %s"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:83
+msgid "General Details"
+msgstr "Allgemeine Details"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:86
+msgid "Order ID:"
+msgstr "Bestell-ID:"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:97
+msgid "Customer:"
+msgstr "Kunde"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:123
+msgid "Customer Status:"
+msgstr "Kundenstatus:"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:138
+msgid "Appointment Status:"
+msgstr "Termin Status"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:153
+msgid "Specification"
+msgstr "Spezifikation:"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:168
+#: includes/admin/views/html-calendar-dialog.php:14
+msgid "Product:"
+msgstr "Produkt:"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:187
+#: includes/admin/views/html-calendar-dialog-add.php:23
+#: includes/class-wc-appointments-ics-exporter.php:159
+msgid "Staff:"
+msgstr "Personal:"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:202
+msgid "Parent Appointment ID"
+msgstr "Übergeordnete Termin ID"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:214
+msgid "Number of customers"
+msgstr "Anzahl der Kunden"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:226
+msgid "Date/Time"
+msgstr "Datum/Zeit"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:232
+msgid "All Day:"
+msgstr "Ganztags:"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:233
+msgid "Check this box if the appointment lasts all day."
+msgstr "Aktivieren Sie diese Option, wenn der Termin den ganzen Tag dauert."
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:240
+msgid "Start Date:"
+msgstr "Startdatum:"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:249
+msgid "Start Time:"
+msgstr "Startzeit:"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:258
+msgid "End Date:"
+msgstr "Enddatum:"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:267
+msgid "End Time:"
+msgstr "Endzeit:"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:446
+msgid "Appointment #%1$d status changed manually from \"%2$s\" to \"%3$s\""
+msgstr "Terminstatus #%1$d  manuell von \"%2$s\" in \"%3$s geändert"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:509
+msgid "Customer does not exist"
+msgstr "Kunde existiert nicht."
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:517
+#: includes/class-wc-appointment-cart-manager.php:351
+#: includes/class-wc-appointment-order-manager.php:588
+#: templates/emails/admin-appointment-cancelled.php:34
+#: templates/emails/admin-new-appointment.php:42
+#: templates/emails/customer-appointment-cancelled.php:36
+#: templates/emails/customer-appointment-confirmed.php:36
+#: templates/emails/customer-appointment-notification.php:32
+#: templates/emails/customer-appointment-reminder.php:40
+msgid "Appointment ID"
+msgstr "Termin-ID"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:563
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:564
+msgid "Provider"
+msgstr "Personal"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:566
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:567
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:570
+#: includes/admin/views/html-appointment-staff.php:5
+#: includes/appointment-form/class-wc-appointment-form.php:141
+#: includes/wc-appointments-functions.php:46
+msgid "Providers"
+msgstr "Personal"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:605
+msgid "%y year"
+msgid_plural "%y years"
+msgstr[0] "% Y Jahr"
+msgstr[1] "% Y Jahr"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:608
+msgid "%m month"
+msgid_plural "%m months"
+msgstr[0] "% M Monat"
+msgstr[1] "% M Monat"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:611
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d Tag"
+msgstr[1] "%d Tage"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:614
+msgid "%h hour"
+msgid_plural "%h hours"
+msgstr[0] "%h Stunde"
+msgstr[1] "%h Stunde"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:617
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "% I Minuten"
+msgstr[1] "% I Minuten"
+
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:626
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:627
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:630
+#: includes/admin/views/html-appointment-general.php:95
+#: includes/wc-appointments-functions.php:49
+msgid "Duration"
+msgstr "Dauer"
+
+#: includes/admin/class-wc-appointments-admin-menus.php:89
+#: includes/admin/views/html-add-appointment-page-2.php:6
+#: includes/admin/views/html-add-appointment-page-2.php:44
+#: includes/admin/views/html-add-appointment-page.php:6
+#: includes/admin/views/html-calendar-day.php:2
+#: includes/admin/views/html-calendar-dialog-add.php:6
+#: includes/admin/views/html-calendar-dialog-add.php:51
+#: includes/admin/views/html-calendar-month.php:2
+#: woocommerce-appointments.php:433
+msgid "Add Appointment"
+msgstr "Neuer Termin"
+
+#: includes/admin/class-wc-appointments-admin-menus.php:90
+msgid "Calendar"
+msgstr "Kalender"
+
+#: includes/admin/class-wc-appointments-admin-save-meta-box.php:14
+msgid "Save"
+msgstr "Speichern"
+
+#: includes/admin/class-wc-appointments-admin-save-meta-box.php:29
+msgid "Created on:"
+msgstr "Erstellt am"
+
+#: includes/admin/class-wc-appointments-admin-save-meta-box.php:30
+msgid "h"
+msgstr "h"
+
+#: includes/admin/class-wc-appointments-admin-save-meta-box.php:30
+msgid "m"
+msgstr "min"
+
+#: includes/admin/class-wc-appointments-admin-save-meta-box.php:36
+msgid "Move to Trash"
+msgstr "In den Papierkorb"
+
+#: includes/admin/class-wc-appointments-admin-save-meta-box.php:39
+msgid "Save Appointment"
+msgstr "Termin speichern"
+
+#: includes/admin/class-wc-appointments-admin-save-meta-box.php:39
+msgid "Save/update the appointment"
+msgstr "Termin Speichern / Aktualisieren"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:37
+msgid "Global Availablity"
+msgstr "globale Verfügbarkeit"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:39
+#: includes/integrations/class-wc-appointments-integration-gcal.php:448
+#: includes/integrations/class-wc-appointments-integration-gcal.php:450
+#: includes/integrations/class-wc-appointments-integration-gcal.php:456
+#: includes/integrations/class-wc-appointments-integration-gcal.php:458
+msgid "Google Calendar"
+msgstr "Google Kalender"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:171
+msgid "Please choose a product"
+msgstr "Bitte wählen Sie ein Produkt"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:174
+msgid "Please enter a message"
+msgstr "Bitte tragen Sie eine Nachricht ein"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:177
+msgid "Please enter a subject"
+msgstr "Bitte geben Sie einen Betreff an"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:203
+msgid "Notification sent successfully"
+msgstr "Benachrichtigung erfolgreich gesendet"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:34
+msgid "Staff details"
+msgstr "Personaldetails"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:37
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:59
+#: includes/admin/views/html-appointment-availability.php:36
+#: includes/admin/views/html-appointment-general.php:73
+#: includes/admin/views/html-settings-global-availability.php:21
+msgid "Capacity"
+msgstr "Kapazität"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:43
+msgid ""
+"The maximum number of appointments per slot at any given time for any "
+"product assigned. Overrides product capacity."
+msgstr ""
+"Die maximale Anzahl von Terminen pro Schlitz zu einem bestimmten Zeitpunkt "
+"für jeden zugeordneten Produkts. Überschreibungen Produktkapazität."
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:47
+#: includes/admin/views/html-appointment-availability.php:25
+msgid "Custom Availability"
+msgstr "Benutzerdefinierte Verfügbarkeit"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:56
+#: includes/admin/views/html-appointment-availability.php:33
+#: includes/admin/views/html-appointment-general.php:29
+#: includes/admin/views/html-settings-global-availability.php:18
+msgid "Range type"
+msgstr "Bereichstyp"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:57
+#: includes/admin/views/html-appointment-availability.php:34
+#: includes/admin/views/html-appointment-general.php:30
+#: includes/admin/views/html-settings-global-availability.php:19
+msgid "Range"
+msgstr "Bereich"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:59
+#: includes/admin/views/html-appointment-availability.php:36
+#: includes/admin/views/html-settings-global-availability.php:21
+msgid ""
+"The maximum number of appointments per slot. Overrides general product "
+"capacity."
+msgstr ""
+"Die maximale Anzahl an Terminen pro Slot. Überschreibt die allgemeine "
+"Produktkapazität."
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:60
+#: includes/admin/views/html-appointment-availability.php:37
+#: includes/admin/views/html-settings-global-availability.php:22
+msgid "Appointable"
+msgstr "Buchbar"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:60
+#: includes/admin/views/html-appointment-availability.php:37
+#: includes/admin/views/html-settings-global-availability.php:22
+msgid ""
+"If not appointable, users won't be able to choose slots in this range for "
+"their appointment."
+msgstr ""
+"Anwender werden nicht in der Lage sein, Slots für ihren Termin auswählen, "
+"wenn er nicht buchbar ist."
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:82
+#: includes/admin/views/html-appointment-availability.php:59
+#: includes/admin/views/html-appointment-general.php:56
+#: includes/admin/views/html-settings-global-availability.php:44
+msgid "Add Rule"
+msgstr "Regel hinzufügen"
+
+#: includes/admin/class-wc-appointments-admin.php:68
+#: includes/admin/class-wc-appointments-admin.php:71
+#: includes/admin/class-wc-appointments-admin.php:73
+msgid "Appointment updated."
+msgstr "Termin aktualisiert."
+
+#: includes/admin/class-wc-appointments-admin.php:69
+msgid "Custom field updated."
+msgstr "Benutzerdefiniertes Feld aktualisiert."
+
+#: includes/admin/class-wc-appointments-admin.php:70
+msgid "Custom field deleted."
+msgstr "Benutzerdefiniertes Feld gelöscht."
+
+#: includes/admin/class-wc-appointments-admin.php:74
+msgid "Appointment saved."
+msgstr "Termin gespeichert."
+
+#: includes/admin/class-wc-appointments-admin.php:75
+msgid "Appointment submitted."
+msgstr "Termin eingereicht."
+
+#: includes/admin/class-wc-appointments-admin.php:101
+msgid "View appointment"
+msgstr "Termin anzeigen"
+
+#: includes/admin/class-wc-appointments-admin.php:172
+msgid "Apply"
+msgstr "Gelten"
+
+#: includes/admin/class-wc-appointments-admin.php:178
+#: includes/admin/views/html-calendar-month.php:50
+msgid "Day View"
+msgstr "Tagesansicht"
+
+#: includes/admin/class-wc-appointments-admin.php:184
+msgid "Show Staff in Columns"
+msgstr "Zeige Personal in Spalten"
+
+#: includes/admin/class-wc-appointments-admin.php:277
+msgid "The staff has already been linked to this product"
+msgstr "Das Personal wurde bereits mit diesem Produkt verknüpft"
+
+#: includes/admin/class-wc-appointments-admin.php:282
+#: includes/admin/class-wc-appointments-admin.php:313
+msgid "Unable to add staff"
+msgstr "Personal hinzufügen nicht möglich"
+
+#: includes/admin/class-wc-appointments-admin.php:355
+msgid "Appointable product"
+msgstr "Buchbare Leistung"
+
+#: includes/admin/class-wc-appointments-admin.php:402
+msgid "Are you sure you want to remove this staff?"
+msgstr "Sind Sie sicher, dass Sie diesen Personal entfernen möchten?"
+
+#: includes/admin/class-wc-appointments-admin.php:407
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:79
+msgid "minutes"
+msgstr "Minuten"
+
+#: includes/admin/class-wc-appointments-admin.php:408
+msgid "hours"
+msgstr "Stunden"
+
+#: includes/admin/class-wc-appointments-admin.php:409
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:79
+msgid "days"
+msgstr "Tage"
+
+#: includes/admin/class-wc-appointments-admin.php:734
+msgid ""
+"<p><strong>Your theme (%1$s) contains outdated copies of some WooCommerce "
+"Appointments template files.</strong> These files may need updating to "
+"ensure they are compatible with the current version of WooCommerce "
+"Appointments. You can see which files are affected from the <a href=\"%2$s"
+"\">system status page</a>. If in doubt, check with the author of the theme."
+"<p><p class=\"submit\"><a class=\"button-primary\" href=\"%3$s\" target="
+"\"_blank\">Learn More About Templates</a></p>"
+msgstr ""
+"<p><strong>Ihr Thema (%1$s) enthält veraltete Kopien von einigen WooCommerce "
+"Termine Vorlagendateien.</strong> Diese Dateien möglicherweise "
+"aktualisieren, um sicherzustellen, dass sie mit der aktuellen Version von "
+"WooCommerce Termine vereinbar sind. Sie können sehen, welche Dateien von der "
+"<a href=\"%2$s\">System-Status-Seite</a>betroffen sind. Überprüfen Sie im "
+"Zweifelsfall mit dem Autor des Themas.<p><p class=\"submit\"><a class="
+"\"button-primary\" href=\"%3$s\" target=\"_blank\">Erfahren Sie mehr über "
+"Vorlagen</a></p>"
+
+#: includes/admin/views/html-add-appointment-page-2.php:15
+msgid "Appointment Data"
+msgstr "Termindaten"
+
+#: includes/admin/views/html-add-appointment-page.php:8
+msgid ""
+"You can add a new appointment for a customer here. This form will create an "
+"appointment for the user, and optionally an associated order. Created orders "
+"will be marked as pending payment."
+msgstr ""
+"Sie können hier einen neuen Termin für einen Kunden hinzuzufügen. Dieses "
+"Formular wird einen Termin für den Benutzer erstellen, sowie optional eine "
+"zugehörige Bestellung. Neu erstellte Bestellungen werden als Aussehende "
+"Zahlung markiert."
+
+#: includes/admin/views/html-add-appointment-page.php:17
+#: includes/integrations/class-wc-appointments-integration-gcal.php:500
+#: includes/integrations/class-wc-appointments-integration-gcal.php:502
+msgid "Customer"
+msgstr "Kunde"
+
+#: includes/admin/views/html-add-appointment-page.php:25
+msgid "Appointable Product"
+msgstr "Buchbares Produkt"
+
+#: includes/admin/views/html-add-appointment-page.php:29
+msgid "Select an appointable product..."
+msgstr "Wählen Sie ein buchbares Produkt ..."
+
+#: includes/admin/views/html-add-appointment-page.php:38
+msgid "Create Order"
+msgstr "Bestellung erstellen"
+
+#: includes/admin/views/html-add-appointment-page.php:48
+#: includes/admin/views/html-add-appointment-page.php:57
+msgid ""
+"Create a new corresponding order for this new appointment. Please note - the "
+"appointment will not be active until the order is processed/completed."
+msgstr ""
+"Erstellen Sie eine neue zugehörige Bestellung für diesen Termin. Bitte "
+"beachten Sie: Der Termin wird nicht aktiv sein wird, bis die Bestellung "
+"verarbeitet/ abgeschlossen wird."
+
+#: includes/admin/views/html-add-appointment-page.php:63
+msgid "Assign this appointment to an existing order with this ID:"
+msgstr "Diesen Termin einer bestehenden Bestellung mit folgender ID zuweisen:"
+
+#: includes/admin/views/html-add-appointment-page.php:70
+msgid "Don't create an order for this appointment."
+msgstr "Keine Bestellung für diesen Termin erzeugen"
+
+#: includes/admin/views/html-add-appointment-page.php:80
+#: includes/appointment-form/class-wc-appointment-form.php:47
+msgid "Next"
+msgstr "Weiter"
+
+#: includes/admin/views/html-appointment-availability-fields.php:5
+#: includes/admin/views/html-appointment-pricing-fields.php:5
+msgid "January"
+msgstr "Januar"
+
+#: includes/admin/views/html-appointment-availability-fields.php:6
+#: includes/admin/views/html-appointment-pricing-fields.php:6
+msgid "February"
+msgstr "Februar"
+
+#: includes/admin/views/html-appointment-availability-fields.php:7
+#: includes/admin/views/html-appointment-pricing-fields.php:7
+msgid "March"
+msgstr "März"
+
+#: includes/admin/views/html-appointment-availability-fields.php:8
+#: includes/admin/views/html-appointment-pricing-fields.php:8
+msgid "April"
+msgstr "April"
+
+#: includes/admin/views/html-appointment-availability-fields.php:9
+#: includes/admin/views/html-appointment-pricing-fields.php:9
+msgid "May"
+msgstr "Mai"
+
+#: includes/admin/views/html-appointment-availability-fields.php:10
+#: includes/admin/views/html-appointment-pricing-fields.php:10
+msgid "June"
+msgstr "Juni"
+
+#: includes/admin/views/html-appointment-availability-fields.php:11
+#: includes/admin/views/html-appointment-pricing-fields.php:11
+msgid "July"
+msgstr "Juli"
+
+#: includes/admin/views/html-appointment-availability-fields.php:12
+#: includes/admin/views/html-appointment-pricing-fields.php:12
+msgid "August"
+msgstr "August"
+
+#: includes/admin/views/html-appointment-availability-fields.php:13
+#: includes/admin/views/html-appointment-pricing-fields.php:13
+msgid "September"
+msgstr "September"
+
+#: includes/admin/views/html-appointment-availability-fields.php:14
+#: includes/admin/views/html-appointment-pricing-fields.php:14
+msgid "October"
+msgstr "Oktober"
+
+#: includes/admin/views/html-appointment-availability-fields.php:15
+#: includes/admin/views/html-appointment-pricing-fields.php:15
+msgid "November"
+msgstr "November"
+
+#: includes/admin/views/html-appointment-availability-fields.php:16
+#: includes/admin/views/html-appointment-pricing-fields.php:16
+msgid "December"
+msgstr "Dezember"
+
+#: includes/admin/views/html-appointment-availability-fields.php:20
+#: includes/admin/views/html-appointment-pricing-fields.php:20
+msgid "Monday"
+msgstr "Montag"
+
+#: includes/admin/views/html-appointment-availability-fields.php:21
+#: includes/admin/views/html-appointment-pricing-fields.php:21
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: includes/admin/views/html-appointment-availability-fields.php:22
+#: includes/admin/views/html-appointment-pricing-fields.php:22
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: includes/admin/views/html-appointment-availability-fields.php:23
+#: includes/admin/views/html-appointment-pricing-fields.php:23
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: includes/admin/views/html-appointment-availability-fields.php:24
+#: includes/admin/views/html-appointment-pricing-fields.php:24
+msgid "Friday"
+msgstr "Freitag"
+
+#: includes/admin/views/html-appointment-availability-fields.php:25
+#: includes/admin/views/html-appointment-pricing-fields.php:25
+msgid "Saturday"
+msgstr "Samstag"
+
+#: includes/admin/views/html-appointment-availability-fields.php:26
+#: includes/admin/views/html-appointment-pricing-fields.php:26
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: includes/admin/views/html-appointment-availability-fields.php:30
+#: includes/admin/views/html-appointment-pricing-fields.php:30
+msgid "Week %s"
+msgstr "Wochen"
+
+#: includes/admin/views/html-appointment-availability-fields.php:46
+#: includes/admin/views/html-appointment-pricing-fields.php:52
+msgid "Date range"
+msgstr "Datumsbereich"
+
+#: includes/admin/views/html-appointment-availability-fields.php:47
+#: includes/admin/views/html-appointment-pricing-fields.php:53
+msgid "Range of months"
+msgstr "Bereich Monate"
+
+#: includes/admin/views/html-appointment-availability-fields.php:48
+#: includes/admin/views/html-appointment-pricing-fields.php:54
+msgid "Range of weeks"
+msgstr "Bereich Wochen"
+
+#: includes/admin/views/html-appointment-availability-fields.php:49
+#: includes/admin/views/html-appointment-pricing-fields.php:55
+msgid "Range of days"
+msgstr "Bereich von Tagen"
+
+#: includes/admin/views/html-appointment-availability-fields.php:50
+#: includes/admin/views/html-appointment-pricing-fields.php:58
+msgid "Time Ranges"
+msgstr "Zeitbereiche"
+
+#: includes/admin/views/html-appointment-availability-fields.php:51
+#: includes/admin/views/html-appointment-pricing-fields.php:59
+msgid "Time Range (all week)"
+msgstr "Zeitbereich (ganze Woche)"
+
+#: includes/admin/views/html-appointment-availability-fields.php:52
+#: includes/admin/views/html-appointment-pricing-fields.php:60
+msgid "Time Range (date range)"
+msgstr "Zeitbereich (Datumsbereich)"
+
+#: includes/admin/views/html-appointment-availability-fields.php:145
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/admin/views/html-appointment-availability-fields.php:146
+msgid "No"
+msgstr "Nein"
+
+#: includes/admin/views/html-appointment-availability.php:6
+msgid "Availability Check"
+msgstr "Verfügbarkeit prüfen"
+
+#: includes/admin/views/html-appointment-availability.php:7
+msgid ""
+"By default availability per each slot in range is checked. You can also "
+"check availability for starting slot only."
+msgstr ""
+"Standardmäßig wird die Verfügbarkeit im Bereich je Slot überprüft. Sie "
+"können die Verfügbarkeit auch ausschließlich für den Start Slot überprüfen."
+
+#: includes/admin/views/html-appointment-availability.php:11
+msgid "All slots in availability range"
+msgstr "Alle Slots im Verfügbarkeits Bereich"
+
+#: includes/admin/views/html-appointment-availability.php:12
+msgid "The starting slot only"
+msgstr "Nur der Start Slot"
+
+#: includes/admin/views/html-appointment-availability.php:18
+msgid "Auto-select?"
+msgstr "Automatische Auswahl?"
+
+#: includes/admin/views/html-appointment-availability.php:19
+msgid ""
+"Check this box if you want to auto-select first available day and/or time."
+msgstr ""
+"Markieren Sie dieses Kästchen, wenn Sie zum ersten Mal zur Verfügung Tag "
+"automatisch auswählen möchten und / oder Zeit."
+
+#: includes/admin/views/html-appointment-availability.php:27
+msgid ""
+"Add custom availability rules to override <a href=\"%s\">global "
+"availability</a> for this appointment only."
+msgstr ""
+"Fügen Sie individuelle Verfügbarkeits-Regeln hinzu, um die <a href=\"%s"
+"\">globale Verfügbarkeit</a> für diesen Termin zu überschrieben."
+
+#: includes/admin/views/html-appointment-general.php:5
+msgid "Label instead of price?"
+msgstr "Beschriftung statt Preis?"
+
+#: includes/admin/views/html-appointment-general.php:6
+msgid ""
+"Check this box if the appointment should display text label instead of fixed "
+"price amount."
+msgstr ""
+"Aktivieren Sie diese Option, falls für diesen Termin eine Beschriftung an "
+"Stelle des Festpreises angezeigt werden soll."
+
+#: includes/admin/views/html-appointment-general.php:11
+msgid "Price Label"
+msgstr "Preisschild"
+
+#: includes/admin/views/html-appointment-general.php:12
+#: includes/class-wc-product-appointment.php:214
+msgid "Price Varies"
+msgstr "Preis Variiert"
+
+#: includes/admin/views/html-appointment-general.php:14
+msgid ""
+"Show this label instead of fixed price amount. Payment will not be taken "
+"during checkout."
+msgstr ""
+"Dieses Beschriftung anstelle des Festpreises anzeigen. An der Kasse findet "
+"dann keine Zahlung statt."
+
+#: includes/admin/views/html-appointment-general.php:19
+msgid "Custom pricing rules?"
+msgstr "Kundenspezifische Preisregeln?"
+
+#: includes/admin/views/html-appointment-general.php:20
+msgid "Check this box if the appointment has custom pricing rules."
+msgstr ""
+"Markieren Sie diese Option, falls der Termin benutzerdefinierte Preisregeln "
+"hat."
+
+#: includes/admin/views/html-appointment-general.php:32
+msgid "Base cost"
+msgstr "Grundkosten"
+
+#: includes/admin/views/html-appointment-general.php:32
+msgid ""
+"Applied to the appointment as a whole. Must be inside range rules to be "
+"applied."
+msgstr ""
+"Angewandt auf den Termin als Ganzes. Muss sich innerhalb der Bereichs "
+"Regelung befinden um angewandt zu werden."
+
+#: includes/admin/views/html-appointment-general.php:33
+msgid "Slot cost"
+msgstr "Slot Kosten"
+
+#: includes/admin/views/html-appointment-general.php:33
+msgid ""
+"Applied to each appointment slot separately. When appointment lasts for 2 "
+"days or more, this cost applies to each day in range separately."
+msgstr ""
+"Für jeden Termin separat angewandt. Falls der Termin 2 Tage oder länger "
+"dauert, gelten diese Kosten für jeden Tag im Bereich separat."
+
+#: includes/admin/views/html-appointment-general.php:57
+msgid "All matching rules will be applied to the appointment."
+msgstr "Alle passenden Regeln werden für diesen Termin angewandt."
+
+#: includes/admin/views/html-appointment-general.php:75
+msgid "The maximum number of appointments per slot."
+msgstr "Die maximale Zahl an Terminen pro Slot."
+
+#: includes/admin/views/html-appointment-general.php:79
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:56
+msgid "Min"
+msgstr "Min"
+
+#: includes/admin/views/html-appointment-general.php:80
+msgid "The minimum number of customers required per slot."
+msgstr "Die Mindestanzahl der Kunden pro Steckplatz benötigt."
+
+#: includes/admin/views/html-appointment-general.php:84
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:57
+msgid "Max"
+msgstr "Maxi."
+
+#: includes/admin/views/html-appointment-general.php:85
+msgid "The maximum number of customers allowed per slot."
+msgstr "Die maximale Anzahl von Kunden pro Slot erlaubt."
+
+#: includes/admin/views/html-appointment-general.php:98
+#: includes/admin/views/html-appointment-general.php:122
+#: includes/admin/views/html-appointment-general.php:138
+#: includes/admin/views/html-appointment-general.php:211
+msgid "Minute(s)"
+msgstr "Minute(n)"
+
+#: includes/admin/views/html-appointment-general.php:99
+#: includes/admin/views/html-appointment-general.php:123
+#: includes/admin/views/html-appointment-general.php:139
+#: includes/admin/views/html-appointment-general.php:155
+#: includes/admin/views/html-appointment-general.php:176
+#: includes/admin/views/html-appointment-general.php:210
+msgid "Hour(s)"
+msgstr "Stunde(n)"
+
+#: includes/admin/views/html-appointment-general.php:100
+#: includes/admin/views/html-appointment-general.php:140
+#: includes/admin/views/html-appointment-general.php:156
+#: includes/admin/views/html-appointment-general.php:177
+#: includes/admin/views/html-appointment-general.php:209
+msgid "Day(s)"
+msgstr "Tag(e)"
+
+#: includes/admin/views/html-appointment-general.php:102
+msgid "How long do you plan this appointment to last?"
+msgstr "Wie lange planen Sie soll dieser Termin dauern?"
+
+#: includes/admin/views/html-appointment-general.php:119
+msgid "Interval"
+msgstr "Intervall"
+
+# Why the questions mark?
+#: includes/admin/views/html-appointment-general.php:125
+msgid ""
+"Select intervals when each appointment slot is available for scheduling?"
+msgstr "Wählen Sie Intervalle bei denen jeder Terminblock buchbar ist?"
+
+#: includes/admin/views/html-appointment-general.php:135
+msgid "Padding Time"
+msgstr "Nachlaufzeit"
+
+#: includes/admin/views/html-appointment-general.php:142
+msgid "Specify the padding time you need between appointments."
+msgstr "Bitte wählen Sie die Nachlaufzeit zwischen den Terminen."
+
+#: includes/admin/views/html-appointment-general.php:152
+msgid "Lead Time"
+msgstr "Vorlaufzeit"
+
+#: includes/admin/views/html-appointment-general.php:157
+#: includes/admin/views/html-appointment-general.php:178
+msgid "Week(s)"
+msgstr "Woche(n)"
+
+#: includes/admin/views/html-appointment-general.php:158
+#: includes/admin/views/html-appointment-general.php:179
+#: includes/admin/views/html-appointment-general.php:208
+msgid "Month(s)"
+msgstr "Monat(e)"
+
+#: includes/admin/views/html-appointment-general.php:159
+msgid ""
+"How much in advance do you need before a client schedules an appointment?"
+msgstr ""
+"Wie lange benötigen Sie im Voraus, bevor ein Kunde ein neuen Termin buchen "
+"kann?"
+
+#: includes/admin/views/html-appointment-general.php:173
+msgid "Scheduling Window"
+msgstr "Buchungs-Fenster"
+
+#: includes/admin/views/html-appointment-general.php:181
+msgid "How far in advance are customers allowed to schedule an appointment?"
+msgstr "Wie lange im Voraus können Kunden einen Termin vereinbaren?"
+
+#: includes/admin/views/html-appointment-general.php:188
+msgid "Requires confirmation?"
+msgstr "Benötigt Bestätigung?"
+
+#: includes/admin/views/html-appointment-general.php:189
+msgid ""
+"Check this box if the appointment requires approval/confirmation. Payment "
+"will not be taken during checkout."
+msgstr ""
+"Aktivieren Sie diese Option, falls der Termin eine Zustimmung / Bestätigung "
+"erfordert. An der Kasse findet keine Zahlung statt."
+
+#: includes/admin/views/html-appointment-general.php:194
+msgid "Can be cancelled?"
+msgstr "Kann abgesagt werden?"
+
+#: includes/admin/views/html-appointment-general.php:195
+msgid ""
+"Check this box if the appointment can be cancelled by the customer. A refund "
+"will not be sent automatically."
+msgstr ""
+"Aktivieren Sie diese Option, wenn der Termin vom Kunden storniert werden "
+"kann. Eine Rückerstattung wird nicht automatisch gesendet."
+
+#: includes/admin/views/html-appointment-general.php:205
+msgid "Cancelled at least"
+msgstr "Eingang der Stornierung mindestens"
+
+#: includes/admin/views/html-appointment-general.php:213
+msgid "before the start date."
+msgstr "vor dem Starttermin."
+
+#: includes/admin/views/html-appointment-general.php:236
+msgid "Calendar color"
+msgstr "Kalender Farbe"
+
+#: includes/admin/views/html-appointment-general.php:238
+msgid ""
+"Pick a color that will represent this appointable product inside admin "
+"calendar."
+msgstr ""
+"Wählen Sie eine Farbe mit der dieses Produkt im Admin Kalender angezeigt "
+"werden soll."
+
+#: includes/admin/views/html-appointment-pricing-fields.php:56
+msgid "Slot count"
+msgstr "Slot Zählung"
+
+#: includes/admin/views/html-appointment-pricing-fields.php:57
+msgid "Capacity count"
+msgstr "Kapazität Menge"
+
+#: includes/admin/views/html-appointment-staff-member.php:10
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:9
+msgid "Remove"
+msgstr "Entfernen"
+
+#: includes/admin/views/html-appointment-staff-member.php:12
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin.php:66
+#: woocommerce-appointments.php:435
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: includes/admin/views/html-appointment-staff-member.php:14
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:10
+msgid "Click to toggle"
+msgstr "Zum Umschalten klicken"
+
+#: includes/admin/views/html-appointment-staff-member.php:27
+msgid "Additional Cost"
+msgstr "Zusätzliche Kosten"
+
+#: includes/admin/views/html-appointment-staff.php:5
+msgid "Label"
+msgstr "Beschriftung"
+
+#: includes/admin/views/html-appointment-staff.php:5
+msgid "The label shown on the frontend if the staff is customer defined."
+msgstr ""
+"Die Beschriftung die im Front-End angezeigt wird, falls das Personal vom "
+"Kunde bestimmt wird."
+
+#: includes/admin/views/html-appointment-staff.php:9
+msgid "Staff selection"
+msgstr "Personalauswahl"
+
+#: includes/admin/views/html-appointment-staff.php:12
+msgid "Customer selected"
+msgstr "Kunde ausgewählt"
+
+#: includes/admin/views/html-appointment-staff.php:13
+msgid "Automatically assigned"
+msgstr "Automatisch zugewiesen"
+
+#: includes/admin/views/html-appointment-staff.php:14
+msgid "Automatically assigned (all staff together)"
+msgstr "Automatisch zugewiesen (alle zusammen)"
+
+#: includes/admin/views/html-appointment-staff.php:17
+msgid ""
+"Customer selected staff allow customers to choose one from the appointment "
+"form."
+msgstr ""
+"Vom Kunden ausgewählte Personal erlaubt es Kunden, einen Personal selbst im "
+"Terminformular zu wählen."
+
+#: includes/admin/views/html-appointment-staff.php:27
+msgid ""
+"Capacity for this appointable product will equal number of staff linked."
+msgstr ""
+"Die Kapazität für dieses buchbare Produkt wird der Anzahl der verlinkten "
+"Personal entsprechen."
+
+#: includes/admin/views/html-appointment-staff.php:55
+msgid "Link Staff"
+msgstr "Personal verknüpfen"
+
+#: includes/admin/views/html-appointment-staff.php:64
+msgid "Manage Staff"
+msgstr "Personal verwalten"
+
+#: includes/admin/views/html-appointment-staff.php:66
+msgid "Add Staff"
+msgstr "Personal hinzufügen"
+
+#: includes/admin/views/html-appointment-tab.php:2
+msgid "Availability"
+msgstr "Verfügbarkeit"
+
+#: includes/admin/views/html-calendar-day.php:2
+msgid "Appointments by day"
+msgstr "Termine nach Tag"
+
+#: includes/admin/views/html-calendar-day.php:12
+#: includes/admin/views/html-calendar-month.php:13
+msgid "Filter Appointments"
+msgstr "Termine filtern"
+
+#: includes/admin/views/html-calendar-day.php:14
+#: includes/admin/views/html-calendar-month.php:15
+msgid "By appointable product"
+msgstr "Nach buchbarem Produkt"
+
+#: includes/admin/views/html-calendar-day.php:21
+#: includes/admin/views/html-calendar-month.php:22
+msgid "By staff"
+msgstr "Nach Personal"
+
+#: includes/admin/views/html-calendar-day.php:37
+msgid "Month View"
+msgstr "Monatsansicht"
+
+#: includes/admin/views/html-calendar-day.php:107
+msgid "All Day"
+msgstr "Ganztägig"
+
+#: includes/admin/views/html-calendar-dialog-add.php:7
+#: includes/admin/views/html-calendar-dialog-add.php:46
+#: includes/admin/views/html-calendar-dialog.php:8
+#: includes/admin/views/html-calendar-dialog.php:43
+#: includes/appointment-form/class-wc-appointment-form.php:44
+msgid "Close"
+msgstr "Schließen"
+
+#: includes/admin/views/html-calendar-dialog-add.php:15
+msgid "Select a product &#8230;"
+msgstr "Wählen Sie ein Produkt &#8230;"
+
+#: includes/admin/views/html-calendar-dialog-add.php:26
+msgid "Select staff &#8230;"
+msgstr "Personal wählen &#8230;"
+
+#: includes/admin/views/html-calendar-dialog-add.php:34
+#: includes/admin/views/html-calendar-dialog.php:22
+msgid "Date:"
+msgstr "Datum:"
+
+#: includes/admin/views/html-calendar-dialog-add.php:38
+#: includes/admin/views/html-calendar-dialog.php:26
+msgid "Time:"
+msgstr "Zeit:"
+
+#: includes/admin/views/html-calendar-dialog-add.php:143
+#: includes/emails/class-wc-email-new-appointment.php:27
+#: woocommerce-appointments.php:437
+msgid "New Appointment"
+msgstr "Neuer Termin"
+
+#: includes/admin/views/html-calendar-dialog.php:18
+msgid "Providers:"
+msgstr "Personal:"
+
+#: includes/admin/views/html-calendar-dialog.php:30
+msgid "Status:"
+msgstr "Status:"
+
+#: includes/admin/views/html-calendar-dialog.php:31
+msgid "unpaid"
+msgstr "unbezahlt"
+
+#: includes/admin/views/html-calendar-dialog.php:34
+msgid "Cost:"
+msgstr "Kosten:"
+
+#: includes/admin/views/html-calendar-dialog.php:49
+#: woocommerce-appointments.php:436
+msgid "Edit Appointment"
+msgstr "Termin bearbeiten"
+
+#: includes/admin/views/html-calendar-month.php:2
+msgid "Appointments by month"
+msgstr "Termine nach Monat"
+
+#: includes/admin/views/html-settings-global-availability.php:10
+msgid "Global availability"
+msgstr "Globale Verfügbarkeit"
+
+#: includes/admin/views/html-settings-global-availability.php:12
+msgid ""
+"The availability rules you define here will affect all appointable products. "
+"You can override them for each product, staff."
+msgstr ""
+"Die Verfügbarkeits-Regeln die Sie hier definieren, betreffen alle buchbaren "
+"Produkte. Sie können sie für jedes Produkt und jeden Personal überschreiben."
+
+#: includes/admin/views/html-settings-send-notifications.php:9
+#: includes/admin/views/html-settings-send-notifications.php:56
+msgid "Send Notification"
+msgstr "Benachrichtigung senden"
+
+#: includes/admin/views/html-settings-send-notifications.php:11
+msgid ""
+"You may send an email notification to all customers who have a %1$sfuture"
+"%2$s appointment for a particular product. This will use the default "
+"template specified under %3$sWooCommerce > Settings > Emails%4$s."
+msgstr ""
+"Sie können eine e-Mail-Benachrichtigung an alle Kunden senden, die einen \"% "
+"1\" $Sfuture %2$s Termin für ein bestimmtes Produkt haben. Diese verwenden "
+"die Standard-Vorlage angegeben unter %3$sWooCommerce > Einstellungen > E-"
+"Mails %4$s."
+
+#: includes/admin/views/html-settings-send-notifications.php:17
+msgid "Appointment Product"
+msgstr "Termin Produkt"
+
+#: includes/admin/views/html-settings-send-notifications.php:21
+msgid "Select an appointment product..."
+msgstr "Wählen Sie eine buchbares Produkt ..."
+
+#: includes/admin/views/html-settings-send-notifications.php:30
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:162
+#: includes/emails/class-wc-email-appointment-cancelled.php:141
+#: includes/emails/class-wc-email-appointment-confirmed.php:166
+#: includes/emails/class-wc-email-appointment-reminder.php:131
+#: includes/emails/class-wc-email-new-appointment.php:198
+msgid "Subject"
+msgstr "Betreff"
+
+#: includes/admin/views/html-settings-send-notifications.php:33
+msgid "Email subject"
+msgstr "E-Mail-Betreff"
+
+#: includes/admin/views/html-settings-send-notifications.php:38
+msgid "Message"
+msgstr "Nachricht"
+
+#: includes/admin/views/html-settings-send-notifications.php:41
+msgid "The message you wish to send"
+msgstr "Die Nachricht, die Sie senden möchten,"
+
+#: includes/admin/views/html-settings-send-notifications.php:42
+msgid ""
+"The following tags can be inserted in your message/subject and will be "
+"replaced dynamically"
+msgstr ""
+"Die folgenden Tags können in Ihrer Nachricht / in Ihrem Betreff eingefügt "
+"werden und werden dynamisch ersetzt"
+
+#: includes/admin/views/html-settings-send-notifications.php:47
+msgid "Attachment"
+msgstr "Anhang"
+
+#: includes/admin/views/html-settings-send-notifications.php:50
+msgid "Attach <code>.ics</code> file"
+msgstr "<code>.ics</code> Datei anfügen"
+
+#: includes/appointment-form/class-wc-appointment-form.php:45
+msgid "Today"
+msgstr "Heute"
+
+#: includes/appointment-form/class-wc-appointment-form.php:46
+msgid "Previous"
+msgstr "Vorherige"
+
+#: includes/appointment-form/class-wc-appointment-form.php:62
+msgid "Selected date is unavailable"
+msgstr "Dieses Datum ist nicht verfügbar"
+
+#: includes/appointment-form/class-wc-appointment-form.php:63
+msgid "Selected date is not valid"
+msgstr "Dieses Datum ist nicht gültig"
+
+#: includes/appointment-form/class-wc-appointment-form.php:64
+msgid "Selected time is unavailable"
+msgstr "Dieser Termin ist nicht verfügbar."
+
+#: includes/appointment-form/class-wc-appointment-form.php:65
+msgid "Selected date is fully scheduled and unavailable"
+msgstr "Dieses Datum ist vollständig ausgebucht und nicht verfügbar"
+
+#: includes/appointment-form/class-wc-appointment-form.php:66
+msgid "Selected date is partially scheduled - but appointments still remain"
+msgstr "Dieses Datum ist teilweise gebucht - aber es bleiben noch Termine"
+
+#: includes/appointment-form/class-wc-appointment-form.php:67
+msgid "Selected date is available"
+msgstr "Dieses Datum ist verfügbar"
+
+#: includes/appointment-form/class-wc-appointment-form.php:68
+msgid "Choose a Start Date"
+msgstr "Wählen Sie ein Startdatum"
+
+#: includes/appointment-form/class-wc-appointment-form.php:69
+msgid "Choose an End Date"
+msgstr "Wählen Sie ein Enddatum"
+
+# Colon ?
+#: includes/appointment-form/class-wc-appointment-form.php:70
+msgid "Dates"
+msgstr "Zeitraum:"
+
+#: includes/appointment-form/class-wc-appointment-form.php:71
+msgid "Please select the options for your appointment above first"
+msgstr "Bitte wählen Sie zuerst oben die Optionen für den Termin"
+
+#: includes/appointment-form/class-wc-appointment-form.php:275
+#: includes/wc-appointments-functions.php:482
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s Tag"
+msgstr[1] "%s Tag"
+
+#: includes/appointment-form/class-wc-appointment-form.php:277
+#: includes/appointment-form/class-wc-appointment-form.php:279
+#: includes/class-wc-product-appointment.php:274
+#: includes/wc-appointments-functions.php:490
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s Stunde"
+msgstr[1] "%s Stunde"
+
+#: includes/appointment-form/class-wc-appointment-form.php:281
+#: includes/appointment-form/class-wc-appointment-form.php:283
+#: includes/wc-appointments-functions.php:484
+#: includes/wc-appointments-functions.php:494
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s Minuten"
+msgstr[1] "%s Minuten"
+
+#: includes/appointment-form/class-wc-appointment-form.php:367
+msgid "Date is required - please choose one above"
+msgstr "Datum ist erforderlich - bitte wählen Sie oben Eines"
+
+#: includes/appointment-form/class-wc-appointment-form.php:370
+msgid "Time is required - please choose one above"
+msgstr "Zeit erforderlich ist - bitte wählen Sie oben Eine"
+
+#: includes/appointment-form/class-wc-appointment-form.php:373
+#: includes/appointment-form/class-wc-appointment-form.php:376
+msgid "You must choose a future date and time."
+msgstr "Sie müssen ein Datum und eine Uhrzeit die in der Zukunft liegen."
+
+#: includes/appointment-form/class-wc-appointment-form.php:391
+msgid "The earliest appointment possible is currently %s."
+msgstr "Der frühestmögliche Termin ist derzeit %s ."
+
+#: includes/appointment-form/class-wc-appointment-form.php:397
+msgid "The latest appointment possible is currently %s."
+msgstr "Der letztmögliche Termin möglich ist derzeit %s ."
+
+#: includes/appointment-form/class-wc-appointment-form.php:411
+msgid "Sorry, the selected slot is not available."
+msgstr "Entschuldigung, der ausgewählte Slot ist nicht verfügbar."
+
+#: includes/appointment-form/class-wc-appointment-form.php:521
+msgid "Sorry, the selected day is not available."
+msgstr "Entschuldigung, der ausgewählte Tag ist nicht verfügbar."
+
+#: includes/class-wc-appointment-cart-manager.php:233
+msgid ""
+"An appointment for %s has been removed from your cart due to inactivity."
+msgstr ""
+"Ein Termin für %s wurde wegen Inaktivität aus Ihrem Warenkorb entfernt."
+
+# purchase instead of purchased?
+#: includes/class-wc-appointment-cart-manager.php:419
+msgid ""
+"An appointment that requires confirmation has been removed from your cart. "
+"It is not possible to complete the purchased along with an appointment that "
+"doesn't require confirmation."
+msgstr ""
+"Ein Termin, der eine Bestätigung voraussetzt wurde aus Ihrem Warenkorb "
+"entfernt. Es ist nicht möglich den Kauf zusammen mit einem anderen Termin "
+"abzuschließen der keine Bestätigung voraussetzt. Buchen Sie die Termine "
+"separat."
+
+#: includes/class-wc-appointment-form-handler.php:36
+msgid "Your appointment has been cancelled."
+msgstr "Ihr Termin wurde storniert."
+
+#: includes/class-wc-appointment-form-handler.php:40
+msgid ""
+"Your appointment can no longer be cancelled. Please contact us if you need "
+"assistance."
+msgstr ""
+"Ihr Termin kann nicht mehr storniert werden. Bitte kontaktieren Sie uns, "
+"wenn Sie Hilfe benötigen."
+
+#: includes/class-wc-appointment-form-handler.php:42
+msgid "Invalid appointment."
+msgstr "Ungültiger Termin."
+
+#: includes/class-wc-appointment-order-manager.php:105
+#: woocommerce-appointments.php:429 woocommerce-appointments.php:432
+msgid "Appointment"
+msgstr "Termin"
+
+#: includes/class-wc-appointment-order-manager.php:219
+msgid "Upcoming Appointments"
+msgstr "Kommend Termine"
+
+#: includes/class-wc-appointment-order-manager.php:225
+msgid "Past Appointments"
+msgstr "Abgelafuene Termine"
+
+#: includes/class-wc-appointment-order-manager.php:591
+msgid ""
+"The product %1$s has been removed from the order because the appointment #"
+"%2$d cannot be confirmed."
+msgstr ""
+"Das Produkt %1$s wurde von der Reihenfolge entfernt, da der Termin #%2$d "
+"nicht bestätigt werden kann."
+
+#: includes/class-wc-appointment.php:164
+msgid "Appointment &ndash; %s"
+msgstr "Termin &ndash; %s"
+
+#: includes/class-wc-appointment.php:323
+msgid "Was In Cart"
+msgstr "Wurde In den Warenkorb"
+
+#: includes/class-wc-appointment.php:338
+msgid "Appointment #%1$d status changed from \"%2$s\" to \"%3$s\""
+msgstr "Termin #%1$ d Status von \"%2$s\" in \"%3$s\" geändert"
+
+#: includes/class-wc-appointment.php:362
+msgid "Appointment #%1$d customer status changed from \"%2$s\" to \"%3$s\""
+msgstr "Termin #%1$ d Kundenstatus \"%3$s\" von \"%2$s\" geändert."
+
+#: includes/class-wc-appointments-controller.php:783
+msgid ""
+"Some appointments mismatch against availability rules. Check <a href=\"%s\">"
+"\"appointments-validation\" Log</a> for details."
+msgstr ""
+"Einige Termine Missverhältnis gegen Verfügbarkeit Regeln. Überprüfen Sie <a "
+"href=\"%s\">\"appointments-validation\"</a> für Details."
+
+# from what? a specifc date?
+# than it must be “Termine vom … ”
+# or a specific customer?
+# than it must be “Termine von … ”
+#: includes/class-wc-appointments-ics-exporter.php:148
+msgid "Appointments from %s"
+msgstr "Termine aus %s"
+
+#: includes/class-wc-appointments-ics-exporter.php:163
+msgid "Appointment description:"
+msgstr "Terminbeschreibung:"
+
+#: includes/class-wc-product-appointment.php:238
+#: includes/class-wc-product-appointment.php:252
+msgid "<small class=\"from\">From </small>%s"
+msgstr "<small class=\"from\">Von </small>%s"
+
+#: includes/class-wc-product-appointment.php:256
+#: includes/class-wc-product-appointment.php:259
+msgid "Free!"
+msgstr "Kostenlos!"
+
+#: includes/class-wc-product-appointment.php:472
+msgid "Book"
+msgstr "Buchen"
+
+#: includes/class-wc-product-appointment.php:481
+msgid "Check Availability"
+msgstr "Verfügbarkeit prüfen"
+
+#: includes/class-wc-product-appointment.php:481
+msgid "Book Now"
+msgstr "Jetzt Buchen"
+
+#: includes/class-wc-product-appointment.php:557
+#: includes/class-wc-product-appointment.php:561
+msgid "This slot cannot be scheduled."
+msgstr "Dieser Slot kann nicht gebucht werden."
+
+#: includes/class-wc-product-appointment.php:698
+msgid "There is only %1$d place remaining on %2$s at %3$s."
+msgid_plural "There are %1$d places remaining on %2$s at %3$s."
+msgstr[0] "Es gibt nur \"%1$d\" Ort noch auf %2$s an %3$s."
+msgstr[1] "Es gibt nur \"%1$d\" Orte noch auf %2$s an %3$s."
+
+#: includes/class-wc-product-appointment.php:705
+#: includes/class-wc-product-appointment.php:711
+msgid "There is only %1$d place remaining on %2$s"
+msgid_plural "There are %1$d places remaining on %2$s"
+msgstr[0] "Es gibt nur %1$d platz auf %2$s verbleibenden"
+msgstr[1] "Es gibt nur %1$d plätze auf %2$s verbleibenden"
+
+#: includes/class-wc-product-appointment.php:1688
+msgid "Morning"
+msgstr "Morgens"
+
+#: includes/class-wc-product-appointment.php:1693
+msgid "Afternoon"
+msgstr "Nachmittag"
+
+#: includes/class-wc-product-appointment.php:1698
+msgid "Evening"
+msgstr "Abends"
+
+#: includes/class-wc-product-appointment.php:1740
+msgid "%d left"
+msgid_plural "%d left"
+msgstr[0] "%d übrig"
+msgstr[1] "%d übrig"
+
+#: includes/class-wc-product-appointment.php:1741
+msgid " data-locale=\"Your local time: %s\""
+msgstr " data-locale=\"Ihre lokale Zeit: %s\""
+
+#: includes/class-wc-product-appointment.php:1754
+msgid "&#45;"
+msgstr "&#45;"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:20
+msgid "Admin Appointment Cancelled"
+msgstr "Admin Termin abgesagt"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:21
+#: includes/emails/class-wc-email-appointment-cancelled.php:21
+msgid ""
+"Appointment cancelled emails are sent when the status of an appointment goes "
+"to cancelled."
+msgstr ""
+"Stornierungs-E-Mails werden versandt, wenn der Status eines Termins auf "
+"‚storniert‘ geändert wird."
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:22
+#: includes/emails/class-wc-email-appointment-cancelled.php:20
+#: includes/emails/class-wc-email-appointment-cancelled.php:22
+msgid "Appointment Cancelled"
+msgstr "Termin storniert"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:23
+msgid "[{blogname}] An appointment of \"{product_title}\" has been cancelled"
+msgstr "[{blogname}] Ein Termin für \"{product_title}\" wurde storniert"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:149
+#: includes/emails/class-wc-email-appointment-cancelled.php:135
+#: includes/emails/class-wc-email-appointment-confirmed.php:160
+#: includes/emails/class-wc-email-appointment-notification.php:168
+#: includes/emails/class-wc-email-appointment-reminder.php:125
+#: includes/emails/class-wc-email-new-appointment.php:185
+msgid "Enable/Disable"
+msgstr "Aktivieren / Deaktivieren"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:151
+#: includes/emails/class-wc-email-appointment-cancelled.php:137
+#: includes/emails/class-wc-email-appointment-confirmed.php:162
+#: includes/emails/class-wc-email-appointment-notification.php:170
+#: includes/emails/class-wc-email-appointment-reminder.php:127
+#: includes/emails/class-wc-email-new-appointment.php:187
+msgid "Enable this email notification"
+msgstr "Aktivieren Sie diese E-Mail-Benachrichtigung"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:155
+#: includes/emails/class-wc-email-new-appointment.php:191
+msgid "Recipient(s)"
+msgstr "Empfänger"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:157
+#: includes/emails/class-wc-email-new-appointment.php:193
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr ""
+"Geben Sie Empfänger (durch Komma getrennt) für diese E-Mail an. Standarmäßig "
+"<code>%s</code>."
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:164
+#: includes/emails/class-wc-email-appointment-cancelled.php:143
+#: includes/emails/class-wc-email-appointment-confirmed.php:168
+#: includes/emails/class-wc-email-appointment-reminder.php:133
+#: includes/emails/class-wc-email-new-appointment.php:200
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Dies steuert die E-Mail-Betreffzeile. Leer lassen um den Standardtext "
+"verwenden: <code>%s</ code>."
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:169
+#: includes/emails/class-wc-email-appointment-cancelled.php:148
+#: includes/emails/class-wc-email-appointment-confirmed.php:173
+#: includes/emails/class-wc-email-appointment-reminder.php:138
+#: includes/emails/class-wc-email-new-appointment.php:212
+msgid "Email Heading"
+msgstr "E-Mail-Überschrift"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:171
+#: includes/emails/class-wc-email-appointment-cancelled.php:150
+#: includes/emails/class-wc-email-appointment-confirmed.php:175
+#: includes/emails/class-wc-email-appointment-reminder.php:140
+#: includes/emails/class-wc-email-new-appointment.php:214
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Dies steuert die Hauptüberschrift die in der E-Mail-Benachrichtigung "
+"enthalten ist. Leer lassen um den Standardtitel verwenden: <code>%s</code>."
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:176
+#: includes/emails/class-wc-email-appointment-cancelled.php:155
+#: includes/emails/class-wc-email-appointment-confirmed.php:180
+#: includes/emails/class-wc-email-appointment-notification.php:174
+#: includes/emails/class-wc-email-appointment-reminder.php:145
+#: includes/emails/class-wc-email-new-appointment.php:226
+msgid "Email type"
+msgstr "E-Mail-Typ"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:178
+#: includes/emails/class-wc-email-appointment-cancelled.php:157
+#: includes/emails/class-wc-email-appointment-confirmed.php:182
+#: includes/emails/class-wc-email-appointment-notification.php:176
+#: includes/emails/class-wc-email-appointment-reminder.php:147
+#: includes/emails/class-wc-email-new-appointment.php:228
+msgid "Choose which format of email to send."
+msgstr "Wählen Sie in welchem Format die E-Mail versandt werden soll."
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:182
+#: includes/emails/class-wc-email-appointment-cancelled.php:161
+#: includes/emails/class-wc-email-appointment-confirmed.php:186
+#: includes/emails/class-wc-email-appointment-notification.php:180
+#: includes/emails/class-wc-email-appointment-reminder.php:151
+#: includes/emails/class-wc-email-new-appointment.php:232
+msgid "Plain text"
+msgstr "Reines Textdokument"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:183
+#: includes/emails/class-wc-email-appointment-cancelled.php:162
+#: includes/emails/class-wc-email-appointment-confirmed.php:187
+#: includes/emails/class-wc-email-appointment-notification.php:181
+#: includes/emails/class-wc-email-appointment-reminder.php:152
+#: includes/emails/class-wc-email-new-appointment.php:233
+msgid "HTML"
+msgstr "HTML"
+
+# ?
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:184
+#: includes/emails/class-wc-email-appointment-cancelled.php:163
+#: includes/emails/class-wc-email-appointment-confirmed.php:188
+#: includes/emails/class-wc-email-appointment-notification.php:182
+#: includes/emails/class-wc-email-appointment-reminder.php:153
+#: includes/emails/class-wc-email-new-appointment.php:234
+msgid "Multipart"
+msgstr "Mehrteiliger"
+
+#: includes/emails/class-wc-email-appointment-cancelled.php:23
+msgid "[{blogname}] Your appointment of \"{product_title}\" has been cancelled"
+msgstr "[{blogname}] Ihre Termin für \"{product_title}\" wurde storniert"
+
+#: includes/emails/class-wc-email-appointment-confirmed.php:21
+#: includes/emails/class-wc-email-appointment-confirmed.php:23
+msgid "Appointment Confirmed"
+msgstr "Termin bestätigt"
+
+#: includes/emails/class-wc-email-appointment-confirmed.php:22
+msgid ""
+"Appointment confirmed emails are sent when the status of an appointment goes "
+"to confirmed."
+msgstr ""
+"Termin Bestätigungs-E-Mails werden versandt, wenn der Status eines Termins "
+"auf ‚bestätigt‘ geändert wird."
+
+#: includes/emails/class-wc-email-appointment-confirmed.php:24
+msgid ""
+"[{blogname}] Your appointment of \"{product_title}\" has been confirmed "
+"(Order {order_number}) - {order_date}"
+msgstr ""
+"[{blogname}] Ihre Termin für \"{product_title}\" wurde bestätigt (Bestellung "
+"{order_number}) - {order_date}"
+
+#: includes/emails/class-wc-email-appointment-notification.php:21
+msgid "Appointment Notification"
+msgstr "Terminbenachrichtigung"
+
+#: includes/emails/class-wc-email-appointment-notification.php:22
+msgid ""
+"Appointment notification emails are sent manually from WooCommerce > "
+"Appointments > Send Notification."
+msgstr ""
+"Termin Benachrichtigungs-E-Mails werden manuell versandt von WooCommerce > "
+"Appointments > Benachrichtigung senden."
+
+#: includes/emails/class-wc-email-appointment-reminder.php:20
+#: includes/emails/class-wc-email-appointment-reminder.php:22
+msgid "Appointment Reminder"
+msgstr "Termin Erinnerung"
+
+#: includes/emails/class-wc-email-appointment-reminder.php:21
+msgid ""
+"Appointment reminders are sent to the customer to remind them of an upcoming "
+"appointment."
+msgstr ""
+"Termin Erinnerungen werden an Kunden versendet, um sie an einen "
+"bevorstehenden Termin zu erinnern."
+
+#: includes/emails/class-wc-email-appointment-reminder.php:23
+msgid "[{blogname}] A reminder about your appointment of \"{product_title}\""
+msgstr ""
+"[{blogname}] Eine Erinnerung über Ihren bevorstehenden Termin für "
+"\"{product_title}\""
+
+#: includes/emails/class-wc-email-new-appointment.php:28
+msgid ""
+"New appointment emails are sent to the admin when a new appointment is "
+"created and paid. This email is also received when a Pending confirmation "
+"appointment is created."
+msgstr ""
+"Neuer-Termin-E-Mails werden an den Administrator gesendet werden, wenn ein "
+"neuer Termin erstellt und bezahlt wurde. Diese E-Mail wird auch versandt, "
+"wenn ein Termin mit ausstehender Bestätigung erstellt wird."
+
+#: includes/emails/class-wc-email-new-appointment.php:29
+msgid "New appointment"
+msgstr "Neuer Termin"
+
+#: includes/emails/class-wc-email-new-appointment.php:30
+msgid "Confirm appointment"
+msgstr "Termin bestätigen"
+
+#: includes/emails/class-wc-email-new-appointment.php:31
+msgid ""
+"[{blogname}] New appointment for {product_title} (Order {order_number}) - "
+"{order_date}"
+msgstr ""
+"[{Blogname}] Neuer Termin für {PRODUCT_TITLE} (Bestellung {order_number}) - "
+"{order_date}"
+
+#: includes/emails/class-wc-email-new-appointment.php:32
+msgid ""
+"[{blogname}] A new appointment for {product_title} (Order {order_number}) is "
+"awaiting your approval - {order_date}"
+msgstr ""
+"[{Blogname}] Ein neuer Termin für {PRODUCT_TITLE} (Bestellung "
+"{order_number}) wartet auf Ihre Bestätigung - {order_date}"
+
+#: includes/emails/class-wc-email-new-appointment.php:205
+msgid "Subject (Pending confirmation)"
+msgstr "Betreff (Noch zu bestätigen)"
+
+#: includes/emails/class-wc-email-new-appointment.php:207
+msgid ""
+"This controls the email subject line for Pending confirmation appointments. "
+"Leave blank to use the default subject: <code>%s</code>."
+msgstr ""
+"Dies steuert die E-Mail-Betreffzeile für Warte-auf-Bestätigung-Termine. Leer "
+"lassen um den Standardtext verwenden: <code>%s</code>."
+
+#: includes/emails/class-wc-email-new-appointment.php:219
+msgid "Email Heading (Pending confirmation)"
+msgstr "E-Mail-Überschrift (Warte auf Bestätigung)"
+
+#: includes/emails/class-wc-email-new-appointment.php:221
+msgid ""
+"This controls the main heading contained within the email notification for "
+"Pending confirmation appointments. Leave blank to use the default heading: "
+"<code>%s</code>."
+msgstr ""
+"Dies steuert die Hauptüberschrift innerhalb der E-Mail-Benachrichtigung für "
+"Termine die auf eine Bestätigung warten. Leer lassen um den Standardtitel "
+"verwenden: <code>%s</code>."
+
+#: includes/gateways/class-wc-appointments-gateway.php:17
+msgid "Check appointment availability"
+msgstr "Prüfen Terminverfügbarkeit"
+
+#: includes/gateways/class-wc-appointments-gateway.php:19
+msgid "Request Confirmation"
+msgstr "Bestätigung anfordern"
+
+#: includes/gateways/class-wc-appointments-gateway.php:38
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/gateways/class-wc-appointments-gateway.php:42
+msgid ""
+"This is fictitious payment method used for appointments that requires "
+"confirmation."
+msgstr ""
+"Dies ist fiktive Zahlungsmethode für Termine, die eine Bestätigung erfordern."
+
+#: includes/gateways/class-wc-appointments-gateway.php:43
+msgid "This gateway requires no configuration."
+msgstr "Dieses Gateway erfordert keine Konfiguration."
+
+#: includes/gateways/class-wc-appointments-gateway.php:80
+msgid "This order is awaiting confirmation from the shop manager"
+msgstr "Diese Bestellung wartet auf eine Bestätigung durch dem Shop Manager"
+
+#: includes/gateways/class-wc-appointments-gateway.php:99
+msgid "Your appointment has been confirmed. Thank you."
+msgstr "Ihre Termin wurde bestätigt. Vielen Dank."
+
+#: includes/gateways/class-wc-appointments-gateway.php:101
+msgid ""
+"Your appointment is awaiting confirmation. You will be notified by email as "
+"soon as we've confirmed availability."
+msgstr ""
+"Ihr Termin wartet auf eine Bestätigung. Sie werden per E-Mail benachrichtigt "
+"sobald wir die Verfügbarkeit bestätigt haben."
+
+#: includes/integrations/class-wc-appointments-integration-customer-relationship-manager.php:86
+msgid "Customer Notes"
+msgstr "Kundennotizen"
+
+#: includes/integrations/class-wc-appointments-integration-customer-relationship-manager.php:93
+msgid "Order Notes"
+msgstr "Bestellhinweise"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:31
+msgid "Google Calendar Sync"
+msgstr "Google Calendar Sync"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:99
+msgid "Client ID"
+msgstr "Kunden-ID"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:101
+msgid "Your Google Client ID."
+msgstr "Ihr Google Client ID."
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:106
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:108
+msgid "Your Google Client Secret."
+msgstr "Ihr Google Client Secret."
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:113
+msgid "Calendar ID"
+msgstr "Kalender ID"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:115
+msgid "Your Google Calendar ID."
+msgstr "Ihr Google Kalender ID."
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:120
+msgid "Authorization"
+msgstr "Authentifizierung"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:124
+msgid "Testing"
+msgstr "Testen"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:129
+msgid "Debug Log"
+msgstr "Debug Log"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:131
+msgid "Enable logging"
+msgstr "Aktiviere das Logging"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:133
+msgid "Log Google Calendar events, such as API requests, inside %s"
+msgstr ""
+"Registriere Google Kalenderereignisse im Log, wie API-Anfragen innerhalb %s"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:185
+msgid "Connect with Google"
+msgstr "Mit Google verbinden"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:187
+msgid "Successfully authenticated."
+msgstr "Erfolgreich authentifiziert."
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:188
+msgid "Disconnect"
+msgstr "Trennen"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:190
+msgid ""
+"Unable to authenticate, you must enter with your <strong>Client ID</strong>, "
+"<strong>Client Secret</strong> and <strong>Calendar ID</strong>."
+msgstr ""
+"Authentifizierung nicht möglich. Sie müssen sich Ihre <strong>Client-ID</"
+"strong>, Ihr <strong>Client-Secret</strong> und Ihre <strong>Kalender ID</"
+"strong> eintragen."
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:205
+msgid "To use this integration go through %s instructions."
+msgstr "Um diese Integration nutzen, gehen Sie durch %s anleitung."
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:205
+msgid "Google Calendar Integration"
+msgstr "Google Kalender Integration"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:397
+msgid "Permission denied!"
+msgstr "Zugfriff verweigert!"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:435
+msgid "Invalid request!"
+msgstr "Ungültige Anfrage!"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:448
+msgid "Account connected successfully!"
+msgstr "Konto erfolgreich verbunden!"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:450
+msgid ""
+"Failed to connect to your account, please try again, if the problem "
+"persists, turn on Debug Log option and see what is happening."
+msgstr ""
+"Verbindung zu Ihrem Konto schlug fehl, versuchen Sie es erneut, falls das "
+"Problem weiterhin besteht, schalten Sie Debug Log-Option ein und beobachten "
+"Sie was passiert."
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:456
+msgid "Account disconnected successfully!"
+msgstr "Konto erfolgreich getrennt!"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:458
+msgid ""
+"Failed to disconnect to your account, please try again, if the problem "
+"persists, turn on Debug Log option and see what is happening."
+msgstr ""
+"Trennung von Ihrem Konto schlug fehl, versuchen Sie es erneut, falls das "
+"Problem weiterhin besteht, schalten Sie Debug Log-Option ein und beobachten "
+"Sie was passiert."
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:545
+#: templates/emails/admin-appointment-cancelled.php:44
+#: templates/emails/admin-new-appointment.php:52
+#: templates/emails/customer-appointment-cancelled.php:46
+#: templates/emails/customer-appointment-confirmed.php:46
+#: templates/emails/customer-appointment-notification.php:42
+#: templates/emails/customer-appointment-reminder.php:50
+msgid "Appointment Date"
+msgstr "Datum des Termins"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:545
+#: templates/emails/admin-appointment-cancelled.php:48
+#: templates/emails/admin-new-appointment.php:56
+#: templates/emails/customer-appointment-cancelled.php:50
+#: templates/emails/customer-appointment-confirmed.php:50
+#: templates/emails/customer-appointment-notification.php:46
+#: templates/emails/customer-appointment-reminder.php:54
+msgid "Appointment Time"
+msgstr "Uhrzeit des Termins"
+
+#: includes/integrations/class-wc-appointments-integration-gcal.php:575
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: includes/integrations/class-wc-appointments-integration-twilio-sms.php:83
+#: includes/integrations/class-wc-appointments-integration-twilio-sms.php:143
+msgid ""
+"Reminder: Appointment (%appointment_name%) will take place soon "
+"(%appointment_time%)."
+msgstr ""
+"Zur Erinnerung: Termin ( %a ppointment_name%) findet bald (% appointment_time"
+"%)."
+
+#: includes/integrations/class-wc-appointments-integration-wcml.php:304
+msgid "Appointment currency"
+msgstr "Termin Währung"
+
+#: includes/integrations/class-wc-appointments-integration-wcml.php:346
+msgid "Invalid nonce"
+msgstr "Ungültige Nonce"
+
+#: includes/integrations/class-wc-appointments-integration-wcml.php:436
+msgid "Staff Label"
+msgstr "Personal Etikett"
+
+#: includes/integrations/class-wc-appointments-integration-wcml.php:455
+msgid "Title"
+msgstr "Name"
+
+#: includes/integrations/class-wc-appointments-integration-wcml.php:526
+msgid "Staff label"
+msgstr "Personal Etikett"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:75
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:68
+msgid "Before Scheduled Date"
+msgstr "Vor dem gebuchten Datum"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:76
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:69
+msgid "After Scheduled Date"
+msgstr "Nach dem gebuchten Datum"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:77
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:70
+msgid "After Appointment is Created"
+msgstr "Nach dem der Termin erstellt wurde"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:82
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:75
+msgid "After Appointment Status: %s"
+msgstr "Nach Termin Status: %s"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Appointments"
+msgstr "WooCommerce Termine"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:89
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:80
+msgid "WooCommerce Appointment"
+msgstr "WooCommerce Termin"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:92
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:83
+msgid ""
+"Send follow-up emails to customers that schedule appointments, services or "
+"rentals.<br />Increase revenue with a custom lifecycle marketing program "
+"from Outbound Commerce. It is email marketing for busy eCommerce businesses "
+"built by experienced eCommerce and marketing professionals."
+msgstr ""
+"Sende Follow-up-E-Mails an Kunden, die Termine, Dienstleistungen oder "
+"Vermietung buchen.<br /> Steigern Sie Ihren Umsatz mit einem "
+"benutzerdefinierten Lifecycle-Marketing-Programm von Outbound Commerce. Es "
+"ist E-Mail Marketing für beschäftigt eCommerce Unternehmen, hergestellt von "
+"erfahrenen eCommerce und Marketing-Profis."
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:93
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:84
+msgid ""
+"Not sure where to start? Let Outbound Commerce help. Get email marketing for "
+"busy eCommerce businesses built by experienced eCommerce and marketing "
+"professionals."
+msgstr ""
+"Nicht sicher, wo Sie anfangen sollen? Lassen Sie Outbound Commerce Ihnen "
+"helfen. Erhalten Sie E-Mail-Marketing für viel beschäftigte eCommerce "
+"Unternehmen, hergestellt von erfahrenen eCommerce und Marketing-Profis."
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:104
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:95
+msgid "Customers who scheduled this event"
+msgstr "Kunden, die dieses Ereignis buchten"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:243
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:238
+msgid "Send on %s"
+msgstr "Senden Sie auf %s"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:259
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:254
+msgid "The name of the purchased item."
+msgstr "Der Name des Kaufgegenstandes."
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:260
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:255
+msgid "The list of categories where the purchased item is under."
+msgstr "Die Liste der Kategorien, der die Kaufsache zugeordnet ist."
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:261
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:256
+msgid "The quantity of the purchased item."
+msgstr "Die Menge der gekauften Artikel."
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:262
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:257
+msgid "The start date of the scheduled product or service"
+msgstr "Der Starttermin des gebuchten Produkts oder einer Dienstleistung"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:263
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:258
+msgid "The end date of the scheduled product or service"
+msgstr "Das Enddatum des gebuchten Produkts oder einer Dienstleistung"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:264
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:259
+msgid "The duration of the scheduled product or service"
+msgstr "Die Dauer des gebuchten Produktes oder einer Dienstleistung"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:265
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:260
+msgid "The date of the scheduled product or service"
+msgstr "Das Datum des gebuchten Produkts oder eine Dienstleistung"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:266
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:261
+msgid "The time of the scheduled product or service"
+msgstr "Die Uhrzeit des gebuchten Produkts oder eine Dienstleistung"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:267
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:262
+msgid "The amount or cost of the scheduled product or service"
+msgstr ""
+"Die Menge oder die Kosten des gebuchten Produkts oder eine Dienstleistung"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:268
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:263
+msgid "The staff scheduled"
+msgstr "Das gebuchte Personal"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:269
+msgid "The ID of scheduled product or service"
+msgstr "Die ID des gebuchten Produkts oder eine Dienstleistung"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:270
+msgid "The cancellation link for appointment"
+msgstr "Die Stornierungs-Link für Termin"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:887
+msgid "Email queued: %1$s scheduled on %2$s<br/>Trigger: %3$s"
+msgstr "E-Mail in der Warteschleife: %1$s geplant am %2$s <br/>Auslöser: %3$s"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:947
+msgid "Email %1$s rescheduled to %2$s"
+msgstr "E-Mail \"%1$s\" nachgeholt %2$s"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/followup-form.php:3
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/templates/email-form/appointments/email-form.php:3
+msgid "Enable for"
+msgstr "Aktivieren Sie für"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/followup-form.php:9
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/templates/email-form/appointments/email-form.php:5
+msgid "All products"
+msgstr "Alle Produkte"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/followup-form.php:12
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/templates/email-form/appointments/email-form.php:6
+msgid "A specific product"
+msgstr "Ein spezifisches Produkt"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/followup-form.php:15
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/templates/email-form/appointments/email-form.php:7
+msgid "A specific category"
+msgstr "Eine besondere Kategorie"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/followup-form.php:45
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/templates/email-form/appointments/email-form.php:34
+msgid "Search for a product&hellip;"
+msgstr "Suchen Sie nach einem Produkt &hellip;"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/followup-form.php:66
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/templates/email-form/appointments/email-form.php:48
+msgid "Include variations"
+msgstr "Fügen Sie Variationen"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/followup-form.php:73
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/templates/email-form/appointments/email-form.php:54
+msgid "Category"
+msgstr "Kategorie"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/followup-form.php:80
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/templates/email-form/appointments/email-form.php:56
+msgid "Search for a category&hellip;"
+msgstr "Suchen Sie nach einer Kategorie &hellip;"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/followup-form.php:82
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/templates/email-form/appointments/email-form.php:57
+msgid "Any Category"
+msgstr "Alle Kategorien"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/triggers.php:6
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/templates/email-form/appointments/triggers.php:5
+msgid "Last Status"
+msgstr "Last Status"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/triggers.php:8
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/templates/email-form/appointments/triggers.php:13
+msgid ""
+"Only send this email if the appointment's last status matches the selected "
+"value"
+msgstr ""
+"Nur diese E-Mail senden, wenn der letzte Status Termin entspricht dem "
+"gewählten Wert"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/triggers.php:15
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/templates/email-form/appointments/triggers.php:7
+msgid "Any status"
+msgstr "jeder Status"
+
+#: includes/integrations/woocommerce-follow-up-emails__deprecated/class-wc-appointments-integration-follow-ups.php:864
+msgid "Email queued: %s scheduled on %s<br/>Trigger: %s"
+msgstr "E-mail Warteschlange: %s gebucht am %s <br/> Trigger: %s"
+
+#: includes/integrations/woocommerce-point-of-sale/class-wc-appointments-integration-point-of-sale.php:27
+msgid "Raise Sale"
+msgstr "Heben Verkauf"
+
+#: includes/integrations/woocommerce-product-addons/admin/class-product-addon-admin.php:28
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin.php:4
+msgid "Global Add-ons"
+msgstr "Globale Add-ons"
+
+#: includes/integrations/woocommerce-product-addons/admin/class-product-addon-admin.php:74
+msgid "Add-on saved successfully"
+msgstr "Add-on wurde erfolgreich gespeichert"
+
+#: includes/integrations/woocommerce-product-addons/admin/class-product-addon-admin.php:88
+msgid "Error: Global Add-on not found"
+msgstr "Fehler: Globale Add-on nicht gefunden"
+
+#: includes/integrations/woocommerce-product-addons/admin/class-product-addon-admin.php:116
+#: includes/integrations/woocommerce-product-addons/admin/class-product-addon-admin.php:169
+msgid "Global Add-on Group"
+msgstr "Globale Add-on-Gruppe"
+
+#: includes/integrations/woocommerce-product-addons/admin/class-product-addon-admin.php:126
+msgid "Add-on deleted successfully"
+msgstr "Add-on wurde erfolgreich gelöscht"
+
+#: includes/integrations/woocommerce-product-addons/admin/class-product-addon-admin.php:139
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin-add.php:49
+msgid "Add-ons"
+msgstr "Add-ons"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon-option.php:6
+msgid "Default Label"
+msgstr "Standard-Label"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon-panel.php:5
+msgid "Close all"
+msgstr "Alle schließen"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon-panel.php:5
+msgid "Expand all"
+msgstr "Alle erweitern"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon-panel.php:23
+msgid "New Addon Group"
+msgstr "Neue Addon-Gruppe"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon-panel.php:25
+msgid "Import"
+msgstr "Einführen"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon-panel.php:26
+msgid "Export"
+msgstr "Export"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon-panel.php:30
+msgid ""
+"Paste exported form data here and then save to import fields. The imported "
+"fields will be appended."
+msgstr ""
+"Fügen Sie exportierte Formulardaten hier und speichern Sie dann zu "
+"importieren Felder aus. Die importierten Felder werden angehängt."
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon-panel.php:36
+msgid "Global Addon Exclusion"
+msgstr "Globale Addon Ausschluss"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon-panel.php:37
+msgid "Check this to exclude this product from all Global Addons"
+msgstr "Überprüfen Sie dieses Produkt von allen globalen Addons auszuschließen"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon-panel.php:137
+msgid "Are you sure you want remove this add-on?"
+msgstr "Sind Sie sicher, dass Sie entfernen möchten dieses Add-on?"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon-panel.php:216
+msgid "Are you sure you want delete this option?"
+msgstr "Sind Sie sicher, dass Sie diese Option löschen?"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:11
+msgid "Group"
+msgstr "Gruppe"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:13
+msgid "Checkboxes"
+msgstr "Checkboxen"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:14
+msgid "Radio buttons"
+msgstr "Radio Knöpfe"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:15
+msgid "Select box"
+msgstr "Auswahlfeld"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:16
+msgid "Custom input (textarea)"
+msgstr "Benutzerdefinierte Eingang (TextArea-)"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:17
+msgid "File upload"
+msgstr "Datei hochladen"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:18
+msgid "Custom price input"
+msgstr "Kundenspezifische Preiseingabe"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:19
+msgid "Custom Input Multiplier"
+msgstr "Benutzerdefinierte Eingang Multiplikator"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:20
+msgid "Custom input (text)"
+msgstr "Benutzerdefinierte Eingabe (Text)"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:21
+msgid "Any text"
+msgstr "jeder Text"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:22
+msgid "Only letters"
+msgstr "Nur Buchstaben"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:23
+msgid "Only numbers"
+msgstr "Nur Zahlen"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:24
+msgid "Only letters and numbers"
+msgstr "Nur Buchstaben und Zahlen"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:25
+msgid "Email address"
+msgstr "E-Mail-Addresse"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:34
+msgid "Group Name"
+msgstr "Gruppenname"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:38
+msgid "Required fields?"
+msgstr "Benötigte Felder?"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:44
+msgid "Group Description"
+msgstr "Gruppenbeschreibung"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:54
+msgid "Option Label"
+msgstr "Option Label"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:55
+msgid "Option Price"
+msgstr "Option Preis"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-addon.php:64
+msgid "New&nbsp;Option"
+msgstr "Neue&nbsp;Option"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin-add.php:4
+msgid "Add/Edit Global Add-on"
+msgstr "Hinzufügen / Bearbeiten Globale Add-on"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin-add.php:10
+msgid "Global Add-on Reference"
+msgstr "Globale Add-on Referenz"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin-add.php:14
+msgid "Give this global add-on a reference/name to make it recognisable."
+msgstr ""
+"Geben Sie diesem globalen Add-on eine Referenz / Name erkennbar zu machen."
+
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin-add.php:19
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin.php:11
+msgid "Priority"
+msgstr "Vorrang"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin-add.php:23
+msgid ""
+"Give this global addon a priority - this will deternmine the order in which "
+"multiple groups of addons get displayed on the frontend. Per-product add-ons "
+"will always have priority 10."
+msgstr ""
+"Geben Sie diesem globalen Addon eine Priorität - dies die Reihenfolge "
+"deternmine werden, in dem mehrere Gruppen von Add-Ons auf dem Frontend "
+"angezeigt bekommen. Per-Produkt haben Add-ons immer Priorität 10."
+
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin-add.php:28
+msgid "Applied to..."
+msgstr "Übernommen in"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin-add.php:31
+msgid "Choose some options&hellip;"
+msgstr "Wählen Sie einige Optionen&hellip;"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin-add.php:32
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin.php:49
+msgid "All Products"
+msgstr "Alle Produkte"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin-add.php:33
+msgid "Product category notifications"
+msgstr "Produktkategorie-Benachrichtigungen"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin-add.php:38
+msgid "Category:"
+msgstr "Kategorie:"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin-add.php:44
+msgid ""
+"Choose categories which should show these addons (or apply to all products)."
+msgstr ""
+"Wählen Sie Kategorien, die diese Addons zeigen sollte (oder gelten für alle "
+"Produkte)."
+
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin-add.php:58
+msgid "Save Global Add-on"
+msgstr "Speichern Globale Add-on"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin.php:4
+msgid "Add Global Add-on"
+msgstr "Hinzufügen Globale Add-on"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin.php:9
+msgid "Reference"
+msgstr "Referenzen"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin.php:10
+msgid "Number of Fields"
+msgstr "Anzahl der Felder"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin.php:12
+msgid "Applies to..."
+msgstr "Gilt für..."
+
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin.php:66
+msgid "Delete"
+msgstr "Löschen"
+
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin.php:74
+msgid "No global add-ons exists yet."
+msgstr "Keine globalen Add-ons gibt es noch."
+
+#: includes/integrations/woocommerce-product-addons/admin/html-global-admin.php:74
+msgid "Add one?"
+msgstr "Füge eins hinzu?"
+
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:57
+msgid "Hide duration label for customers"
+msgstr "Ausblenden Dauer Etikett für Kunden"
+
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:63
+msgid "Hide price label for customers"
+msgstr "Ausblenden Preisschild für Kunden"
+
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:81
+msgid "units"
+msgstr "einheiten"
+
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:84
+msgid "Duration (%s)"
+msgstr "Dauer (%s)"
+
+#: includes/integrations/woocommerce-product-addons/classes/class-product-addon-display.php:74
+msgid "Options total:"
+msgstr "Optionen gesamt:"
+
+#: includes/integrations/woocommerce-product-addons/classes/class-product-addon-display.php:75
+msgid "Grand total:"
+msgstr "Gesamtsumme"
+
+#: includes/integrations/woocommerce-product-addons/classes/class-product-addon-display.php:76
+msgid "characters remaining"
+msgstr "verbleibende Zeichen"
+
+#: includes/integrations/woocommerce-product-addons/classes/class-product-addon-display.php:314
+msgid "Please enter letters only"
+msgstr "Bitte geben Sie die Buchstaben nur"
+
+#: includes/integrations/woocommerce-product-addons/classes/class-product-addon-display.php:328
+msgid "Please enter digits only"
+msgstr "Bitte geben Sie nur Zahlen"
+
+#: includes/integrations/woocommerce-product-addons/classes/class-product-addon-display.php:342
+msgid "Please enter letters or digits only"
+msgstr "Bitte geben Sie die Buchstaben oder Ziffern nur"
+
+#: includes/integrations/woocommerce-product-addons/classes/class-product-addon-display.php:355
+msgid "Please enter an email address"
+msgstr "Bitte geben Sie eine E-Mail-Adresse ein"
+
+#: includes/integrations/woocommerce-product-addons/classes/class-product-addon-display.php:407
+msgid "Select options"
+msgstr "Wähle eine Option"
+
+#: includes/integrations/woocommerce-product-addons/classes/fields/class-product-addon-field-custom.php:20
+#: includes/integrations/woocommerce-product-addons/classes/fields/class-product-addon-field-file-upload.php:29
+#: includes/integrations/woocommerce-product-addons/classes/fields/class-product-addon-field-list.php:15
+#: includes/integrations/woocommerce-product-addons/classes/fields/class-product-addon-field-select.php:14
+msgid "\"%s\" is a required field."
+msgstr "\"%s\" ist ein Pflichtfeld."
+
+#: includes/integrations/woocommerce-product-addons/classes/fields/class-product-addon-field-custom.php:32
+msgid "The minimum allowed length for \"%1$s - %2$s\" is %3$s."
+msgstr "Die minimale zulässige Länge für \"%1$s - %2$s\" ist %3$s."
+
+#: includes/integrations/woocommerce-product-addons/classes/fields/class-product-addon-field-custom.php:36
+msgid "The maximum allowed length for \"%1$s - %2$s\" is %3$s."
+msgstr "Die maximale zulässige Länge für \"%1$s - %2$s\" ist %3$s."
+
+#: includes/integrations/woocommerce-product-addons/classes/fields/class-product-addon-field-custom.php:42
+msgid "The minimum allowed amount for \"%1$s - %2$s\" is %3$s."
+msgstr "Der zulässigen Mindestbetrag für \"%1$s - %2$s\" ist %3$s."
+
+#: includes/integrations/woocommerce-product-addons/classes/fields/class-product-addon-field-custom.php:46
+msgid "The maximum allowed amount for \"%1$s - %2$s\" is %3$s."
+msgstr "Der zulässige Höchstbetrag für \"%1$s - %2$s\" ist %3$s."
+
+#: includes/integrations/woocommerce-product-addons/classes/fields/class-product-addon-field-custom.php:56
+msgid "Please enter a value greater than 0 for \"%1$s - %2$s\"."
+msgstr "Bitte geben Sie einen Wert größer als 0 für \"%1$s - %2$s\"."
+
+#: includes/integrations/woocommerce-product-addons/classes/fields/class-product-addon-field-custom.php:61
+msgid "Only letters are allowed for \"%1$s - %2$s\"."
+msgstr "Es sind nur Buchstaben für \"%1$s - %2$s\" erlaubt."
+
+#: includes/integrations/woocommerce-product-addons/classes/fields/class-product-addon-field-custom.php:66
+msgid "Only digits are allowed for \"%1$s - %2$s\"."
+msgstr "Für \"%1$s - %2$s\" sind nur Ziffern erlaubt."
+
+#: includes/integrations/woocommerce-product-addons/classes/fields/class-product-addon-field-custom.php:71
+msgid "Only letters and digits are allowed for \"%1$s - %2$s\"."
+msgstr "Für \"%1$s - %2$s\" dürfen nur Buchstaben und Ziffern."
+
+#: includes/integrations/woocommerce-product-addons/classes/fields/class-product-addon-field-custom.php:76
+msgid "A valid email address is required for \"%1$s - %2$s\"."
+msgstr "Eine gültige e-Mail-Adresse ist erforderlich für \"%1$s - %2$s\"."
+
+#: includes/integrations/woocommerce-product-addons/templates/addons/addon-start.php:6
+msgid "Required field"
+msgstr "Pflichtfeld"
+
+#: includes/integrations/woocommerce-product-addons/templates/addons/file_upload.php:21
+#: includes/integrations/woocommerce-product-addons/templates/addons/file_upload.php:27
+msgid "(max file size %s)"
+msgstr "(maximale Dateigröße %s )"
+
+#: includes/integrations/woocommerce-product-addons/templates/addons/input_multiplier.php:27
+msgid "This must be a number!"
+msgstr "Dies muss eine Zahl sein!"
+
+#: includes/integrations/woocommerce-product-addons/templates/addons/select.php:10
+msgid "None"
+msgstr "Keine "
+
+#: includes/integrations/woocommerce-product-addons/templates/addons/select.php:12
+msgid "Select an option..."
+msgstr "Option auswählen"
+
+#: includes/wc-appointments-functions.php:71
+#: includes/wc-appointments-functions.php:80
+#: includes/wc-appointments-functions.php:93
+#: includes/wc-appointments-functions.php:104
+msgid "Unpaid"
+msgstr "Unbezahlt"
+
+#: includes/wc-appointments-functions.php:72
+#: includes/wc-appointments-functions.php:81
+#: includes/wc-appointments-functions.php:94
+#: includes/wc-appointments-functions.php:105
+msgid "Pending Confirmation"
+msgstr "Ausstehende Bestätigung"
+
+#: includes/wc-appointments-functions.php:73
+#: includes/wc-appointments-functions.php:82
+#: includes/wc-appointments-functions.php:95
+#: includes/wc-appointments-functions.php:106
+msgid "Confirmed"
+msgstr "Bestätigt"
+
+#: includes/wc-appointments-functions.php:74
+#: includes/wc-appointments-functions.php:83
+#: includes/wc-appointments-functions.php:96
+#: includes/wc-appointments-functions.php:100
+#: includes/wc-appointments-functions.php:107
+msgid "Paid &amp; Confirmed"
+msgstr "Bezahlt &amp; Bestätigt"
+
+#: includes/wc-appointments-functions.php:75
+msgid "Cancelled"
+msgstr "Abgebrochen"
+
+#: includes/wc-appointments-functions.php:76
+#: includes/wc-appointments-functions.php:108
+msgid "Complete"
+msgstr "Abgeschlossen"
+
+#: includes/wc-appointments-functions.php:87
+msgid "Expected"
+msgstr "Erwartet"
+
+#: includes/wc-appointments-functions.php:88
+msgid "Arrived"
+msgstr "Angekommen"
+
+#: includes/wc-appointments-functions.php:89
+msgid "No-show"
+msgstr "Nichtanreise"
+
+#: includes/wc-appointments-functions.php:109
+msgid "In Cart"
+msgstr "Im Warenkorb"
+
+#: includes/wc-appointments-functions.php:114
+msgid "Partially Paid"
+msgstr "Teilweise bezahlt"
+
+#: includes/wc-appointments-functions.php:558
+msgid "Rules further down the table will override those at the top."
+msgstr ""
+"Regeln weiter unten in der Tabelle werden die an der Spitze außer Kraft "
+"setzen."
+
+#: includes/wc-appointments-functions.php:562
+msgid ""
+"Rules with lower priority numbers will override rules with a higher priority "
+"(e.g. 9 overrides 10 ). Global rules take priority over product rules which "
+"take priority over staff rules. By using priority numbers you can execute "
+"rules in different orders."
+msgstr ""
+"Regeln mit niedrigerer Priorität Zahlen Regeln mit höherer Priorität außer "
+"Kraft gesetzt werden (zB 9 überschreibt 10). Globale Regeln haben Vorrang "
+"vor Produktregeln, die Vorrang vor den Mitarbeitern Regeln nehmen. Durch die "
+"Verwendung von Zahlen Priorität können Sie Regeln in unterschiedlicher "
+"Reihenfolge ausgeführt werden."
+
+#: templates/appointment-form/date-picker.php:22
+#: templates/appointment-form/datetime-picker.php:23
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: templates/appointment-form/date-picker.php:26
+#: templates/appointment-form/datetime-picker.php:27
+msgid "Choose..."
+msgstr "Wählen..."
+
+#: templates/appointment-form/date-picker.php:35
+#: templates/appointment-form/date-picker.php:46
+#: templates/appointment-form/datetime-picker.php:34
+#: templates/appointment-form/datetime-picker.php:45
+msgid "mm"
+msgstr "Millimeter"
+
+#: templates/appointment-form/date-picker.php:36
+#: templates/appointment-form/date-picker.php:47
+#: templates/appointment-form/datetime-picker.php:35
+#: templates/appointment-form/datetime-picker.php:46
+msgid "Month"
+msgstr "Monat"
+
+#: templates/appointment-form/date-picker.php:38
+#: templates/appointment-form/date-picker.php:43
+#: templates/appointment-form/datetime-picker.php:37
+#: templates/appointment-form/datetime-picker.php:42
+msgid "dd"
+msgstr "dd"
+
+#: templates/appointment-form/date-picker.php:39
+#: templates/appointment-form/date-picker.php:44
+#: templates/appointment-form/datetime-picker.php:38
+#: templates/appointment-form/datetime-picker.php:43
+msgid "Day"
+msgstr "Tag"
+
+#: templates/appointment-form/date-picker.php:50
+#: templates/appointment-form/datetime-picker.php:50
+msgid "YYYY"
+msgstr "JJJJ"
+
+#: templates/appointment-form/date-picker.php:51
+#: templates/appointment-form/datetime-picker.php:51
+msgid "Year"
+msgstr "Jahr"
+
+#: templates/appointment-form/datetime-picker.php:58
+msgid "Choose a date above to see available time slots."
+msgstr "Wählen Sie oben ein Datum verfügbaren Zeitfenster zu sehen."
+
+#: templates/appointment-form/select-staff.php:25
+msgid "&mdash; No Preference &mdash;"
+msgstr "&mdash; Keine Präferenz &mdash;"
+
+#: templates/emails/admin-appointment-cancelled.php:23
+#: templates/emails/plain/admin-appointment-cancelled.php:23
+msgid ""
+"The following appointment has been cancelled by the customer. The details of "
+"the cancelled appointment can be found below."
+msgstr ""
+"Der folgende Termin wurde vom Kunden abgebrochen. Die Einzelheiten des "
+"stornierten Termin können Sie unten."
+
+#: templates/emails/admin-appointment-cancelled.php:29
+#: templates/emails/admin-new-appointment.php:38
+#: templates/emails/customer-appointment-cancelled.php:32
+#: templates/emails/customer-appointment-confirmed.php:32
+#: templates/emails/customer-appointment-notification.php:28
+#: templates/emails/customer-appointment-reminder.php:36
+msgid "Scheduled Product"
+msgstr "Gebuchte Leistung"
+
+#: templates/emails/admin-appointment-cancelled.php:39
+#: templates/emails/admin-new-appointment.php:47
+#: templates/emails/customer-appointment-cancelled.php:41
+#: templates/emails/customer-appointment-confirmed.php:41
+#: templates/emails/customer-appointment-notification.php:37
+#: templates/emails/customer-appointment-reminder.php:45
+msgid "Appointment Providers"
+msgstr "Termin Provider"
+
+#: templates/emails/admin-appointment-cancelled.php:54
+#: templates/emails/admin-new-appointment.php:66
+#: templates/emails/plain/admin-appointment-cancelled.php:39
+msgid "You can view and edit this appointment in the dashboard here: %s"
+msgstr ""
+"Sie können diesen Termin im Armaturenbrett anzeigen und bearbeiten hier: %s"
+
+#: templates/emails/admin-new-appointment.php:23
+msgid ""
+"An appointment has been made by %s and is awaiting your approval. The "
+"details of this appointment are as follows:"
+msgstr ""
+"Ein Termin wurde von gemacht %s und wartet auf Ihre Zustimmung. Die "
+"Einzelheiten dieser Termin sind wie folgt:"
+
+#: templates/emails/admin-new-appointment.php:25
+msgid ""
+"An new appointment has been made by %s. The details of this appointment are "
+"as follows:"
+msgstr ""
+"Ein neuer Termin wurde von gemacht %s . Die Einzelheiten dieser Termin sind "
+"wie folgt:"
+
+#: templates/emails/admin-new-appointment.php:63
+#: templates/emails/plain/admin-new-appointment.php:48
+msgid ""
+"This appointment is awaiting your approval. Please check it and inform the "
+"customer if the date is available or not."
+msgstr ""
+"Dieser Termin wartet auf Ihre Zustimmung. Überprüfen Sie es bitte und den "
+"Kunden informieren, wenn das Datum verfügbar ist oder nicht."
+
+#: templates/emails/customer-appointment-cancelled.php:24
+#: templates/emails/customer-appointment-confirmed.php:24
+#: templates/emails/customer-appointment-reminder.php:24
+#: templates/emails/plain/customer-appointment-cancelled.php:24
+#: templates/emails/plain/customer-appointment-confirmed.php:24
+#: templates/emails/plain/customer-appointment-reminder.php:24
+msgid "Hello %s"
+msgstr "Hallo %s"
+
+#: templates/emails/customer-appointment-cancelled.php:27
+#: templates/emails/plain/customer-appointment-cancelled.php:27
+msgid ""
+"We are sorry to say that your appointment could not be confirmed and has "
+"been cancelled. The details of the cancelled appointment can be found below."
+msgstr ""
+"Es tut uns leid zu sagen, dass Sie Ihren Termin nicht bestätigt werden "
+"konnte und wurde abgesagt. Die Einzelheiten des stornierten Termin können "
+"Sie unten."
+
+#: templates/emails/customer-appointment-cancelled.php:56
+#: templates/emails/plain/customer-appointment-cancelled.php:43
+msgid "Please contact us if you have any questions or concerns."
+msgstr "Bitte kontaktieren Sie uns, falls Sie Fragen haben."
+
+#: templates/emails/customer-appointment-confirmed.php:27
+msgid ""
+"Your appointment has been confirmed. The details of your appointment are "
+"shown below."
+msgstr ""
+"Ihre Ernennung wurde bestätigt. Die Details des Termins finden Sie weiter "
+"unten."
+
+#: templates/emails/customer-appointment-confirmed.php:59
+#: templates/emails/plain/customer-appointment-confirmed.php:45
+msgid "To pay for this appointment please use the following link: %s"
+msgstr ""
+"Um für diesen Termin zu bezahlen, benutzen Sie bitte den folgenden Link: %s"
+
+#: templates/emails/customer-appointment-confirmed.php:59
+msgid "Pay for appointment"
+msgstr "Bezahlen für die Ernennung"
+
+#: templates/emails/customer-appointment-confirmed.php:70
+msgid "Quantity"
+msgstr "Menge"
+
+#: templates/emails/customer-appointment-confirmed.php:71
+msgid "Price"
+msgstr "Preis"
+
+#: templates/emails/customer-appointment-reminder.php:28
+msgid "This is a reminder that your appointment will take place today."
+msgstr ""
+"Dies ist eine Erinnerung daran, dass Sie Ihren Termin heute stattfinden wird."
+
+#: templates/emails/customer-appointment-reminder.php:30
+msgid "This is a reminder that your appointment will take place tomorrow."
+msgstr ""
+"Dies ist eine Erinnerung daran, dass Sie Ihren Termin morgen stattfinden "
+"wird."
+
+#: templates/emails/plain/admin-appointment-cancelled.php:27
+#: templates/emails/plain/admin-new-appointment.php:35
+#: templates/emails/plain/customer-appointment-cancelled.php:31
+#: templates/emails/plain/customer-appointment-confirmed.php:31
+#: templates/emails/plain/customer-appointment-notification.php:29
+#: templates/emails/plain/customer-appointment-reminder.php:35
+msgid "Scheduled: %s"
+msgstr "Geplant: %s"
+
+#: templates/emails/plain/admin-appointment-cancelled.php:28
+#: templates/emails/plain/admin-new-appointment.php:36
+#: templates/emails/plain/customer-appointment-cancelled.php:32
+#: templates/emails/plain/customer-appointment-confirmed.php:32
+#: templates/emails/plain/customer-appointment-notification.php:30
+#: templates/emails/plain/customer-appointment-reminder.php:36
+msgid "Appointment ID: %s"
+msgstr "Termin - ID: %s"
+
+#: templates/emails/plain/admin-appointment-cancelled.php:31
+#: templates/emails/plain/admin-new-appointment.php:39
+#: templates/emails/plain/customer-appointment-cancelled.php:35
+#: templates/emails/plain/customer-appointment-confirmed.php:35
+#: templates/emails/plain/customer-appointment-notification.php:33
+#: templates/emails/plain/customer-appointment-reminder.php:39
+msgid "Appointment Providers: %s"
+msgstr "Terminanbieter: %s"
+
+#: templates/emails/plain/admin-appointment-cancelled.php:34
+#: templates/emails/plain/admin-new-appointment.php:42
+#: templates/emails/plain/customer-appointment-cancelled.php:38
+#: templates/emails/plain/customer-appointment-confirmed.php:38
+#: templates/emails/plain/customer-appointment-notification.php:36
+#: templates/emails/plain/customer-appointment-reminder.php:42
+msgid "Appointment Date: %s"
+msgstr "Appointment Dates: %s"
+
+#: templates/emails/plain/admin-appointment-cancelled.php:35
+#: templates/emails/plain/admin-new-appointment.php:43
+#: templates/emails/plain/customer-appointment-cancelled.php:39
+#: templates/emails/plain/customer-appointment-confirmed.php:39
+#: templates/emails/plain/customer-appointment-notification.php:37
+#: templates/emails/plain/customer-appointment-reminder.php:43
+msgid "Appointment Time: %s"
+msgstr "Termin Zeit: %s"
+
+#: templates/emails/plain/admin-new-appointment.php:24
+msgid ""
+"A appointment has been made by %s and is awaiting your approval. The details "
+"of this appointment are as follows:"
+msgstr ""
+"Ein Termin wurde von gemacht %s und wartet auf Ihre Zustimmung. Die "
+"Einzelheiten dieser Termin sind wie folgt:"
+
+#: templates/emails/plain/admin-new-appointment.php:26
+msgid ""
+"A new appointment has been made by %s. The details of this appointment are "
+"as follows:"
+msgstr ""
+"Ein neuer Termin wurde von gemacht %s . Die Einzelheiten dieser Termin sind "
+"wie folgt:"
+
+#: templates/emails/plain/customer-appointment-confirmed.php:27
+msgid ""
+"Your appointment for has been confirmed. The details of your appointment are "
+"shown below."
+msgstr ""
+"Ihr Termin für wurde bestätigt. Die Details des Termins finden Sie weiter "
+"unten."
+
+#: templates/emails/plain/customer-appointment-confirmed.php:50
+msgid "Order number: %s"
+msgstr "Bestellnummern: %s"
+
+#: templates/emails/plain/customer-appointment-confirmed.php:51
+msgid "Order date: %s"
+msgstr "Bestelldatum: %s"
+
+#: templates/emails/plain/customer-appointment-notification.php:25
+msgid "The details of your appointment are shown below."
+msgstr "Die Details des Termins finden Sie weiter unten."
+
+#: templates/emails/plain/customer-appointment-reminder.php:28
+msgid ""
+"This is a reminder that your appointment will take place today. The details "
+"of your appointment are shown below."
+msgstr ""
+"Dies ist eine Erinnerung daran, dass Sie Ihren Termin heute stattfinden "
+"wird. Die Details des Termins finden Sie weiter unten."
+
+#: templates/emails/plain/customer-appointment-reminder.php:30
+msgid ""
+"This is a reminder that your appointment will take place tomorrow. The "
+"details of your appointment are shown below."
+msgstr ""
+"Dies ist eine Erinnerung daran, dass Sie Ihren Termin morgen stattfinden "
+"wird. Die Details des Termins finden Sie weiter unten."
+
+#: templates/myaccount/appointments.php:33
+msgid "Scheduled"
+msgstr "Geplant"
+
+#: templates/myaccount/appointments.php:77
+msgid "Go Book"
+msgstr "Buchen"
+
+#: templates/myaccount/appointments.php:79
+msgid "No appointments scheduled yet."
+msgstr "Keine Termine gefunden."
+
+#: templates/single-product/add-to-cart/appointment.php:28
+msgid ""
+"Your browser must support JavaScript in order to schedule an appointment."
+msgstr ""
+"Ihr Browser muss JavaScript, um einen Termin zu vereinbaren unterstützen."
+
+#: woocommerce-appointments.php:185
+msgid "Shop Staff"
+msgstr "Shop-Personal"
+
+#: woocommerce-appointments.php:434
+msgid "Add New Appointment"
+msgstr "Neuer Termin"
+
+#: woocommerce-appointments.php:438 woocommerce-appointments.php:439
+msgid "View Appointment"
+msgstr "Termin anzeigen"
+
+#: woocommerce-appointments.php:440
+msgid "Search Appointments"
+msgstr "Suche Termine"
+
+#: woocommerce-appointments.php:441
+msgid "No Appointments found"
+msgstr "Keine Termine gefunden."
+
+#: woocommerce-appointments.php:442
+msgid "No Appointments found in trash"
+msgstr "Keine Termine im Mülleimer gefunden."
+
+#: woocommerce-appointments.php:443
+msgid "Parent Appointments"
+msgstr "Vergangene Termine:"
+
+#: woocommerce-appointments.php:445
+msgid "All Appointments"
+msgstr "Alle Termine"
+
+#: woocommerce-appointments.php:447
+msgid "This is where appointments are stored."
+msgstr "Dies ist, wo Termine gespeichert sind."
+
+#: woocommerce-appointments.php:475
+msgid "Complete <span class=\"count\">(%s)</span>"
+msgid_plural "Complete <span class=\"count\">(%s)</span>"
+msgstr[0] "All <span class=\"zählen\"(%s)</span>"
+msgstr[1] "All <span class=\"zählen\"(%s)</span>"
+
+#: woocommerce-appointments.php:483
+msgid "Paid &amp; Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Paid &amp; Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "Bezahlt &amp; Bestätigt <span class=\"count\">(%s)</span>"
+msgstr[1] "Bezahlt &amp; Bestätigt <span class=\"count\">(%s)</span>"
+
+#: woocommerce-appointments.php:491
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "All <span class=\"zählen\"(%s)</span>"
+msgstr[1] "All <span class=\"zählen\"(%s)</span>"
+
+#: woocommerce-appointments.php:499
+msgid "Un-paid <span class=\"count\">(%s)</span>"
+msgid_plural "Un-paid <span class=\"count\">(%s)</span>"
+msgstr[0] "Unbezahlt <span class=\"count\">(%s)</span>"
+msgstr[1] "Unbezahlt <span class=\"count\">(%s)</span>"
+
+#: woocommerce-appointments.php:507
+msgid "Pending Confirmation <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Confirmation <span class=\"count\">(%s)</span>"
+msgstr[0] "Nicht bestätigter Eintrag <span class=\"count\">(%s)</span>"
+msgstr[1] "Nicht bestätigter Eintrag <span class=\"count\">(%s)</span>"
+
+#: woocommerce-appointments.php:515
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "Abgesagt <span class=\"count\"(%s)</span>"
+msgstr[1] "Abgesagt <span class=\"count\"(%s)</span>"
+
+#: woocommerce-appointments.php:523
+msgid "In Cart <span class=\"count\">(%s)</span>"
+msgid_plural "In Cart <span class=\"count\">(%s)</span>"
+msgstr[0] "In den Warenkorb <span class=\"count\">(%s)</span>"
+msgstr[1] "In den Warenkorb <span class=\"count\">(%s)</span>"
+
+#: woocommerce-appointments.php:540
+msgid "Partially Paid <span class=\"count\">(%s)</span>"
+msgid_plural "Partially Paid <span class=\"count\">(%s)</span>"
+msgstr[0] "Teilweise bezahlt <span class=\"count\">(%s)</span>"
+msgstr[1] "Teilweise bezahlt <span class=\"count\">(%s)</span>"
+
+#: woocommerce-appointments.php:566
+msgid "View Documentation"
+msgstr "Dokumentation anzeigen"
+
+#: woocommerce-appointments.php:566
+msgid "Docs"
+msgstr "Doks"
+
+#: woocommerce-appointments.php:567
+msgid "Visit Support Forum"
+msgstr "Support Forum besuchen"
+
+#: woocommerce-appointments.php:567
+msgid "Premium Support"
+msgstr "Premium Support"
+
+#: woocommerce-appointments.php:659
+msgid ""
+"Welcome to WooCommerce Appointments. <a href=\"%s\" class=\"button button-"
+"primary\">Add Appointable Products</a>"
+msgstr ""
+"Willkommen bei WooCommerce Termine. <a href=\"%s\" class=\"button button-"
+"primary\">Hinzufügen anstellige Produkte</a>"
+
+#: woocommerce-appointments.php:671
+msgid ""
+"Global availability has been configured from Monday to Friday, 9am to 5pm. "
+"<span class=\"dashicons dashicons-edit\"></span> <a href=\"%s\">Edit global "
+"availability here</a>."
+msgstr ""
+"Globale Verfügbarkeit hat von Montag bis Freitag, von 9.00 bis 17.00 Uhr "
+"konfiguriert wurde. <span class=\"dashicons dashicons-edit\"></span> <a href="
+"\"%s\">Bearbeiten globale Verfügbarkeit hier</a>."
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.bizzthemes.com/plugins/woocommerce-appointments/"
+msgstr "http://www.bizzthemes.com/plugins/woocommerce-appointments/"
+
+#. Description of the plugin/theme
+msgid "Setup appointable products for WooCommerce"
+msgstr "Setup-anstellige Produkte für WooCommerce"
+
+#. Author of the plugin/theme
+msgid "BizzThemes"
+msgstr "BizzThemes"
+
+#. Author URI of the plugin/theme
+msgid "https://bizzthemes.com"
+msgstr "https://bizzthemes.com"
+
+#: includes/admin/class-wc-appointments-admin-add.php:200
+msgctxt "Order date parsed by strftime"
+msgid "%1$b %2$d, %Y @ %I:%M %p"
+msgstr "%1$b %2$d, %Y @ %I:%M %p"
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:110
+msgctxt "appointment cost string"
+msgid "Cost"
+msgstr "Kosten"
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:216
+#: includes/admin/class-wc-appointments-admin-details-meta-box.php:30
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"
+
+#: includes/admin/views/html-calendar-month.php:68
+msgctxt "date format"
+msgid "l"
+msgstr "l"
+
+#: includes/class-wc-appointment.php:164
+msgctxt "Appointment date parsed by strftime"
+msgid "%1$b %2$d, %Y @ %I:%M %p"
+msgstr "%1$b %2$d, %Y @ %I:%M %p"
+
+#: includes/integrations/class-wc-appointments-integration-twilio-sms.php:33
+msgctxt "woocommerce-appointments"
+msgid "Appointment Reminder"
+msgstr "Appointment Reminder"
+
+#: woocommerce-appointments.php:470
+msgctxt "woocommerce-appointments"
+msgid "Complete"
+msgstr "Komplett"
+
+#: woocommerce-appointments.php:478
+msgctxt "woocommerce-appointments"
+msgid "Paid &amp; Confirmed"
+msgstr "Bezahlt &amp; Bestätigt"
+
+#: woocommerce-appointments.php:486
+msgctxt "woocommerce-appointments"
+msgid "Confirmed"
+msgstr "Bestätigt"
+
+#: woocommerce-appointments.php:494
+msgctxt "woocommerce-appointments"
+msgid "Un-paid"
+msgstr "Unbezahlt"
+
+#: woocommerce-appointments.php:502
+msgctxt "woocommerce-appointments"
+msgid "Pending Confirmation"
+msgstr "Ausstehende Bestätigung"
+
+#: woocommerce-appointments.php:510
+msgctxt "woocommerce-appointments"
+msgid "Cancelled"
+msgstr "Abgesagt"
+
+#: woocommerce-appointments.php:518
+msgctxt "woocommerce-appointments"
+msgid "In Cart"
+msgstr "Im Warenkorb"
+
+#: woocommerce-appointments.php:444
+msgctxt "Admin menu name"
+msgid "Appointments"
+msgstr "Termine"
+
+#: woocommerce-appointments.php:535
+msgctxt "woocommerce-deposits"
+msgid "Partially Paid"
+msgstr "Teilweise bezahlt"
+
+#~ msgid "Appointment #%d status changed manually from \"%s\" to \"%s\""
+#~ msgstr "Termin # %d Status manuell geändert von \"%s\" auf  \"%s\""
+
+#~ msgid "Author:"
+#~ msgstr "Autor:"
+
+#~ msgid ""
+#~ "<p><strong>Your theme (%s) contains outdated copies of some WooCommerce "
+#~ "Appointments template files.</strong> These files may need updating to "
+#~ "ensure they are compatible with the current version of WooCommerce "
+#~ "Appointments. You can see which files are affected from the <a href=\"%s"
+#~ "\">system status page</a>. If in doubt, check with the author of the "
+#~ "theme.<p><p class=\"submit\"><a class=\"button-primary\" href=\"%s\" "
+#~ "target=\"_blank\">Learn More About Templates</a></p>"
+#~ msgstr ""
+#~ "<p><strong>Dein Theme (%s) enhält veraltete Kopien einiger WooCommerce "
+#~ "Appointments Templatedateien.</strong> Diese Dateien müssen eventuell "
+#~ "aktualisiert werden um sicherzustellen, dass sie mit der aktuellen "
+#~ "Version von WooCommerce Appointments kompatibel sind. Um herauszufinden, "
+#~ "welche Dateien aktualisiert werden müssen, kannst du auf die Seite <a "
+#~ "href=\"%s\">Systemstatus</a> schauen. Wenn Du Dir unsicher bist, frage "
+#~ "den Autor des Themes.<p><p class=\"submit\"><a class=\"button-primary\" "
+#~ "href=\"%s\" target=\"_blank\">Erfahre mehr über Vorlagen</a></p>"
+
+#~ msgid ""
+#~ "The availability rules you define here will affect all appointable "
+#~ "products. You can override them for each product, staff and location."
+#~ msgstr ""
+#~ "Die Verfügbarkeits-Regeln die Sie hier definieren, betreffen alle "
+#~ "buchbaren Produkte. Sie können sie für jedes Produkt, jeden Personal und "
+#~ "jeden Standort überschreiben."
+
+#~ msgid ""
+#~ "You may send an email notification to all customers who have a %sfuture%s "
+#~ "appointment for a particular product. This will use the default template "
+#~ "specified under %sWooCommerce > Settings > Emails%s."
+#~ msgstr ""
+#~ "Sie können eine e-Mail-Benachrichtigung an alle Kunden senden, die einen "
+#~ "%sfuture %s Termin für ein bestimmtes Produkt haben. Diese verwenden die "
+#~ "Standard-Vorlage angegeben unter %sWooCommerce > Einstellungen > Emails%s."
+
+#~ msgid "This date is unavailable"
+#~ msgstr "Dieses Datum ist nicht verfügbar"
+
+#~ msgid "This date is fully scheduled and unavailable"
+#~ msgstr "Dieses Datum ist vollständig ausgebucht und nicht verfügbar"
+
+#~ msgid "This date is partially scheduled - but appointments still remain"
+#~ msgstr "Dieses Datum ist teilweise gebucht - aber es bleiben noch Termine"
+
+#~ msgid "This date is available"
+#~ msgstr "Dieses Datum ist verfügbar"
+
+#~ msgid ""
+#~ "The product %s has been removed from the order because the appointment #"
+#~ "%d cannot be confirmed."
+#~ msgstr ""
+#~ "Das Produkt %s wurde aus der Bestellung entfernt, da der Termin # %d "
+#~ "nicht bestätigt werden kann."
+
+#~ msgid "Appointment #%d status changed from \"%s\" to \"%s\""
+#~ msgstr "Termin #%d Status geändert von \"%s\" to \"%s\""
+
+#~ msgid "Appointment #%d customer status changed from \"%s\" to \"%s\""
+#~ msgstr "Termin #% d Kundenstatus geändert von \"%s\" nach \"%s\""
+
+#~ msgid "There is only %d place remaining on %s at %s."
+#~ msgid_plural "There are %d places remaining on %s at %s."
+#~ msgstr[0] "Es verbleibt nur %d Platz am %s in %s ."
+#~ msgstr[1] "Es verbleiben nur %d Plätze am %s in %s ."
+
+#~ msgid "%s: %s"
+#~ msgstr "%s: %s"
+
+#~ msgid "Email “%s“ rescheduled to %s"
+#~ msgstr "E-Mail \"%s\" nachgeholt %s"
+
+#~ msgid "The minimum allowed length for \"%s - %s\" is %s."
+#~ msgstr "Der zulässige Mindestlänge für \"%s - %s\" ist %s."
+
+#~ msgid "The maximum allowed length for \"%s - %s\" is %s."
+#~ msgstr "Die maximal zulässige Länge für \"%s - %s\" ist %s."
+
+#~ msgid "The minimum allowed amount for \"%s - %s\" is %s."
+#~ msgstr "Der zulässige Mindestbetrag für  \"%s - %s\" ist %s."
+
+#~ msgid "The maximum allowed amount for \"%s - %s\" is %s."
+#~ msgstr "Die maximal zulässige Höhe für \"%s - %s\" ist %s."
+
+#~ msgid "Please enter a value greater than 0 for \"%s - %s\"."
+#~ msgstr "Bitte geben Sie einen Wert größer als 0 für \"%s - %s\"."
+
+#~ msgid "Only letters are allowed for \"%s - %s\"."
+#~ msgstr "Es sind nur Buchstaben für \"%s - %s\" erlaubt."
+
+#~ msgid "Only digits are allowed for \"%s - %s\"."
+#~ msgstr "Nur Ziffern sind für \"%s - %s\" erlaubt."
+
+#~ msgid "Only letters and digits are allowed for \"%s - %s\"."
+#~ msgstr "Nur Buchstaben und Ziffern sind für \"%s - %s\" erlaubt."
+
+#~ msgid "A valid email address is required for \"%s - %s\"."
+#~ msgstr "Eine gültige E - Mail - Adresse ist für \"%s - %s\" erforderlich."
+
+#~ msgid "Paid"
+#~ msgstr "Bezahlt"
+
+#~ msgctxt "Order date parsed by strftime"
+#~ msgid "%b %d, %Y @ %I:%M %p"
+#~ msgstr "%b %d % Y @% H:% M% p"
+
+#~ msgctxt "Appointment date parsed by strftime"
+#~ msgid "%b %d, %Y @ %I:%M %p"
+#~ msgstr "%b %d, %Y @ %I:%M %p"
+
+#~ msgid "No billing address set."
+#~ msgstr "Keine Rechnungsadresse gesetzt."
+
+#~ msgid "Select an order&hellip;"
+#~ msgstr "Wählen Sie eine Bestellung &hellip;"
+
+#~ msgid ""
+#~ "You may send an email notification to all customers who have a "
+#~ "<strong>future</strong> appointment for a particular product. This will "
+#~ "use the default template specified under <code>WooCommerce > Settings > "
+#~ "Emails</code>."
+#~ msgstr ""
+#~ "Sie können eine E-Mail-Benachrichtigung an allen Kunden senden, die einen "
+#~ "<strong>anstehenden</ strong> Termin für ein bestimmtes Produkt haben. "
+#~ "Hierbei wird die Standardvorlage verwendet. Zu finden unter <code> "
+#~ "WooCommerce> Einstellungen> E-Mails </ code>."
+
+#~ msgid "There is only %d place remaining on %s"
+#~ msgid_plural "There are %d places remaining on %s"
+#~ msgstr[0] "Es verbleibt nur %d Platz am %s"
+#~ msgstr[1] "Es verbleiben nur %d Plätze am %s"
+
+#~ msgid "There is only %d place remaining on %s."
+#~ msgid_plural "There are %d places remaining on %s."
+#~ msgstr[0] "Es verbleibt nur %d Platz am %s."
+#~ msgstr[1] "Es verbleiben nur %d Plätze am %s."
+
+#~ msgid "paid"
+#~ msgstr "bezahlt"
+
+#~ msgid "pending-confirmation"
+#~ msgstr "ausstehende Bestätigung"
+
+#~ msgid "confirmed"
+#~ msgstr "Bestätigt"
+
+#~ msgid "cancelled"
+#~ msgstr "storniert"
+
+#~ msgid "complete"
+#~ msgstr "vollständig"
+
+#~ msgid "in-cart"
+#~ msgstr "Im Warenkorb"
+
+#~ msgid "expected"
+#~ msgstr "erwartet"
+
+#~ msgid "arrived"
+#~ msgstr "ist eingetroffen"
+
+#~ msgid "no-show"
+#~ msgstr "No-Show"
+
+#~ msgid "Select a appointable product..."
+#~ msgstr "Wählen Sie ein buchbares Produkt ..."
+
+#~ msgid "Auto-select day?"
+#~ msgstr "Tag automatisch wählen?"
+
+#~ msgid ""
+#~ "Check this box if you want first available day on the calendar to be auto-"
+#~ "selected."
+#~ msgstr ""
+#~ "Aktivieren Sie diese Option, wenn der erste zur Verfügung stehende Tag "
+#~ "automatisch ausgewählt werden soll."
+
+#~ msgid "Scheduled Individually"
+#~ msgstr "Individuell geplant"
+
+# english needs fix: cuustomer
+#~ msgid "Check this box if the appointment is limited to 1 customer only."
+#~ msgstr ""
+#~ "Aktivieren Sie diese Option, falls der Termin auf nur einen Kunden "
+#~ "begrenzt ist."
+
+#~ msgid "Enter with your Google Client ID."
+#~ msgstr "Zugang über Ihre Google-Client-ID."
+
+#~ msgid "Enter with your Google Client Secret."
+#~ msgstr "Zugang über Ihr Google Client Secret."
+
+#~ msgid "To use this integration you need create a project in %s:"
+#~ msgstr ""
+#~ "Um diese Integration verwenden zu können müssen Sie ein Projekt anlegen "
+#~ "in %s :"
+
+#~ msgid "Google Developers Console"
+#~ msgstr "Google Developers Console"
+
+#~ msgid "Create Project."
+#~ msgstr "Projekt anlegen."
+
+#~ msgid ""
+#~ "Enable the <strong>Google Calendar API</strong> in <strong>APIs & auth > "
+#~ "APIs</strong>."
+#~ msgstr ""
+#~ "Aktivieren Sie die <strong>Google Kalender API</strong> in <strong>APIs & "
+#~ "auth > APIs</ strong>."
+
+#~ msgid ""
+#~ "While in <strong>APIs & auth > Credentials</strong>, create an OAuth "
+#~ "client for a <strong>Web application</strong> and set the "
+#~ "<strong>Authorized redirect URI</strong> as <code>%s</code>."
+#~ msgstr ""
+#~ "Während Sie sich in <strong>APIs & auth > Credentials</strong> befinden, "
+#~ "erstellen Sie ein OAuth-Client für eine <strong>Web-Anwendung</strong> "
+#~ "und definieren Sie die <strong>Autorisierte Weiterleitungs URI</strong> "
+#~ "als <code>%s</code>."
+
+#~ msgid ""
+#~ "While in <strong>APIs & auth > Push</strong>, Add your site root URL as "
+#~ "<code>%s</code>. Your site must be under <strong>https://</strong> URL, "
+#~ "otherwise two-way synchronization won't work."
+#~ msgstr ""
+#~ "Während Sie sich in <strong>APIs & auth > Push</strong> befinden, "
+#~ "definieren Sie die Root URL ihrer Seite als <code>%s</code>. Ihre Website "
+#~ "muss unter einer <strong>https: //</strong> URL erreichbar sein, "
+#~ "ansonsten funktioniert die Zwei-Wege-Synchronisation nicht."
+
+#~ msgid "Past Appointment"
+#~ msgstr "Vergangene Termine"
+
+#~ msgid ""
+#~ "<p><strong>Your theme (%s) contains outdated copies of some WooCommerce "
+#~ "Appointments template files.</strong> These files may need updating to "
+#~ "ensure they are compatible with the current version of WooCommerce. You "
+#~ "can see which files are affected from the <a href=\"%s\">system status "
+#~ "page</a>. If in doubt, check with the author of the theme.<p><p class="
+#~ "\"submit\"><a class=\"button-primary\" href=\"%s\" target=\"_blank"
+#~ "\">Learn More About Templates</a></p>"
+#~ msgstr ""
+#~ "<p><strong>Dein Theme (%s) enhält veraltete Kopien einiger WooCommerce "
+#~ "Appointments Templatedateien.</strong> Diese Dateien müssen eventuell "
+#~ "aktualisiert werden um sicherzustellen, dass sie mit der aktuellen "
+#~ "Version von WooCommerce Appointments kompatibel sind. Um herauszufinden, "
+#~ "welche Dateien aktualisiert werden müssen, kannst du auf die Seite <a "
+#~ "href=\"%s\">Systemstatus</a> schauen. Wenn Du Dir unsicher bist, frage "
+#~ "den Autor des Themes.<p><p class=\"submit\"><a class=\"button-primary\" "
+#~ "href=\"%s\" target=\"_blank\">Erfahre mehr über Vorlagen</a></p>"
+
+#~ msgid "Staff #"
+#~ msgstr "Mitarbeiter #"
+
+#~ msgid "Status: "
+#~ msgstr "Status: "
+
+#~ msgid "Before"
+#~ msgstr "Vor"
+
+#~ msgid "After"
+#~ msgstr "Nach"
+
+#~ msgid "Before and After"
+#~ msgstr "Vorher und nachher"
+
+#~ msgid ""
+#~ "Specify the number of minutes or hours of padding you need around the "
+#~ "service."
+#~ msgstr ""
+#~ "Geben Sie die Anzahl von Minuten oder Stunden an Nachlaufzeit an, die Sie "
+#~ "für die Leistung benötigen."
+
+#~ msgid "Enter a name for the new staff"
+#~ msgstr "Geben Sie einen Namen für den neuen Mitarbeiter an"
+
+#~ msgid "Membership cancelled because subscription was trashed."
+#~ msgstr ""
+#~ "Mitgliedschaft storniert, weil das Abonnement in den Papierkorb gelegt "
+#~ "wurde."
+
+#~ msgid "Membership cancelled because subscription was deleted."
+#~ msgstr "Mitgliedschaft storniert, weil das Abonnement gelöscht wurde."
+
+#~ msgid ""
+#~ "Membership free trial activated because subscription was re-activated."
+#~ msgstr ""
+#~ "Die kostenlose Testversion der Mitgliedschaft wurde aktiviert, da das "
+#~ "Abonnement wieder aktiviert wurde."
+
+#~ msgid "Membership activated because subscription was re-activated."
+#~ msgstr ""
+#~ "Die Mitgliedschaft wurde aktiviert, da das Abonnement wieder aktiviert "
+#~ "wurde."
+
+#~ msgid "Membership paused because subscription was put on-hold."
+#~ msgstr ""
+#~ "Die Mitgliedschaft wurde pausiert, da das Abonnement in Wartestellung "
+#~ "gesetzt wurde."
+
+#~ msgid "Membership expired because subscription expired."
+#~ msgstr ""
+#~ "Die Mitgliedschaft ist abgelaufen, da das Abonnement abgelaufen ist."
+
+#~ msgid ""
+#~ "Membership marked as pending cancellation because subscription is pending "
+#~ "cancellation."
+#~ msgstr ""
+#~ "Die Mitgliedschaft wurde als Warte-auf-Kündigung markiert, da es eine "
+#~ "bevorsthende Stornierung für das Abonnement gibt."
+
+#~ msgid "Membership cancelled because subscription was cancelled."
+#~ msgstr ""
+#~ "Die Mitgliedschaft wurde beendet, weil ein Abonnement gekündigt wurde."
+
+#~ msgid "Free Trial <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Free Trial <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Kostenlose Testversion <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "Kostenlose Testversion <span class=\"count\">(%s)</span>"
+
+#~ msgid "Subscription not yet ended"
+#~ msgstr "Abonnement noch nicht beendet"
+
+#~ msgid "Subscription:"
+#~ msgstr "Abonnement:"
+
+#~ msgid "Next Bill On:"
+#~ msgstr "Nächste Rechnung am:"
+
+#~ msgid "Next Bill On"
+#~ msgstr "Nächste Rechnung am"
+
+#~ msgid ""
+#~ "Membership will be active while the purchased subscription is active."
+#~ msgstr ""
+#~ "Die Mitgliedschaft ist aktiv, solange das gekaufte Abonnement aktiv ist."
+
+#~ msgid ""
+#~ "If membership access is granted via the purchase of a subscription, then "
+#~ "membership length will be automatically equal to the length of the "
+#~ "subscription, regardless of the membership length setting above."
+#~ msgstr ""
+#~ "Wenn die Mitgliedschaft Zugang erfolgt über den Erwerb eines Abonnements "
+#~ "gewährt, so wird die Mitgliedschaft Länge auf die Länge des Abonnements "
+#~ "automatisch gleich sein, unabhängig von der Mitgliedschaft "
+#~ "Längeneinstellung oben."
+
+#~ msgid "Start after trial"
+#~ msgstr "Starten Sie nach dem Versuch"
+
+#~ msgid ""
+#~ "Membership activated because WooCommerce Subscriptions was activated."
+#~ msgstr ""
+#~ "Die Mitgliedschaft aktiviert, da WooCommerce Abonnements aktiviert wurde."
+
+#~ msgid ""
+#~ "Membership free trial activated because WooCommerce Subscriptions was "
+#~ "activated."
+#~ msgstr ""
+#~ "Die Mitgliedschaft kostenlose Testversion aktiviert, da WooCommerce "
+#~ "Abonnements aktiviert wurde."
+
+#~ msgid "Membership paused because WooCommerce Subscriptions was deactivated."
+#~ msgstr ""
+#~ "Die Mitgliedschaft angehalten, da WooCommerce Abonnements wurde "
+#~ "deaktiviert."
+
+#~ msgctxt "Membership Status"
+#~ msgid "Free Trial"
+#~ msgstr "Kostenlos testen"

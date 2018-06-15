@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BizzThemes//WooCommerce Appointments 2.6.2//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:My Christian Counsellor
+X-ORIGINAL-URL:http://mychristiancounsellor.org.au/
+X-WR-CALDESC:Appointments from My Christian Counsellor
+X-WR-TIMEZONE:Australia/Sydney
+BEGIN:VEVENT
+DTEND:20180509T173000
+UID:wc_appointments_1592
+DTSTAMP:20180508T204443
+LOCATION:
+DESCRIPTION:Staff: Nilanka\n\n
+URL;VALUE=URI:https://zoom.us/j/647993910
+SUMMARY:#1592 - Appointment with Nilanka
+DTSTART:20180509T160000
+END:VEVENT
+END:VCALENDAR

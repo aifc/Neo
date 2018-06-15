@@ -1,0 +1,1431 @@
+/*
+
+Theme Name: X &ndash; Child Theme
+Theme URI: http://theme.co/x/
+Author: Themeco
+Author URI: http://theme.co/
+Description: Make all of your modifications to X in this child theme.
+Version: 1.0.0
+Template: x
+
+*/
+
+@import url(../x/style.css);
+
+/* Top of Screen Prompt */
+
+header.x-header-landmark{
+    display: none !important;
+}
+.x-container.max {
+    max-width: 1200px !important;
+}
+.btn-blue {
+    border-radius: 10px !important;
+    border: 3px solid #2893ca !important;
+    color: #2893ca !important;
+    display: inline-block !important;
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    margin-right: 15px !important;
+    padding: 0px 0px 3px !important;
+    transition: all 0.5s ease 0s !important;
+    width: 280px !important;
+}
+.btn-blue:hover {
+    background: #2893ca !important;
+    color: #fff !important;
+    border-color: #2893ca !important;
+}
+.center-content
+{
+    text-align: center;
+}
+
+.field-visibility-settings-toggle,
+.field-visibility-settings-notoggle {
+    display:none;
+}
+
+legend#field_43-1,
+input#field_43  {
+    display: none;
+}
+
+
+.thickLine {
+    border-top: 10px solid #f2f2f2;
+}
+
+.successPrompt, .errorPrompt {
+    margin: 20px auto 0;
+    width: 360px;
+    color: #fff;
+    padding: 6px 10px !important;
+    text-align: center;
+}
+
+.successPrompt {
+    background-color: #5cb85c;
+    border: 1px solid #4cae4c;
+}
+
+.errorPrompt {
+    background-color: #d9534f;
+    border: 1px solid #d43f3a;
+}
+
+/* Text */
+
+.bold {
+    font-weight: 700;
+}
+
+/* Headings */
+
+h3.smallHeading {
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+/* Margins */
+
+.marginBottom {
+    margin: 0 0 1.313em;
+}
+
+/* Backgrounds */
+
+/* Coupon Table */
+
+.dataPoint {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.quarterGrid {
+    float: left;
+    width: 25%;
+}
+
+.mainHeading {
+    font-size: 20px;
+    font-weight: 700;
+    color: #286090
+}
+
+.headingsContainer {
+    margin-bottom: 30px;
+    width: 100%;
+    display: inline-block;
+}
+
+/* Icons */
+
+.disabledButton .fa, .bioButton .fa {
+    font-size: 16px;
+    padding-right: 5px;
+    padding-left: 7px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.floatRight {
+    float: right;
+}
+
+.leftCollapsableColumn {
+    position: relative;
+    float: left;
+    width: 48%;
+}
+
+.rightCollapsableColumn {
+    clear: right;
+    float: right;
+    width: 48%;
+}
+
+@media (max-width: 767px) {
+    .leftCollapsableColumn, .rightCollapsableColumn {
+        width: 100%;
+    }
+
+    .rightCollapsableColumn {
+        margin-top: 50px;
+    }
+}
+
+.columnCentre {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+}
+
+.noMarginBottom {
+    margin-bottom: 0 !important;
+}
+
+/* BuddyPress Profile Pic */
+
+.avatar {
+
+    padding-right: 15px;
+    margin-top: 20px;
+    width: 150px;
+    height: 130px;
+    float: left;
+}
+
+/* Post Appointment Page */
+#post-appointment-page .woocommerce .entry-wrap{
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+#post-appointment-page .entry-wrap
+{
+    padding:20px;
+}
+#post-appointment-page .second-wrap {
+    width: 30%;
+}
+input#gform_submit_button_12 ,#gform_submit_button_13{
+    margin: -70px 16px 0 0;
+}
+#field_12_7 a, #field_13_7 a
+{
+    font-size: 14px;
+}
+/* End Post Appointment Page */
+ul .gfield_radio
+{
+    border: solid 1px #eee;
+    border-radius: 4px;
+    padding: 10px !important;
+}
+.woocommerce-block button,
+.woocommerce-block .button
+{
+    width: 100%;
+    font-size: 14px;
+}
+/* Profile Page */
+
+.leftCollapsableColumn img {
+    padding: 5px;
+    line-height: 1.7;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    -webkit-transition: border 0.3s ease,box-shadow 0.3s ease;
+    transition: border 0.3s ease,box-shadow 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.profilePage .woocommerce .entry-wrap{
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.profilePage h1 {
+    margin: 0 0 0.25em;
+    font-size: 228%;
+}
+
+.profilePage .amount {
+    font-size: 24px;
+}
+
+/* Counsellor Cards */
+
+.blurbCard {
+    background-color: #fff;
+    margin-bottom: 50px;
+    padding: 10px 16px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.24), 0 0 2px rgba(0,0,0,0.12);
+    border-radius: 4px;
+    margin: 1% !important;
+}
+
+.blurbHeading {
+    font-size: 24px;
+    margin-top: 10px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-transform: initial;
+}
+
+.blurbHeading span {
+    color: #004374;
+}
+
+.blurbContainer {
+    max-height: 11.0em;
+}
+
+.membersContainer {
+    max-height: 18.9em;
+}
+
+.blurbContainer, .membersContainer {
+    overflow: hidden;
+    position: relative;
+    line-height: 1.2em;
+    text-align: justify;
+    font-size: 16px;
+    padding-right: 1em;
+    padding-bottom: 1px; /* To stop cut off of letters that go below <p> */
+}
+
+.blurbContainer p, .membersContainer p {
+    margin-bottom: 1.0em;
+}
+
+.blurbContainer p:last-child {
+    margin-bottom: 0;
+}
+
+.blurbContainer:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.blurbContainer p:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: white;
+}
+
+.blurbImage, .membersImage {
+    float: left;
+    margin: 0 10px 10px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+}
+
+.blurbImage {
+    width: 51%;
+    height: 140px;
+}
+
+.membersImage {
+    width: 30%;
+    height: 160px;
+}
+
+@media (max-width: 1000px) {
+    .membersImage {
+        width: 38%;
+    }
+}
+
+@media (max-width: 775px) {
+    .membersImage {
+        width: 51%;
+    }
+}
+
+@media (max-width: 550px) {
+    .membersImage {
+        width: 100%;
+    }
+}
+
+#benMendelsohn {
+    background-image: url('http://ozhelp.pursuittechnology.com.au/wp-content/uploads/2017/03/BenMendelsohn.jpg');
+    background-position: 80% 50%;
+}
+
+#hughJackman {
+    background-image: url('http://ozhelp.pursuittechnology.com.au/wp-content/uploads/2017/03/7805a0de03d4327b5458d610db92f8d5.jpg');
+    background-position: 30% 25%;
+}
+
+#naomiWatts {
+    background-image: url('http://ozhelp.pursuittechnology.com.au/wp-content/uploads/2017/03/MV5BMjIzMjY1NTA4OF5BMl5BanBnXkFtZTcwNjk3MDYwOQ@@._V1_UX214_CR00214317_AL_.jpg');
+    background-position: 50% 45%;
+}
+
+#rachelGriffiths {
+    background-image: url('http://ozhelp.pursuittechnology.com.au/wp-content/uploads/2017/03/Rachel_Griffiths_2012_cropped.jpg');
+    background-position: 50% 15%;
+}
+
+
+.blurbContainer, .blurbButtonContainer {
+    width: 100% !important;
+}
+
+.blurbButtonContainer {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.floatContainer {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Top Up Form */
+
+/* No longer necessary as not displaying inline gravity form. Keep in case we need to use it again. */
+
+.topUpForm .instruction, .topUpForm .gform_heading {
+    display: none;
+}
+
+.topUpForm li {
+    display: inline-block;
+}
+
+.topUpForm input, .topUpForm span.select2.select2-container.select2-container--default {
+    width: 100% !important;
+}
+
+.topUpForm .gfield {
+    display: inline-block;
+    width: 50%;
+}
+
+.topUpForm .gform_body {
+    width: 89% !important;
+    display: inline-block;
+}
+
+.topUpForm .gform_footer {
+    width: 10% !important;
+    display: inline-block;
+}
+
+.topUpForm .gform_footer input.button {
+    float: none !important;
+}
+
+/* Client Login Form and Top Up Form (Inline) */
+
+#clientLoginForm p {
+    display: inline-block;
+}
+
+#clientLoginForm p:not(:first-child) {
+    padding-left: 10px;
+}
+
+#clientLoginForm p.login-submit {
+    padding-top: 29px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#clientLoginForm p.login-submit input#wp-submit {
+    max-height: 45px;
+}
+
+/* Agency Registration Form */
+
+.registerFormContainer .gform_footer.top_label {
+    overflow: auto;
+}
+
+.smallWidth {
+    width: 500px;
+}
+
+.mediumWidth {
+    width: 750px;
+}
+
+.registerFormContainer {
+    margin: 30px auto 100px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .13);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .13);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .13);
+    padding: 0 24px 0 !important;
+    background-color: #fff !important;
+}
+
+.registerFormContainer label,
+.registerFormContainer .gform_wrapper .gfield_label {
+    color: #72777c;
+    font-size: 16px;
+}
+
+.registerFormContainer input[type=text],
+.registerFormContainer input[type=email],
+.registerFormContainer input[type=number],
+.registerFormContainer input[type=password] {
+    color: #32373c;
+    font-size: 24px !important;
+    height: auto !important;
+    padding: 5px !important;
+    width: 100% !important;
+    background: #fbfbfb;
+}
+.registerFormContainer .ginput_container input {
+    height: 50px !important;
+}
+
+body .gform_wrapper .gform_heading h3.gform_title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.gform_wrapper .gform_footer input.button {
+    font-size: 16px;
+    float: right;
+}
+
+.registerForm {
+    display: inline-block;
+}
+
+.registerFormContainer p, .registerFormContainer .gform_wrapper div.validation_error {
+    font-size: 14px;
+}
+
+.registerFormMessage p {
+    text-align: center;
+    border-top: 2px solid #72777c;
+    border-bottom: 2px solid #72777c;
+    padding: 16px 0;
+    font-weight: 700;
+    color: #72777c;
+    margin-top: 20px;
+}
+
+.registerFormMessage {
+    padding-right: 0 !important;
+}
+
+.registerFormContainer .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half) {
+    max-width: 100% !important;
+}
+
+.registerFormContainer .validation_message {
+    font-size: 14px !important;
+}
+
+.counsellingAgreementCheckboxes div label:after {
+    content: '*';
+    color: rgb(1, 132, 204);
+    padding-left: 3px;
+}
+
+body .gform_wrapper div.gfield_description {
+    font-size: 14px;
+}
+
+/* Editing plugins */
+
+.woocommerce .wc-appointments-appointment-form-button.button.single_add_to_cart_button:before {
+    content: '';
+}
+
+.woocommerce-billing-fields h3 {
+    display: none;
+}
+
+.woocommerce-shipping-fields h3 {
+    display: none;
+}
+
+.woocommerce-checkout form h3#order_review_heading {
+    margin-top: 0;
+}
+
+.woocommerce-checkout .woocommerce .woocommerce-message {
+    display:none !important;
+}
+
+.woocommerce-checkout-review-order-table .product-total,
+.woocommerce-checkout-review-order-table tfoot,
+.order_details .product-total,
+.order_details tfoot,
+.woocommerce-thankyou-order-details,
+.variation-AppointmentID,
+.order-again,
+.order-again + header,
+.woocommerce > header.title > h3,
+.woocommerce > header.title + address {
+    display: none;
+}
+
+.wc-appointments-appointment-cost {
+    display: none !important;
+}
+
+.disabled {
+    display: none !important;
+}
+
+#order_review_heading, th.product-name {
+    display: none;
+}
+
+h4.appointment-confirmation-header {
+    margin-top: 0;
+}
+
+a.x-btn {
+    min-width: 32%;
+}
+
+/*Client Home Page*/
+.profile-picture .avatar
+{
+    border-radius: 0px;
+    margin-top: 0px;
+    width: 200px;
+    height: 180px;
+    margin-right: 10px;
+}
+
+.profile-picture {
+    float: left;
+}
+
+.profile-contents ul
+{
+    list-style: none;
+    margin:0px;
+}
+
+.clientPage .entry-wrap
+{
+    padding: 20px;
+    margin: 0 10px;
+}
+.clientPage .hentry
+{
+    margin-top: 20px;
+}
+.profile-top .first-wrap
+{
+    display: table-cell;
+}
+.profile-top .second-wrap
+{
+    display: table-cell;
+    width: 19%;
+}
+.profile-top
+{
+    border-spacing:10px 0;
+}
+.client-header {
+    margin: 40px 20px;
+}
+
+.rows-6 {
+    float:left;
+    margin-right: 2%;
+    width: 15%;
+}
+
+.rows-5 {
+    float:left;
+    margin-right: 2%;
+    width: 18.3%;
+}
+
+.x-nav
+{
+    font-size:13px;
+}
+
+/*self-assessment page layout*/
+.header-uncontained ,
+.paragraph-uncontained
+{
+    text-align: center;
+}
+.header-uncontained,
+.client-header h3
+{
+    color: #004374;
+}
+
+.button, .button:hover, [type="submit"]
+{
+    color: white !important;
+    background-color: #2893CB !important;
+    border: none !important;
+    min-width: 150px !important;
+    font-weight: 700 !important;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.22) !important;
+}
+input#signup_submit {
+    float: right;
+    font-size: 16px;
+}
+#gform_page_8_1 label.gfield_label, .assessment-header {
+    color: #004374;
+    font-weight: 700;
+    font-size: 24px !important;
+    margin:0 !important;
+    text-align: center;
+}
+
+div#gform_page_8_1 {
+    text-align: center;
+}
+
+#input_8_4
+{
+    text-align: left;
+    width: 90px;
+    margin: auto;
+    border: none;
+    padding: 0px !important;
+}
+
+ul#input_8_4 li {
+    padding: 10px 0 !important;
+}
+
+.gfield
+{
+    padding: 15px 0;
+}
+.my-headings
+{
+    text-align: center;
+    color: #004374;
+}
+
+.biotext
+{
+    color:initial;
+}
+.bio-container
+{
+    padding:20px;
+    padding-bottom: 0px;
+}
+.right-float
+{
+    float:right;
+}
+
+.counselor-block img
+{
+    width: 200px;
+    height: 190px;
+    margin-right: 20px;
+}
+
+#specialization ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#specialization ul li { display: inline-block; margin-right: 5px;}
+
+.specialty{
+    color: white !important;
+    background-color: #2893CB !important;
+    border: none !important;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.22) !important;
+    border-radius: 0.25em;
+    font-size: 11px;
+    padding: 0.563em 1.125em 0.813em;
+}
+
+.profile-wrap
+{
+    display: block;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0.15em 0.35em 0 rgba(0,0,0,0.135);
+}
+.product_title
+{
+    margin-top: 0px;
+}
+
+.counselor-block input.button {
+    margin-top: 40px;
+}
+.profilePage .button {
+    background-color: #004374 !important;
+}
+.filter-width
+{
+    margin-bottom: 0 !important;
+    width: 175px;
+}
+#bps_directory258 .button
+{
+    font-size: 12.5px;
+}
+
+
+/*calendar styles*/
+.wc_appointments_calendar td {
+    color: #bbb;
+    text-align: right;
+    padding: 8px 8px 0 0;
+    font-size: 15px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    height: 120px;
+}
+
+.appointments {
+    color: #000;
+    overflow: auto;
+    height: 100px;
+    width: 100%;
+    text-align: left;
+}
+.wc_appointments_calendar th {
+    text-align: center;
+}
+
+.date_selector {
+    margin-left: 5px;
+    display: block;
+    float: right;
+}
+.date_selector a.prev {
+    float: left;
+    padding: 10px;
+}
+.date_selector a.next {
+    float: right;
+    padding: 10px;
+}
+.date_selector div {
+    padding: 5px 0;
+    float: left;
+}
+.date_selector div:first-of-type select {
+    margin-right: 5px;
+}
+.date_selector select {
+    vertical-align: middle;
+    width: 6em;
+}
+.calendar-diff-month {
+    background: #efefef;
+}
+.appointments
+{
+    color: #000;
+    overflow: auto;
+    height: 100px;
+    width: 100%;
+    text-align: left;
+
+}
+.appointments ul
+{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 1.5em;
+    list-style: none;
+}
+.appointments a
+{
+
+    background-color: rgba(255,255,255,.8);
+    color: #000;
+    display: block;
+    margin-left: 4px;
+    padding: 2px 4px;
+    position: relative;
+    text-decoration: none;
+
+}
+#wca-dialog-footer .button
+{
+    font-size: 12px;
+}
+#wca-dialog-content
+{
+    top:45px;
+}
+
+#gform_fields_9 li img {
+    width: 500px;
+    display: block;
+    margin: auto;
+    padding-top: 0px;
+
+}
+
+#gform_fields_9 li {
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+#gform_fields_9 h4 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+#gform_fields_9 h4 a {
+    color: rgb(1,132,204);
+}
+#field_9_7 a
+{
+    font-size: 14px;
+}
+#gform_submit_button_9 {
+    margin: -86px 16px 0 0;
+}
+.feedback_meter .ginput_container_radio ul li label img
+{
+    width: 90px !important;
+}
+.feedback_meter .ginput_container_radio ul li input
+{
+    display: none !important;
+}
+.feedback_meter .ginput_container_radio ul.gfield_radio li
+{
+    display: inline-block;
+    padding: 0 20px !important;
+}
+.feedback_meter .ginput_container_radio ul
+{
+    text-align: center;
+}
+.feedback_meter .ginput_container_radio ul li label
+{
+    margin: 1px !important;
+}
+.feedback_meter .ginput_container_radio ul li input[type="radio"]:checked + label img {
+
+box-shadow: 0px 0px 5px #bfbfbf;
+
+}
+.woocommerce-additional-fields {
+    display: none;
+}
+form .extra-fields {
+    width: 40%;
+    float: right;
+}
+table.shop_table.woocommerce-checkout-review-order-table {
+    width: 50%;
+}
+#register-page input[type="text"],
+#register-page input[type="password"],
+#gform_2,
+#gform_2 input[type="email"],
+#gform_2 input[type="password"]
+{
+    width: 100%;
+}
+
+.heading-color h2
+{
+    color: #004374!important;
+}
+
+.note_date_counselor
+{
+    text-align: right;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.counselor_notes_heading
+{
+    text-align:left;
+    margin:0;
+}
+
+/*Activation Screen Styles*/
+div#activation-approved h5
+{
+  text-align: center;
+  color: #004374;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+div#activation-approved p
+{
+  color: black;
+  padding: 0 30px;
+  font-size: 17px;
+}
+/*End of Activation Screen Styles*/
+/*footer styles*/
+footer.x-colophon.top {
+    background: linear-gradient(to right, #174D77 , #3795CA);
+    padding: 0;
+}
+
+footer.x-colophon.bottom {
+    background: #3C3D3F;
+    
+}
+.x-colophon.top, .x-colophon.bottom
+{
+    box-shadow: none !important;
+}
+.x-colophon.bottom .x-colophon-content p, .x-colophon.bottom .x-colophon-content a {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.x-colophon.bottom .x-colophon-content
+{
+    margin: 20px;
+    letter-spacing: 1px;
+}
+.x-colophon.bottom
+{
+    padding:0px;
+}
+.x-column .widget
+{
+    color: white;
+    margin: 0;
+    display: inline-block;
+}
+div#text-8 {
+    padding-right: 0px;
+}
+.x-colophon.top .widget a
+{
+    color: white;
+}
+#media_image-3
+{
+    max-width: 16%;
+}
+p#footer_ipw {
+    font-size: 15px;
+    padding-right: 7px;
+}
+div#text-9 {
+    font-size: 30px;
+}
+.x-colophon.top .x-column.last{
+    padding: 20px 0 0 0;
+}
+#text-9 .textwidget p
+{
+    display: inline-block;
+}
+ul#footer-ulist {
+    list-style: none;
+    margin: 0;
+}
+li.footer-list {
+    display: inline-block;
+}
+li.footer-list a{
+    padding-left: 12px;
+}
+
+/*end of footer styles*/
+
+/* styles for the home page */
+.hero-image-text {
+    max-width: 1200px !important;
+    width: 100% !important;
+    margin: auto !important;
+}
+.hero-image-text .wpb_wrapper h1 {
+    font-size: 3.5em;
+    color: white;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin-top: 0px;
+}
+
+.hero-image-text .wpb_wrapper p {
+    font-size: 2em;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.hero-image-button .vc_btn3.vc_btn3-color-info.vc_btn3-style-modern {
+    border-color: #2793ca !important;
+    color: #fed14b !important;
+    background-color: #2793ca !important;
+    width: 260px;
+    font-size: 25px;
+}
+
+.three-step-process {
+    background-color: white;
+    min-height: 350px;
+    border-radius: 5px;
+    box-shadow: 0 0.4em 0.35em 0 rgba(0,0,0,0.135);
+}
+
+#three-step-process {
+    /*max-width: 1080px;*/
+    max-width: 1300px;
+    margin: auto;
+}
+
+#three-step-process .x-content-band .x-container .x-content-band .x-container .x-column img
+{
+    display: block;
+    margin: 50px auto 20px;
+}
+
+#find-your-counsellor-blue {
+    max-width: 350px !important;
+    min-width: 20%;
+    background-color: #2793ca;
+    color: white;
+    padding-top: 0.643em;
+    font-weight: 600;
+    border-color: #2793ca;
+    border-radius: 5px;
+    font-size: 21px;
+    margin: 50px;
+}
+.white-blur h3,
+.white-blur p {
+    max-width: 600px;
+    margin: auto !important;
+}
+
+.white-blur h3 {
+  color: #004374;
+}
+.white-blur {
+    min-height: 100vh;
+    background-color: rgba(255,255,255,0.8);
+    margin-right: 0px !important;
+    width: 50% !important;
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+}
+
+#x-content-band-5,
+#x-content-band-6,
+#x-content-band-7 {
+    margin-bottom: 0px;
+}
+
+section.vc_section.vc_custom_1513142058048.vc_section-has-fill.vc_row-o-full-height.vc_section-o-content-middle.vc_section-flex {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.villain /*image above footer*/
+{
+    min-height: 35vh!important;
+}
+
+.villain-image-button .vc_btn3.vc_btn3-color-white.vc_btn3-style-modern {
+    width: 300px;
+    color: #004374;
+    font-size: 30px;
+    font-weight: 600;
+}
+section.vc_section.villain
+{
+    background-position: center;
+    background-size: 2000px;
+    background-repeat: no-repeat;  
+}
+h3.my-headings.landing-3-column-text {
+    font-size: 22px;
+    display: inline-block;
+    width: 50%;
+    text-align: left !important;
+}
+.numberCircle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+    background: #2793ca;
+    border: 2px solid #2388bb;
+    color: #fed14b;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+    display: inline-block;
+    margin: 0 15px;
+}
+.three-cols-blurb{
+    margin: 40px 20px;
+}
+#post-1356 .x-content-band /*landing page only*/
+{
+    margin:0;
+}
+.three-cols-container {
+    display: inline-block;
+    text-align: center;
+}
+@media (max-width: 1400px) {
+    .hero-image-text {
+        max-width: 1000px !important;
+    }
+    div#text-9 {
+        font-size: 20px;
+    }
+    #media_image-3 {
+        max-width: 15%;
+    }
+}
+@media (max-width : 1224px) {
+    .hero-image-text {
+        max-width: 1000px !important;
+    }
+    .white-blur p {
+        max-width: 500px;
+        text-align: center;
+    }
+    .white-blur h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+    ul#footer-ulist {
+        text-align: center;
+        margin: 20px auto;
+    }
+    footer.x-colophon.top {
+        text-align: center;
+    }
+}
+@media (max-width : 1090px) {
+    .hero-image-text .wpb_wrapper h1 {
+        font-size: 2.5em;
+        color: white;
+        font-weight: 600;
+        line-height: 1.2em;
+        margin-top: 0px;
+    }
+    .hero-image-button .vc_btn3.vc_btn3-color-info.vc_btn3-style-modern
+    {
+        width: 180px;
+        font-size: 14px;  
+    }
+    .hero-image-text {
+        max-width: 850px !important;
+        text-align: center;
+    }
+    .numberCircle {
+        display: none;
+    }
+    .three-cols-container {
+        display: block;
+    }
+    h3.my-headings.landing-3-column-text
+    {
+        width: 70%;
+        text-align: center !important;
+    }
+    .white-blur {
+        width: 100% !important;
+    }
+}
+@media (max-width : 767px) {
+    .hero-image-text .wpb_wrapper h1 {
+        font-size: 30px;
+    }
+    .hero-image-text .wpb_wrapper p {
+        font-size: 1.5em;
+    }
+    .villain-image-button .vc_btn3.vc_btn3-color-white.vc_btn3-style-modern {
+        width: 200px;
+        font-size: 20px;
+    }
+    .x-colophon.bottom .x-colophon-content p, .x-colophon.bottom .x-colophon-content a
+    {
+        font-size: 12px;
+    }
+    #media_image-3 {
+        max-width: 150px;
+    }
+    div#text-3 {
+        display: block;
+    }
+    li.footer-list {
+        display: block;
+        padding: 0 0 25px 0 !important;
+    }
+    li.footer-list a {
+        padding-left: 0;
+    }
+}
+@media (max-width : 480px) {
+    .hero-image-text .wpb_wrapper h1 {
+        font-size: 24px;
+    }
+    .hero-image-text .wpb_wrapper p {
+        font-size: 1em;
+    }
+    .hero-image-button .vc_btn3.vc_btn3-color-info.vc_btn3-style-modern {
+        width: 150px;
+        font-size: 14px;
+    }
+    h3.my-headings {
+        font-size: 26px;
+    }
+    #find-your-counsellor-blue
+    {
+       font-size: 16px; 
+    }
+    .below-the-process {
+        margin: 30px;
+    }
+}
+
+/* home page styles end */
+
+/*Seperator syles*/
+
+.separator {
+    border-bottom: solid 1px #e6e9eb;
+    overflow: visible;
+    height: 1px;
+    margin: 24px auto;
+    text-align: center;
+}
+.separator span {
+    position: relative;
+    top: -11px;
+    color: #858e94;
+    background: #fff;
+    padding: 2px 7px;
+}
+
+/*Pass strength styles*/
+
+#password-strength{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+#password-strength{
+    background-color: #eee;
+    border: 1px solid #ddd;
+    color: #23282d;
+    margin: -2px 5px 5px 1px;
+    padding: 3px 5px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    opacity: 0;
+    display: block;
+}
+#password-strength.short {
+    background-color: #f1adad;
+    border-color: #e35b5b;
+    opacity: 1;
+}
+#password-strength.bad {
+    background-color: #fbc5a9;
+    border-color: #f78b53;
+    opacity: 1;
+}
+#password-strength.good {
+    background-color: #ffe399;
+    border-color: #ffc733;
+    opacity: 1;
+}
+#password-strength.strong {
+    background-color: #c1e1b9;
+    border-color: #83c373;
+    opacity: 1;
+}
+
+[data-tip] {
+    position:relative;
+
+}
+[data-tip]:before {
+    content:'';
+    /* hides the tooltip when not hovered */
+    display:none;
+    content:'';
+    display:none;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #1a1a1a;
+    position:absolute;
+    top:30px;
+    left:35px;
+    z-index:8;
+    font-size:0;
+    line-height:0;
+    width:0;
+    height:0;
+    position:absolute;
+    top:30px;
+    left:35px;
+    z-index:8;
+    font-size:0;
+    line-height:0;
+    width:0;
+    height:0;
+}
+[data-tip]:after {
+    display:none;
+    content:attr(data-tip);
+    position:absolute;
+    top:35px;
+    left:0px;
+    padding:5px 8px;
+    background:#fff;
+    color:#004374;
+    z-index:9;
+    font-size: 0.75em;
+    height:35px;
+    line-height:18px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #004374;
+    white-space:nowrap;
+    word-wrap:normal;
+}
+[data-tip]:hover:before,
+[data-tip]:hover:after {
+    display:block;
+}
+
+/*Home Page edits*/
+.masthead-inline .x-btn-navbar {
+    display: block;
+    float: right;
+}
+
+.x-nav-wrap.desktop {
+    display: none;
+}
+
+.x-nav-wrap.mobile.collapse {
+    display: none;
+}
+
+.x-nav-wrap.mobile.collapse.in {
+    display: block;
+}
